@@ -1,0 +1,288 @@
+﻿Focus Group,Expectation,processed_expectations,label,vader_sentiment
+Assessment Assessment Supervisors,Improved Historical Records: Maintain comprehensive historical permit and property records that reduce the need to search multiple systems.,improved historical record maintain comprehensive historical permit property record reduce need search multiple system,positive,positive
+Assessment Assessment Supervisors,"Integrated Property Information: Better integrate historical permits, certificates, surveys, and property documentation into one location.",integrated property information better integrate historical permit certificate survey property documentation one location,positive,positive
+Assessment Assessment Supervisors,Improved Document Viewing: Improve the ability to view large plans and historical documents within the system.,improved document viewing improve ability view large plan historical document within system,positive,positive
+Assessment Assessment Supervisors,Better Property Research: Make historical property information easier to access when evaluating assessments and occupancy changes.,better property research make historical property information easier access evaluating assessment occupancy change,positive,positive
+Assessment Assessment Supervisors,"Improved Parcel Tracking: Better track parcel history following subdivisions, lot alterations, and occupancy changes.",improved parcel tracking better track parcel history following subdivision lot alteration occupancy change,positive,positive
+BAA BAA Supervisors,"Automated Ticket Processing: Automate ticket creation, hearing preparation, payments, appeals, and administrative workflows.",automated ticket processing automate ticket creation hearing preparation payment appeal administrative workflow,positive,positive
+BAA BAA Supervisors,"Linked Property Cases: Automatically link all violations, complaints, hearings, and tickets associated with the same property or owner.",linked property case automatically link violation complaint hearing ticket associated property owner,negative,negative
+BAA BAA Supervisors,"Improved Evidence Management: Provide a centralized repository for inspection photographs, documents, hearing evidence, and supporting materials.",improved evidence management provide centralized repository inspection photograph document hearing evidence supporting material,positive,positive
+BAA BAA Supervisors,"Enhanced Search Capabilities: Improve searching by owner, LLC, parcel, address, and tax ID while providing more reliable reports.",enhanced search capability improve searching owner llc parcel address tax id providing reliable report,positive,positive
+BAA BAA Supervisors,Integrated Payment Management: Link payments directly to specific violations and improve payment tracking across cases.,integrated payment management link payment directly specific violation improve payment tracking across case,negative,negative
+BAA BAA Supervisors,"Simplified User Experience: Reduce unnecessary actions, improve case navigation, color-code BAA activities, and make notes more accessible.",simplified user experience reduce unnecessary action improve case navigation baa activity make note accessible,positive,positive
+BAA BAA Supervisors,"Online Constituent Portal: Allow property owners to view evidence, dispute violations, schedule hearings, submit appeals, and make payments through an online portal.",online constituent portal allow property owner view evidence dispute violation schedule hearing submit appeal make payment online portal,negative,negative
+BAA BAA Supervisors,"Improved Interdepartmental Coordination: Strengthen communication and information sharing between BAA, Code Enforcement, Corporation Counsel, and CPC.",improved interdepartmental coordination strengthen communication information sharing baa code enforcement corporation counsel cpc,positive,positive
+BAA BAA Supervisors,"Standardized Documentation Practices: Improve consistency in inspector documentation, photographs, evidence submission, and case notes before hearings.",standardized documentation practice improve consistency inspector documentation photograph evidence submission case note hearing,positive,positive
+BAA BAA Supervisors,"Modern Hearing Management: Support online dispute resolution, virtual hearings, automated scheduling, and streamlined appeal processes.",modern hearing management support online dispute resolution virtual hearing automated scheduling streamlined appeal process,neutral,neutral
+BAA BAA Supervisors,"Improved Constituent Experience: Provide clearer communication, easier payment options, real-time case status, and self-service capabilities for property owners.",improved constituent experience provide clearer communication easier payment option case status capability property owner,positive,positive
+CPO Central Permit Office,Unified Permit & Code Platform: Create a seamless connection between permit and code enforcement activities.,unified permit code platform create seamless connection permit code enforcement activity,positive,positive
+CPO Central Permit Office,Shared Case Visibility: Allow permit reviewers and code staff to see related activities.,shared case visibility allow permit reviewer code staff see related activity,positive,positive
+CPO Central Permit Office,Automatic Workflow Triggers: Permit and violation activity should trigger notifications across systems.,automatic workflow trigger permit violation activity trigger notification across system,negative,negative
+CPO Central Permit Office,"Integrated Property Records: Display permits, violations, certificates, and reviews in one place.",integrated property record display permit violation certificate review one place,negative,negative
+CPO Central Permit Office,Single Property View: Consolidate all property information into a single record.,single property view consolidate property information single record,neutral,neutral
+CPO Central Permit Office,"Historical Data Accessibility: Make historical permits, violations, and certificates easier to access.",historical data accessibility make historical permit violation certificate easier access,negative,negative
+CPO Central Permit Office,Improved Search Capabilities: Reduce time spent locating information.,improved search capability reduce time spent locating information,positive,positive
+CPO Central Permit Office,"Better Property Relationships: Display related permits, violations, and ownership information together.",better property relationship display related permit violation ownership information together,negative,negative
+CPO Central Permit Office,Review Status Tracking: Improve visibility into application review progress.,review status tracking improve visibility application review progress,positive,positive
+CPO Central Permit Office,Applicant Status Visibility: Allow applicants to view permit status and review stages.,applicant status visibility allow applicant view permit status review stage,positive,positive
+CPO Central Permit Office,"Automated Notifications: Notify applicants, reviewers, and inspectors of important updates.",automated notification notify applicant reviewer inspector important update,positive,positive
+CPO Central Permit Office,Integrated Reporting: Improve permit tracking and reporting capabilities.,integrated reporting improve permit tracking reporting capability,positive,positive
+CPO Central Permit Office,Single Source of Truth: Eliminate the need to use multiple applications and databases.,single source truth eliminate need use multiple application database,positive,positive
+CPO Central Permit Office,Consolidated Documentation: Store all permit-related information in a centralized repository.,consolidated documentation store information centralized repository,neutral,neutral
+CPO Central Permit Office,Improved Historical Research: Reduce dependence on legacy systems and microfilm.,improved historical research reduce dependence legacy system microfilm,positive,positive
+CPO Central Permit Office,Shared Review Visibility: Allow all stakeholders to view review progress and comments.,shared review visibility allow stakeholder view review progress comment,positive,positive
+CPO Central Permit Office,Improved Communication Tools: Reduce reliance on manual follow-up and spreadsheets.,improved communication tool reduce reliance manual spreadsheet,positive,positive
+CPO Central Permit Office,Customizable User Views: Allow users to configure screens and workflows based on role.,customizable user view allow user configure screen workflow based role,positive,positive
+CPO Central Permit Office,Enhanced Alerts & Notifications: Provide proactive reminders and workflow alerts.,enhanced alert notification provide proactive reminder workflow alert,positive,positive
+CPO Central Permit Office,"Improved Document Management: Better handling of plans, reviews, and permit documentation.",improved document management better handling plan review permit documentation,positive,positive
+CPO Central Permit Office,"Role-Based Dashboards: Provide permit coordinators, managers, and reviewers with tailored views.",dashboard provide permit coordinator manager reviewer tailored view,neutral,neutral
+CPO Central Permit Office,Contractor Dashboard: Better visibility into contractor information and insurance records.,contractor dashboard better visibility contractor information insurance record,positive,positive
+CPO Central Permit Office,Configurable Reporting: Support permit metrics and operational reporting.,configurable reporting support permit metric operational reporting,positive,positive
+CPO Central Permit Office,Audit & User Tracking: Improve tracking of user actions and system activity.,audit user tracking improve tracking user action system activity,positive,positive
+CPO Central Permit Office,Integrated Mapping & Property Data: Connect permitting workflows with parcel and property information.,integrated mapping property data connect permitting workflow parcel property information,neutral,neutral
+DOCE Admin Aide,Automatically synchronize inspection schedules between IPS and Outlook.,automatically synchronize inspection schedule ip outlook,neutral,neutral
+DOCE Admin Aide,Improve scheduling coordination for inspections involving multiple departments.,improve scheduling coordination inspection involving multiple department,positive,positive
+DOCE Admin Aide,Streamline the Periodic Inspection module.,streamline periodic inspection module,neutral,neutral
+DOCE Admin Aide,Improve search functionality for cases and properties.,improve search functionality case property,positive,positive
+DOCE Admin Aide,Make Parcel History easier to navigate for large properties.,make parcel history easier navigate large property,positive,positive
+DOCE Admin Aide,Improve visibility of case notes and attachments.,improve visibility case note attachment,positive,positive
+DOCE Admin Aide,Auto-populate commonly used complaint and inspection information.,commonly used complaint inspection information,negative,negative
+DOCE Admin Aide,Reduce repetitive manual data entry.,reduce repetitive manual data entry,negative,negative
+DOCE Admin Aide,Improve attachment management and document uploads.,improve attachment management document uploads,positive,positive
+DOCE Admin Aide,Provide more consistent user interface behavior.,provide consistent user interface behavior,neutral,neutral
+DOCE Admin Aide,Reduce crashes and memory-related errors.,reduce crash error,negative,negative
+DOCE Admin Aide,Improve loading and response times.,improve loading response time,positive,positive
+DOCE Admin Aide,Support multitasking without affecting system stability.,support multitasking without affecting system stability,positive,positive
+DOCE Admin Aide,Reduce reliance on multiple disconnected systems.,reduce reliance multiple disconnected system,neutral,neutral
+DOCE Admin Aide,"Improve integration between IPS, Camino, GIS, and AS400.",improve integration ip camino gi,positive,positive
+DOCE Admin Aide,Create a more unified view of property and inspection information.,create unified view property inspection information,positive,positive
+DOCE Admin Aide,Eliminate duplicate data entry where possible.,eliminate duplicate data entry possible,neutral,neutral
+DOCE Admin Aide,Resolve phone system issues causing dropped calls.,resolve phone system issue causing dropped call,positive,positive
+DOCE Admin Aide,Improve communication tools for public interactions.,improve communication tool public interaction,positive,positive
+DOCE Admin Aide,Better support high-volume scheduling and customer service activities.,better support scheduling customer service activity,positive,positive
+DOCE Admin Aide,Improve access to ownership and property information.,improve access ownership property information,positive,positive
+DOCE Admin Aide,Make relevant property information easier to locate and verify.,make relevant property information easier locate verify,positive,positive
+DOCE Admin Aide,Add spell-check and grammar-check functionality.,add functionality,neutral,neutral
+DOCE Admin Aide,Improve visual organization of records and attachments.,improve visual organization record attachment,positive,positive
+DOCE Admin Aide,Support dark mode and modern user interface features.,support dark mode modern user interface feature,positive,positive
+DOCE Admin Aide,Make frequently used information easier to identify and access.,make frequently used information easier identify access,positive,positive
+DOCE Admin Aides,Single ownership record per owner or organization.,single ownership record per owner organization,neutral,neutral
+DOCE Admin Aides,Automatic synchronization of ownership updates.,automatic synchronization ownership update,neutral,neutral
+DOCE Admin Aides,Better visualization of ownership relationships.,better visualization ownership relationship,positive,positive
+DOCE Admin Aides,Simplified ownership and address updates.,simplified ownership address update,neutral,neutral
+DOCE Admin Aides,Improved support for multi-unit and complex ownership structures.,improved support complex ownership structure,positive,positive
+DOCE Admin Aides,Improved parcel and address searching.,improved parcel address searching,positive,positive
+DOCE Admin Aides,Easier access to historical records.,easier access historical record,positive,positive
+DOCE Admin Aides,Dedicated legal and court document sections.,dedicated legal court document section,positive,positive
+DOCE Admin Aides,Better organization of attachments and correspondence.,better organization attachment correspondence,positive,positive
+DOCE Admin Aides,Reduced crashes and memory issues.,reduced crash memory issue,negative,neutral
+DOCE Admin Aides,"Single source of truth for ownership, property, permit, and enforcement information.",single source truth ownership property permit enforcement information,positive,positive
+DOCE Admin Aides,"Better integration between IPS, AS400, Camino, GIS, and external databases.",better integration ip camino gi external database,positive,positive
+DOCE Admin Aides,Elimination of duplicate data entry.,elimination duplicate data entry,neutral,neutral
+DOCE Admin Aides,"Easier access to ownership, tax, water, and licensing information.",easier access ownership tax water licensing information,positive,positive
+DOCE Admin Aides,Better reporting and tracking tools.,better reporting tracking tool,positive,positive
+DOCE Admin Aides,Improved visibility into BAA tickets and legal referrals.,improved visibility baa ticket legal referral,positive,positive
+DOCE Admin Aides,Easier access to frequently used information.,easier access frequently used information,positive,positive
+DOCE Admin Aides,Streamlined legal referral and enforcement documentation processes.,streamlined legal referral enforcement documentation process,positive,positive
+DOCE Admin Aides,Standardized administrative workflows across the department.,standardized administrative workflow across department,neutral,neutral
+DOCE Building Inspectors,"Single Property View: Access ownership, permits, zoning, water, elevator, sprinkler, and enforcement information from one location.",single property view access ownership permit zoning water elevator sprinkler enforcement information one location,neutral,neutral
+DOCE Building Inspectors,"Integrated Third-Party Certifications: Make sprinkler, elevator, HVAC, boiler, and fire system certifications accessible within inspection cases.",integrated certification make sprinkler elevator hvac boiler fire system certification accessible within inspection case,negative,negative
+DOCE Building Inspectors,Improved Parcel History: Better visibility into related cases and property history.,improved parcel history better visibility related case property history,positive,positive
+DOCE Building Inspectors,Consolidated Ownership Records: Eliminate duplicate ownership records and inconsistencies.,consolidated ownership record eliminate duplicate ownership record inconsistency,neutral,neutral
+DOCE Building Inspectors,Improved Case Search: Make finding cases faster and easier.,improved case search make finding case faster easier,positive,positive
+DOCE Building Inspectors,"Cross-Department Visibility: Display updates from Fire, Zoning, Law, and BAA within inspection cases.",visibility display update fire zoning law baa within inspection case,negative,negative
+DOCE Building Inspectors,Improved Reminder Management: Better tracking and visibility of tickle dates.,improved reminder management better tracking visibility tickle date,positive,positive
+DOCE Building Inspectors,Comprehensive Case View: Show all related property information within a single screen.,comprehensive case view show related property information within single screen,positive,positive
+DOCE Building Inspectors,Greater Stability: Reduce crashes and system interruptions.,greater stability reduce crash system interruption,negative,negative
+DOCE Building Inspectors,Faster Performance: Improve loading times and responsiveness.,faster performance improve loading time responsiveness,positive,positive
+DOCE Building Inspectors,More Reliable Data Storage: Prevent loss of entered information.,reliable data storage prevent loss entered information,negative,negative
+DOCE Building Inspectors,Modern Tablets: Replace outdated tablets with reliable devices.,modern tablet replace outdated tablet reliable device,neutral,neutral
+DOCE Building Inspectors,Mobile IPS Application: Enable inspectors to complete inspections entirely in the field.,mobile ip application enable inspector complete inspection entirely field,neutral,neutral
+DOCE Building Inspectors,iPhone Compatibility: Provide a mobile application that works on iPhones.,iphone compatibility provide mobile application work iphones,neutral,neutral
+DOCE Building Inspectors,Real-Time Data Access: Allow inspectors to access and update cases from anywhere.,data access allow inspector access update case anywhere,positive,positive
+DOCE Building Inspectors,Field Citation Capability: Create violations and complete documentation without returning to the office.,field citation capability create violation complete documentation without returning office,negative,negative
+DOCE Building Inspectors,One System for Everything: Reduce dependency on multiple systems.,one system everything reduce dependency multiple system,neutral,neutral
+DOCE Building Inspectors,"Integrated Permit & Enforcement Records: Combine permit, zoning, inspection, and enforcement information.",integrated permit enforcement record combine permit zoning inspection enforcement information,neutral,neutral
+DOCE Building Inspectors,Centralized Property Information: Eliminate the need to research across multiple databases.,centralized property information eliminate need research across multiple database,neutral,neutral
+DOCE Building Inspectors,"Better Interdepartmental Communication: Improve communication between Building, Fire, Zoning, Law, BAA, and Permits.",better interdepartmental communication improve communication building fire zoning law baa permit,positive,positive
+DOCE Building Inspectors,Faster Zone Check Process: Improve zoning review turnaround times.,faster zone check process improve zoning review turnaround time,positive,positive
+DOCE Building Inspectors,Improved Status Updates: Provide automatic updates when related departments complete work.,improved status update provide automatic update related department complete work,positive,positive
+DOCE Building Inspectors,Better Permit Coordination: Improve visibility into permit requirements and approvals.,better permit coordination improve visibility permit requirement approval,positive,positive
+DOCE Building Inspectors,Elevator Certification Access: Ability to quickly verify elevator certification status.,elevator certification access ability quickly verify elevator certification status,positive,positive
+DOCE Building Inspectors,Sprinkler Report Access: Access to sprinkler inspection reports and compliance records.,sprinkler report access access sprinkler inspection report compliance record,neutral,neutral
+DOCE Building Inspectors,Water Certification Access: Visibility into water usage and water certification information.,water certification access visibility water usage water certification information,neutral,neutral
+DOCE Building Inspectors,Compliance Engine Integration: Direct access to third-party inspection and compliance data.,compliance engine integration direct access inspection compliance data,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,"Real-Time Field Access: Ability to access, update, and modify cases while in the field.",field access ability access update modify case field,positive,positive
+DOCE CommercialPermitElectrical Inspectors,Mobile Case Management: Support inspection documentation from mobile devices.,mobile case management support inspection documentation mobile device,positive,positive
+DOCE CommercialPermitElectrical Inspectors,Improved Documentation Tools: Better support for inspection notes and permit documentation.,improved documentation tool better support inspection note permit documentation,positive,positive
+DOCE CommercialPermitElectrical Inspectors,Integrated Scheduling: Connect inspection scheduling with case management.,integrated scheduling connect inspection scheduling case management,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Faster Search Capabilities: Quickly locate project and permit information.,faster search capability quickly locate project permit information,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Centralized Case Information: Consolidate project history and inspection records.,centralized case information consolidate project history inspection record,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Permit Visibility: Improve visibility into permit-related activities and assignments.,permit visibility improve visibility activity assignment,positive,positive
+DOCE CommercialPermitElectrical Inspectors,"Inspection Tracking: Continue the ability to track failed or ""kick-out"" inspections.",inspection tracking continue ability track failed inspection,negative,negative
+DOCE CommercialPermitElectrical Inspectors,Future Follow-Up Tracking: Maintain tickler and reminder functionality.,future tracking maintain tickler reminder functionality,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Project Status Monitoring: Better visibility into active and pending projects.,project status monitoring better visibility active pending project,positive,positive
+DOCE CommercialPermitElectrical Inspectors,Camino-Outlook Integration: Automatically synchronize inspections scheduled in Camino with Outlook calendars.,integration automatically synchronize inspection scheduled camino outlook calendar,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Unified Scheduling Platform: Eliminate duplicate scheduling activities.,unified scheduling platform eliminate duplicate scheduling activity,positive,positive
+DOCE CommercialPermitElectrical Inspectors,Automated Reminders: Create reminders for future inspections and contractor follow-up.,automated reminder create reminder future inspection contractor,positive,positive
+DOCE CommercialPermitElectrical Inspectors,Tickler Date Functionality: Add reminder dates and follow-up tracking directly within permit workflows.,tickler date functionality add reminder date tracking directly within permit workflow,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,"Integrated Permit Workflow: Connect permitting, inspections, and enforcement into one workflow.",integrated permit workflow connect permitting inspection enforcement one workflow,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Better Contractor Communication: Improve communication tools and contractor notifications.,better contractor communication improve communication tool contractor notification,positive,positive
+DOCE CommercialPermitElectrical Inspectors,Project Lifecycle Tracking: Track projects from permit issuance through completion.,project lifecycle tracking track project permit issuance completion,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Improved Address Management: Standardize and validate address information.,improved address management standardize validate address information,positive,positive
+DOCE CommercialPermitElectrical Inspectors,Mobile Inspection Application: Complete inspections entirely from the field.,mobile inspection application complete inspection entirely field,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Photo & Video Integration: Capture and upload inspection documentation directly from mobile devices.,photo video integration capture upload inspection documentation directly mobile device,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Offline Capability: Allow inspections to continue without internet connectivity.,offline capability allow inspection continue without internet connectivity,positive,positive
+DOCE CommercialPermitElectrical Inspectors,Field-Based Certificate Issuance: Support approvals and documentation from inspection sites.,certificate issuance support approval documentation inspection site,positive,positive
+DOCE CommercialPermitElectrical Inspectors,Improved User Training: Provide more comprehensive training for Camino and permit workflows.,improved user training provide comprehensive training camino permit workflow,positive,positive
+DOCE CommercialPermitElectrical Inspectors,"Better Cross-Team Coordination: Improve coordination among Permit Office, inspectors, contractors, and Code Enforcement.",better coordination improve coordination among permit office inspector contractor code enforcement,positive,positive
+DOCE CommercialPermitElectrical Inspectors,Standardized Processes: Establish consistent workflows across permit disciplines.,standardized process establish consistent workflow across permit discipline,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Qualified Staffing & Knowledge Transfer: Improve onboarding and training for specialized inspection roles.,qualified staffing knowledge transfer improve onboarding training specialized inspection role,positive,positive
+DOCE Fire Prevention Bureau,"Single Property View: View violations, permits, inspections, COs, capacities, and historical records from one screen.",single property view view violation permit inspection co capacity historical record one screen,negative,negative
+DOCE Fire Prevention Bureau,Better Historical Visibility: Quickly access prior violations and occupancy history.,better historical visibility quickly access prior violation occupancy history,negative,negative
+DOCE Fire Prevention Bureau,Improved Search Capabilities: Simplify parcel and property searches.,improved search capability simplify parcel property search,positive,positive
+DOCE Fire Prevention Bureau,Integrated Property Intelligence: Display all relevant property information together.,integrated property intelligence display relevant property information together,positive,positive
+DOCE Fire Prevention Bureau,"Standardized Documentation: Store inspections, photos, violations, and actions in a consistent location.",standardized documentation store inspection photo violation action consistent location,negative,negative
+DOCE Fire Prevention Bureau,Unified Case Records: Eliminate multiple documentation locations.,unified case record eliminate multiple documentation location,positive,positive
+DOCE Fire Prevention Bureau,Improved Certificate Review Process: Consolidate information required for CO sign-offs.,improved certificate review process consolidate information required co,positive,positive
+DOCE Fire Prevention Bureau,Integrated Inspection History: Provide complete inspection visibility.,integrated inspection history provide complete inspection visibility,neutral,neutral
+DOCE Fire Prevention Bureau,Mobile IPS Access: Support inspections from mobile devices.,mobile ip access support inspection mobile device,positive,positive
+DOCE Fire Prevention Bureau,Real-Time Documentation: Enter inspection findings directly in the field.,documentation enter inspection finding directly field,neutral,neutral
+DOCE Fire Prevention Bureau,Field-Based Reporting: Generate inspection reports without returning to the office.,reporting generate inspection report without returning office,neutral,neutral
+DOCE Fire Prevention Bureau,Better IPS-Camino-EPR Integration: Reduce duplicate work across systems.,better integration reduce duplicate work across system,positive,positive
+DOCE Fire Prevention Bureau,"Unified Fire Prevention Workflow: Connect permit reviews, inspections, complaints, and enforcement.",unified fire prevention workflow connect permit review inspection complaint enforcement,negative,negative
+DOCE Fire Prevention Bureau,Automated Data Sharing: Improve information sharing between systems.,automated data sharing improve information sharing system,positive,positive
+DOCE Fire Prevention Bureau,Integrated Compliance Engine Data: Better access to sprinkler and fire system compliance information.,integrated compliance engine data better access sprinkler fire system compliance information,positive,positive
+DOCE Fire Prevention Bureau,Integrated Calendar Functionality: Add scheduling and reminder capabilities directly into permitting and inspection workflows.,integrated calendar functionality add scheduling reminder capability directly permitting inspection workflow,neutral,neutral
+DOCE Fire Prevention Bureau,Automated Task Tracking: Reduce reliance on Outlook and personal planners.,automated task tracking reduce reliance outlook personal planner,neutral,neutral
+DOCE Fire Prevention Bureau,Inspection Workflow Visibility: Better visibility into inspection schedules and assignments.,inspection workflow visibility better visibility inspection schedule assignment,positive,positive
+DOCE Fire Prevention Bureau,Cloud-Based Platform: Improve accessibility and usability.,platform improve accessibility usability,positive,positive
+DOCE Fire Prevention Bureau,Modern User Interface: Replace outdated and non-intuitive screens.,modern user interface replace outdated screen,neutral,neutral
+DOCE Fire Prevention Bureau,Reduced Research Time: Minimize time spent locating property and occupancy information.,reduced research time minimize time spent locating property occupancy information,neutral,neutral
+DOCE Fire Prevention Bureau,"Comprehensive Fire Prevention Platform: Support plan reviews, inspections, complaints, licensing, enforcement, and certificates in one connected environment.",comprehensive fire prevention platform support plan review inspection complaint licensing enforcement certificate one connected environment,neutral,negative
+DOCE Fire Prevention Bureau,Real-Time Field Operations: Enable inspectors and Fire Marshals to perform all field activities electronically.,field operation enable inspector fire marshal perform field activity electronically,negative,negative
+DOCE Fire Prevention Bureau,Integrated Public Safety Data: Connect Fire Prevention activities with broader Code Enforcement and permitting operations.,integrated public safety data connect fire prevention activity broader code enforcement permitting operation,positive,positive
+DOCE Housing Inspectors,Global Property View: Display all active and historical cases associated with a property.,global property view display active historical case associated property,positive,positive
+DOCE Housing Inspectors,Case Status Labels: Allow cases to be categorized by status and activity type.,case status label allow case categorized status activity type,positive,positive
+DOCE Housing Inspectors,Cases Needing Review Dashboard: Identify cases requiring attention.,case needing review dashboard identify case requiring attention,neutral,neutral
+DOCE Housing Inspectors,Missing Inspection Tracking: Report on cases without scheduled inspections.,missing inspection tracking report case without scheduled inspection,negative,negative
+DOCE Housing Inspectors,Batch Processing: Generate violation numbers and perform updates more efficiently.,batch processing generate violation number perform update efficiently,negative,negative
+DOCE Housing Inspectors,Integrated Water Information: Provide direct access to water records.,integrated water information provide direct access water record,neutral,neutral
+DOCE Housing Inspectors,Integrated Lead Information: Display lead-risk information within property records.,integrated lead information display information within property record,neutral,neutral
+DOCE Housing Inspectors,Unified Address Management: Create a centralized address database.,unified address management create centralized address database,positive,positive
+DOCE Housing Inspectors,Ownership Synchronization: Automatically update ownership information across related cases.,ownership synchronization automatically update ownership information across related case,neutral,neutral
+DOCE Housing Inspectors,Cross-Case Updates: Ensure information changes apply to all relevant records.,update ensure information change apply relevant record,positive,positive
+DOCE Housing Inspectors,Faster Action Selection: Reduce clicks required to complete common tasks.,faster action selection reduce click required complete common task,neutral,neutral
+DOCE Housing Inspectors,Custom Shortcuts: Allow user-defined shortcuts for common actions.,custom shortcut allow shortcut common action,positive,positive
+DOCE Housing Inspectors,Simplified Dropdowns: Reduce unnecessary dropdown options.,simplified dropdowns reduce unnecessary dropdown option,neutral,neutral
+DOCE Housing Inspectors,Streamlined Rental Registry Integration: Better integration between IPS and the Periodic Inspection portal.,streamlined rental registry integration better integration ip periodic inspection portal,positive,positive
+DOCE Housing Inspectors,Improved Search & Navigation: Make property and case information easier to find.,improved search navigation make property case information easier find,positive,positive
+DOCE Housing Inspectors,Reduce Freezing & Crashes: Improve reliability and responsiveness.,reduce freezing crash improve reliability responsiveness,negative,positive
+DOCE Housing Inspectors,Faster Case Loading: Improve performance when opening and reviewing cases.,faster case loading improve performance opening reviewing case,positive,positive
+DOCE Housing Inspectors,Stable Remote Access: Improve connectivity for remote users.,stable remote access improve connectivity remote user,positive,positive
+DOCE Housing Inspectors,Field-Based Case Updates: Allow inspectors to update cases while conducting inspections.,case update allow inspector update case conducting inspection,positive,positive
+DOCE Housing Inspectors,Laptop Access in Field: Restore or expand laptop access for field work.,laptop access field restore expand laptop access field work,positive,positive
+DOCE Housing Inspectors,Mobile Documentation: Enable real-time note and photo uploads.,mobile documentation enable note photo uploads,neutral,neutral
+DOCE Housing Inspectors,Remote System Access: Improve remote access to inspection systems.,remote system access improve remote access inspection system,positive,positive
+DOCE Housing Inspectors,"Single Property Record: Consolidate ownership, water, lead, permit, and case information.",single property record consolidate ownership water lead permit case information,neutral,neutral
+DOCE Housing Inspectors,Centralized Property Research: Reduce the need to use multiple systems.,centralized property research reduce need use multiple system,neutral,neutral
+DOCE Housing Inspectors,Unified Information Management: Create a single source of truth for housing enforcement activities.,unified information management create single source truth housing enforcement activity,positive,positive
+DOCE Housing Inspectors,Operational Statistics: Provide reporting on cases without inspection dates and cases awaiting review.,operational statistic provide reporting case without inspection date case awaiting review,neutral,neutral
+DOCE Housing Inspectors,Case Monitoring Dashboards: Improve visibility into workload and case status.,case monitoring dashboard improve visibility workload case status,positive,positive
+DOCE Housing Inspectors,Lead Risk Identification: Automatically identify high-risk lead properties when cases are opened.,lead risk identification automatically identify lead property case opened,negative,negative
+DOCE Housing Inspectors,User Documentation: Provide clear user guides and training materials.,user documentation provide clear user guide training material,positive,positive
+DOCE Housing Inspectors,Consistent Workflows: Standardize processes across Housing Inspectors.,consistent workflow standardize process across housing inspector,neutral,neutral
+DOCE Housing Inspectors,Improved User Experience: Maintain IPS's user-friendly design while improving efficiency and functionality.,improved user experience maintain ip design improving efficiency functionality,positive,positive
+DOCE Office Manager,Single ownership record per owner or organization.,single ownership record per owner organization,neutral,neutral
+DOCE Office Manager,Automatic synchronization of ownership updates.,automatic synchronization ownership update,neutral,neutral
+DOCE Office Manager,Better visualization of ownership relationships.,better visualization ownership relationship,positive,positive
+DOCE Office Manager,Simplified ownership and address updates.,simplified ownership address update,neutral,neutral
+DOCE Office Manager,Improved support for multi-unit and complex ownership structures.,improved support complex ownership structure,positive,positive
+DOCE Office Manager,Improved parcel and address searching.,improved parcel address searching,positive,positive
+DOCE Office Manager,Easier access to historical records.,easier access historical record,positive,positive
+DOCE Office Manager,Dedicated legal and court document sections.,dedicated legal court document section,positive,positive
+DOCE Office Manager,Better organization of attachments and correspondence.,better organization attachment correspondence,positive,positive
+DOCE Office Manager,Reduced crashes and memory issues.,reduced crash memory issue,negative,neutral
+DOCE Office Manager,"Single source of truth for ownership, property, permit, and enforcement information.",single source truth ownership property permit enforcement information,positive,positive
+DOCE Office Manager,"Better integration between IPS, AS400, Camino, GIS, and external databases.",better integration ip camino gi external database,positive,positive
+DOCE Office Manager,Elimination of duplicate data entry.,elimination duplicate data entry,neutral,neutral
+DOCE Office Manager,"Easier access to ownership, tax, water, and licensing information.",easier access ownership tax water licensing information,positive,positive
+DOCE Office Manager,Better reporting and tracking tools.,better reporting tracking tool,positive,positive
+DOCE Office Manager,Improved visibility into BAA tickets and legal referrals.,improved visibility baa ticket legal referral,positive,positive
+DOCE Office Manager,Easier access to frequently used information.,easier access frequently used information,positive,positive
+DOCE Office Manager,Streamlined legal referral and enforcement documentation processes.,streamlined legal referral enforcement documentation process,positive,positive
+DOCE Office Manager,Standardized administrative workflows across the department.,standardized administrative workflow across department,neutral,neutral
+DOCE Office Managers,Automatically synchronize inspection schedules between IPS and Outlook.,automatically synchronize inspection schedule ip outlook,neutral,neutral
+DOCE Office Managers,Improve scheduling coordination for inspections involving multiple departments.,improve scheduling coordination inspection involving multiple department,positive,positive
+DOCE Office Managers,Streamline the Periodic Inspection module.,streamline periodic inspection module,neutral,neutral
+DOCE Office Managers,Improve search functionality for cases and properties.,improve search functionality case property,positive,positive
+DOCE Office Managers,Make Parcel History easier to navigate for large properties.,make parcel history easier navigate large property,positive,positive
+DOCE Office Managers,Improve visibility of case notes and attachments.,improve visibility case note attachment,positive,positive
+DOCE Office Managers,Auto-populate commonly used complaint and inspection information.,commonly used complaint inspection information,negative,negative
+DOCE Office Managers,Reduce repetitive manual data entry.,reduce repetitive manual data entry,negative,negative
+DOCE Office Managers,Improve attachment management and document uploads.,improve attachment management document uploads,positive,positive
+DOCE Office Managers,Provide more consistent user interface behavior.,provide consistent user interface behavior,neutral,neutral
+DOCE Office Managers,Reduce crashes and memory-related errors.,reduce crash error,negative,negative
+DOCE Office Managers,Improve loading and response times.,improve loading response time,positive,positive
+DOCE Office Managers,Support multitasking without affecting system stability.,support multitasking without affecting system stability,positive,positive
+DOCE Office Managers,Reduce reliance on multiple disconnected systems.,reduce reliance multiple disconnected system,neutral,neutral
+DOCE Office Managers,"Improve integration between IPS, Camino, GIS, and AS400.",improve integration ip camino gi,positive,positive
+DOCE Office Managers,Create a more unified view of property and inspection information.,create unified view property inspection information,positive,positive
+DOCE Office Managers,Eliminate duplicate data entry where possible.,eliminate duplicate data entry possible,neutral,neutral
+DOCE Office Managers,Resolve phone system issues causing dropped calls.,resolve phone system issue causing dropped call,positive,positive
+DOCE Office Managers,Improve communication tools for public interactions.,improve communication tool public interaction,positive,positive
+DOCE Office Managers,Better support high-volume scheduling and customer service activities.,better support scheduling customer service activity,positive,positive
+DOCE Office Managers,Improve access to ownership and property information.,improve access ownership property information,positive,positive
+DOCE Office Managers,Make relevant property information easier to locate and verify.,make relevant property information easier locate verify,positive,positive
+DOCE Office Managers,Add spell-check and grammar-check functionality.,add functionality,neutral,neutral
+DOCE Office Managers,Improve visual organization of records and attachments.,improve visual organization record attachment,positive,positive
+DOCE Office Managers,Support dark mode and modern user interface features.,support dark mode modern user interface feature,positive,positive
+DOCE Office Managers,Make frequently used information easier to identify and access.,make frequently used information easier identify access,positive,positive
+DOCE Supervisors,Automated Case Alerts: Alert supervisors when cases become inactive.,automated case alert alert supervisor case become inactive,positive,positive
+DOCE Supervisors,"Missed Case Identification: Automatically identify cases lacking inspection dates, assignments, or follow-up actions.",missed case identification automatically identify case lacking inspection date assignment action,negative,negative
+DOCE Supervisors,Improved Case Tracking: Better visibility into case status and workflow progression.,improved case tracking better visibility case status workflow progression,positive,positive
+DOCE Supervisors,Case Cleanup Tools: Ability to close and manage large volumes of historical cases.,case cleanup tool ability close manage large volume historical case,positive,positive
+DOCE Supervisors,"Single Parcel View: Consolidate permits, violations, zoning records, tax information, ownership records, and historical data into a unified property record.",single parcel view consolidate permit violation zoning record tax information ownership record historical data unified property record,negative,negative
+DOCE Supervisors,Improved Parcel History: Better display and organization of parcel-related information.,improved parcel history better display organization information,positive,positive
+DOCE Supervisors,Integrated Property Research: Allow users to conduct comprehensive property research from a single screen.,integrated property research allow user conduct comprehensive property research single screen,positive,positive
+DOCE Supervisors,Enhanced Reporting: More powerful reporting and dashboard capabilities.,enhanced reporting powerful reporting dashboard capability,positive,positive
+DOCE Supervisors,"Trend Analysis: Ability to identify patterns, recurring offenders, and enforcement trends.",trend analysis ability identify pattern recurring offender enforcement trend,negative,negative
+DOCE Supervisors,Performance Metrics: Better operational monitoring and workload analysis.,performance metric better operational monitoring workload analysis,positive,positive
+DOCE Supervisors,Simplified Navigation: Reduce complexity and training requirements.,simplified navigation reduce complexity training requirement,neutral,neutral
+DOCE Supervisors,Role-Based Dashboards: Tailored views for supervisors and managers.,dashboard tailored view supervisor manager,neutral,neutral
+DOCE Supervisors,Batch Processing: Ability to update and manage multiple cases simultaneously.,batch processing ability update manage multiple case simultaneously,positive,positive
+DOCE Supervisors,Centralized Platform: Reduce reliance on multiple systems.,centralized platform reduce reliance multiple system,neutral,neutral
+DOCE Supervisors,"Unified Database: Consolidate IPS, Camino, AS400, OnBase, GIS, and historical records.",unified database consolidate ip camino onbase gi historical record,positive,positive
+DOCE Supervisors,Enterprise Data Management: Establish a single source of truth for all property information.,enterprise data management establish single source truth property information,positive,positive
+DOCE Supervisors,Enterprise GIS Connectivity: Direct integration with County GIS and parcel data.,enterprise gi connectivity direct integration county gi parcel data,neutral,neutral
+DOCE Supervisors,Parcel-Centric Design: Build workflows around parcel-level information.,design build workflow around information,neutral,neutral
+DOCE Supervisors,"AI-Assisted Research: Use AI to locate related properties, permits, violations, and ownership information.",research use ai locate related property permit violation ownership information,negative,negative
+DOCE Supervisors,AI Reporting: Automatically generate summaries and trend analysis.,ai reporting automatically generate summary trend analysis,neutral,neutral
+DOCE Supervisors,AI Data Discovery: Improve access to historical information and records.,ai data discovery improve access historical information record,positive,positive
+DOCE Supervisors,Cloud-Based Access: Allow users to access information from anywhere.,access allow user access information anywhere,positive,positive
+DOCE Supervisors,Mobile Functionality: Support field-based work from phones and tablets.,mobile functionality support work phone tablet,positive,positive
+DOCE Supervisors,Real-Time Updates: Ensure information is immediately available across departments.,update ensure information immediately available across department,positive,positive
+DOCE Supervisors,"Cross-Department Visibility: Shared access for Code Enforcement, Fire, Zoning, BAA, Law, and Permits.",visibility shared access code enforcement fire zoning baa law permit,neutral,neutral
+DOCE Supervisors,Improved Workflow Integration: Eliminate duplicate work and disconnected processes.,improved workflow integration eliminate duplicate work disconnected process,positive,positive
+DOCE Supervisors,"Historical Data Migration: Consolidate microfiche, scanned records, shared drives, and legacy systems into a single environment.",historical data migration consolidate microfiche scanned record shared drive legacy system single environment,positive,positive
+DOCE Supervisors,"Modern, User-Friendly Platform: Easier to use than current systems.",modern platform easier use current system,positive,positive
+DOCE Supervisors,"Scalable Architecture: Support future technologies, analytics, and operational growth.",scalable architecture support future technology analytics operational growth,positive,positive
+DOCE Supervisors,"Comprehensive Property Lifecycle Management: Track a property from permit application through enforcement, compliance, and historical record retention.",comprehensive property lifecycle management track property permit application enforcement compliance historical record retention,positive,positive
+DOCE Zoning,"Unified Property History: Provide a single property view containing zoning history, permits, ownership records, parcel history, and previous approvals.",unified property history provide single property view containing zoning history permit ownership record parcel history previous approval,positive,positive
+DOCE Zoning,"Improved Search Capabilities: Enhance search functionality for parcels, addresses, projects, and historical zoning records.",improved search capability enhance search functionality parcel address project historical zoning record,positive,positive
+DOCE Zoning,"Integrated Historical Records: Consolidate IPS, Camino, OnBase, and legacy records into one searchable repository.",integrated historical record consolidate ip camino onbase legacy record one searchable repository,neutral,neutral
+DOCE Zoning,"Enhanced Workflow Visibility: Improve application tracking, project status visibility, and review coordination.",enhanced workflow visibility improve application tracking project status visibility review coordination,positive,positive
+DOCE Zoning,"Improved User Experience: Simplify navigation while preserving valuable IPS features such as parcel history, comments, and project timelines.",improved user experience simplify navigation preserving valuable ip feature parcel history comment project timeline,positive,positive
+DOCE Zoning,System Consolidation: Reduce reliance on legacy systems and physical archives by digitizing historical records.,system consolidation reduce reliance legacy system physical archive digitizing historical record,neutral,neutral
+DOCE Zoning,Earlier Zoning Review: Integrate zoning reviews earlier into permit and Certificate of Use workflows.,earlier zoning review integrate zoning review earlier permit certificate use workflow,neutral,neutral
+DOCE Zoning,Better Applicant Communication: Improve transparency by providing applicants with easier access to project status and zoning information.,better applicant communication improve transparency providing applicant easier access project status zoning information,positive,positive
+DOCE Zoning,Enhanced Reporting & GIS Integration: Expand GIS capabilities and provide better reporting and dashboards for zoning projects.,enhanced reporting gi integration expand gi capability provide better reporting dashboard zoning project,positive,positive
+LAW Law,"Complete Case Documentation: Require complete notes, notices, photographs, Nail & Mail documentation, and supporting evidence before cases are forwarded for legal review.",complete case documentation require complete note notice photograph nail mail documentation supporting evidence case forwarded legal review,positive,positive
+LAW Law,"Integrated Property Information: Integrate water records, tax information, and ownership records directly into IPS to reduce reliance on external systems.",integrated property information integrate water record tax information ownership record directly ip reduce reliance external system,neutral,neutral
+LAW Law,"Property-Level Case View: Provide consolidated property summaries that combine all complaints, violations, and enforcement history into a single view.",case view provide consolidated property summary combine complaint violation enforcement history single view,negative,negative
+LAW Law,Improved Document Management: Improve Action Notes formatting and make supporting documents easier to locate and review.,improved document management improve action note formatting make supporting document easier locate review,positive,positive
+LAW Law,Document Export Capability: Allow IPS information to transfer directly into Microsoft Word for legal document preparation.,document export capability allow ip information transfer directly microsoft word legal document preparation,positive,positive
+LAW Law,Standardized Documentation Practices: Improve consistency in how inspectors document cases and upload evidence.,standardized documentation practice improve consistency inspector document case upload evidence,positive,positive
+LAW Law,"Improved Interdepartmental Coordination: Strengthen communication between inspectors, supervisors, paralegals, and attorneys throughout the enforcement process.",improved interdepartmental coordination strengthen communication inspector supervisor paralegal attorney throughout enforcement process,positive,positive
+LAW Law,Reduced Manual Research: Reduce the need to search multiple external systems by consolidating legal and property information.,reduced manual research reduce need search multiple external system consolidating legal property information,positive,positive
+LAW Law,Improved Workflow Efficiency: Streamline the process from case referral through court filing by ensuring complete information is available at each stage.,improved workflow efficiency streamline process case referral court filing ensuring complete information available stage,positive,positive

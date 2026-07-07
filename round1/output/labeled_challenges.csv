@@ -1,0 +1,323 @@
+﻿Focus Group,Pain Point,processed_pain_points,label,vader_sentiment
+Assessment Assessment Supervisors,Historical Record Management: Historical permits and property records often require searching IPS together with OnBase because historical information is not consolidated.,historical record management historical permit property record often require searching ip together onbase historical information consolidated,neutral,neutral
+Assessment Assessment Supervisors,"Incomplete Property History: IPS does not always provide a complete historical picture for permits, Certificates of Occupancy, or property changes.",incomplete property history ip always provide complete historical picture permit certificate occupancy property change,neutral,neutral
+Assessment Assessment Supervisors,Large Plan Viewing: Large plans and surveys cannot be viewed effectively within IPS.,large plan viewing large plan survey viewed effectively within ip,positive,negative
+Assessment Assessment Supervisors,Limited Historical Visibility: Historical records are frequently needed to determine legal occupancy and previous property conditions but are not always easily accessible.,limited historical visibility historical record frequently needed determine legal occupancy previous property condition always easily accessible,positive,negative
+Assessment Assessment Supervisors,"Property Research Complexity: Assessment work frequently requires combining information from permits, surveys, Engineering, and historical records to understand complete property history.",property research complexity assessment work frequently requires combining information permit survey engineering historical record understand complete property history,neutral,neutral
+Assessment Assessment Supervisors,Subdivision Tracking: Following parcel history after resubdivisions requires coordination with Engineering and County mapping records.,subdivision tracking following parcel history resubdivisions requires coordination engineering county mapping record,neutral,neutral
+Assessment Assessment Supervisors,"Permit Dependency: Assessment activities depend heavily on permit activity to identify changes affecting assessed value, although unpermitted improvements can still occur.",permit dependency assessment activity depend heavily permit activity identify change affecting assessed value although unpermitted improvement still occur,positive,positive
+Assessment Assessment Supervisors,"Seasonal Workload: Assessment activities vary throughout the year based on tax deadlines, permit volume, and market activity.",seasonal workload assessment activity vary throughout year based tax deadline permit volume market activity,neutral,neutral
+CPO Central Permit Office,Split Permit & Code Systems: Permit and Code Enforcement information exists in separate systems and workflows.,split permit code system permit code enforcement information exists separate system workflow,neutral,neutral
+CPO Central Permit Office,"Scattered Information: Property and permit information is distributed across IPS, Camino, AS400, OnBase, and historical archives.",scattered information property permit information distributed across ip camino onbase historical archive,neutral,neutral
+CPO Central Permit Office,Research Complexity: Users must search multiple systems to understand complete property history.,research complexity user must search multiple system understand complete property history,neutral,neutral
+CPO Central Permit Office,"Difficult Information Retrieval: Finding relevant information often feels like ""hunting"" through multiple systems.",difficult information retrieval finding relevant information often feel like hunting multiple system,neutral,neutral
+CPO Central Permit Office,Limited IPS-Camino Integration: Information does not flow seamlessly between systems.,limited integration information flow seamlessly system,negative,negative
+CPO Central Permit Office,No Shared Permit/Violation Visibility: Permit reviewers cannot easily see related code information.,shared visibility permit reviewer easily see related code information,positive,negative
+CPO Central Permit Office,Duplicate Research Effort: Staff repeatedly search for the same information across systems.,duplicate research effort staff repeatedly search information across system,neutral,neutral
+CPO Central Permit Office,Limited Status Transparency: Applicants cannot easily see permit status and review progress.,limited status transparency applicant easily see permit status review progress,positive,neutral
+CPO Central Permit Office,Review Status Gaps: Difficult for applicants to understand where applications are within the review process.,review status gap difficult applicant understand application within review process,negative,negative
+CPO Central Permit Office,Communication Burden: Staff spend significant time responding to status inquiries.,communication burden staff spend significant time responding status inquiry,negative,negative
+CPO Central Permit Office,Too Many Applications: Large permit volumes create administrative workload.,many application large permit volume create administrative workload,positive,positive
+CPO Central Permit Office,Incorrect Document Uploads: Applicants frequently upload incorrect or incomplete documentation.,incorrect document uploads applicant frequently upload incorrect incomplete documentation,neutral,neutral
+CPO Central Permit Office,Manual Tracking Requirements: Staff use spreadsheets and external tools to monitor progress.,manual tracking requirement staff use spreadsheet external tool monitor progress,positive,positive
+CPO Central Permit Office,Documentation Gaps: Existing systems do not adequately support permit documentation needs.,documentation gap existing system adequately support permit documentation need,positive,negative
+CPO Central Permit Office,Historical Records Across Multiple Sources: Research requires navigating legacy repositories.,historical record across multiple source research requires navigating legacy repository,neutral,neutral
+CPO Central Permit Office,No Centralized Repository: Information is spread across numerous databases and archives.,centralized repository information spread across numerous database archive,neutral,negative
+CPO Central Permit Office,Cross-Department Dependencies: Progress depends on multiple departments completing reviews.,dependency progress depends multiple department completing review,positive,positive
+CPO Central Permit Office,Permit-to-Code Disconnect: Code Enforcement and permitting activities are not fully synchronized.,disconnect code enforcement permitting activity fully synchronized,neutral,neutral
+CPO Central Permit Office,Reviewer Coordination: Managing comments and approvals from multiple reviewers is time-consuming.,reviewer coordination managing comment approval multiple reviewer,positive,neutral
+CPO CPO Co-Ordinator,System Crashes: IPS crashes during high-volume processing activities.,system crash ip crash processing activity,negative,neutral
+CPO CPO Co-Ordinator,Attachment Issues: Problems saving and managing attachments.,attachment issue problem saving managing attachment,positive,positive
+CPO CPO Co-Ordinator,Slow Performance: Delays when processing applications and notices.,slow performance delay processing application notice,negative,neutral
+CPO CPO Co-Ordinator,Workflow Interruptions: Certain activities require workarounds or manual intervention.,workflow interruption certain activity require workarounds manual intervention,negative,negative
+CPO CPO Co-Ordinator,Complex Navigation: Multiple screens and tabs create inefficiencies.,complex navigation multiple screen tab create inefficiency,positive,positive
+CPO CPO Co-Ordinator,Duplicate Ownership Records: Ownership information is difficult to maintain.,duplicate ownership record ownership information difficult maintain,negative,negative
+CPO CPO Co-Ordinator,Expiration Tracking Limitations: Renewal tracking depends heavily on reports.,expiration tracking limitation renewal tracking depends heavily report,negative,neutral
+CPO CPO Co-Ordinator,Address Lookup Challenges: Difficulty locating accurate address information.,address lookup challenge difficulty locating accurate address information,negative,negative
+CPO CPO Co-Ordinator,Manual Ownership Maintenance: Significant effort required to maintain ownership records.,manual ownership maintenance significant effort required maintain ownership record,positive,positive
+CPO CPO Co-Ordinator,No Automated Renewal Queue: Renewal management requires manual tracking.,automated renewal queue renewal management requires manual tracking,neutral,negative
+CPO CPO Co-Ordinator,Property Research Complexity: Multiple searches are often required to locate information.,property research complexity multiple search often required locate information,neutral,neutral
+CPO CPO Co-Ordinator,Duplicate Data Entry: Information must often be entered into both IPS and Camino.,duplicate data entry information must often entered ip camino,neutral,neutral
+CPO CPO Co-Ordinator,Poor Integration: Limited integration between Camino and IPS.,poor integration limited integration camino ip,negative,negative
+CPO CPO Co-Ordinator,"Split Workflows: Licensing, permitting, and registry processes span multiple systems.",split workflow licensing permitting registry process span multiple system,neutral,neutral
+CPO CPO Co-Ordinator,Application Processing Complexity: Certain workflows became more complicated after Camino implementation.,application processing complexity certain workflow became complicated camino implementation,positive,positive
+CPO CPO Co-Ordinator,Manual Scheduling: Significant effort required to coordinate inspections.,manual scheduling significant effort required coordinate inspection,positive,positive
+CPO CPO Co-Ordinator,Applicant Status Requests: Staff spend considerable time responding to status inquiries.,applicant status request staff spend considerable time responding status inquiry,neutral,neutral
+CPO CPO Co-Ordinator,Manual Notification Processes: Renewal and expiration notices require manual effort.,manual notification process renewal expiration notice require manual effort,neutral,neutral
+CPO CPO Co-Ordinator,Applicant Confusion: Applicants often struggle to understand requirements and application status.,applicant confusion applicant often struggle understand requirement application status,negative,negative
+CPO CPO Co-Ordinator,Spreadsheet Dependency: External spreadsheets are required to track work.,spreadsheet dependency external spreadsheet required track work,neutral,neutral
+CPO CPO Co-Ordinator,Cross-System Research: Information must be gathered from several systems.,research information must gathered several system,neutral,neutral
+CPO CPO Co-Ordinator,Duplicate Processes: Similar information is maintained in multiple locations.,duplicate process similar information maintained multiple location,neutral,neutral
+DOCE Admin Aide,IPS crashes frequently during complaint entry and daily operations.,ip crash frequently complaint entry daily operation,negative,negative
+DOCE Admin Aide,Users experience unhandled exceptions and memory-related errors.,user experience unhandled exception error,negative,negative
+DOCE Admin Aide,Work can be lost when the system crashes unexpectedly.,work lost system crash unexpectedly,negative,negative
+DOCE Admin Aide,Multiple open tabs may contribute to instability.,multiple open tab may contribute instability,neutral,neutral
+DOCE Admin Aide,Inspection appointments must be entered into multiple systems.,inspection appointment must entered multiple system,neutral,neutral
+DOCE Admin Aide,Outlook and IPS schedules are not synchronized.,outlook ip schedule synchronized,neutral,neutral
+DOCE Admin Aide,Periodic Inspection scheduling workflows are cumbersome.,periodic inspection scheduling workflow cumbersome,neutral,neutral
+DOCE Admin Aide,Inspector lists in the Periodic Inspection module are not alphabetized.,inspector list periodic inspection module alphabetized,neutral,neutral
+DOCE Admin Aide,Finding specific cases can be difficult.,finding specific case difficult,negative,negative
+DOCE Admin Aide,Parcel History provides limited information when reviewing large properties.,parcel history provides limited information reviewing large property,negative,negative
+DOCE Admin Aide,Important information can be difficult to locate within cases.,important information difficult locate within case,negative,negative
+DOCE Admin Aide,Case notes and attachments are not always organized consistently.,case note attachment always organized consistently,positive,positive
+DOCE Admin Aide,Some features behave differently across modules.,feature behave differently across module,neutral,neutral
+DOCE Admin Aide,Certain attachments cannot always be uploaded successfully.,certain attachment always uploaded successfully,positive,positive
+DOCE Admin Aide,Some complaint types do not have clearly defined workflows.,complaint type clearly defined workflow,positive,negative
+DOCE Admin Aide,Complaint cases can take significant time to open.,complaint case take significant time open,negative,negative
+DOCE Admin Aide,System responsiveness slows when handling multiple activities simultaneously.,system responsiveness slows handling multiple activity simultaneously,neutral,neutral
+DOCE Admin Aide,Uploading documents can impact performance.,uploading document impact performance,neutral,neutral
+DOCE Admin Aide,Calls automatically disconnect after several minutes.,call automatically disconnect several minute,neutral,neutral
+DOCE Admin Aide,Long scheduling conversations are frequently interrupted.,long scheduling conversation frequently interrupted,negative,negative
+DOCE Admin Aide,Customers become frustrated when calls are dropped.,customer become frustrated call dropped,negative,negative
+DOCE Admin Aide,Staff lose significant time handling repeat calls.,staff lose significant time handling repeat call,negative,negative
+DOCE Admin Aide,Duplicate data entry is required across multiple applications.,duplicate data entry required across multiple application,neutral,neutral
+DOCE Admin Aide,Staff must frequently switch between systems to complete a task.,staff must frequently switch system complete task,neutral,neutral
+DOCE Admin Aide,Ownership information can be difficult to verify.,ownership information difficult verify,negative,negative
+DOCE Admin Aide,Address changes are not always reflected consistently.,address change always reflected consistently,neutral,neutral
+DOCE Admin Aide,Multiple property research tools must be used together.,multiple property research tool must used together,neutral,neutral
+DOCE Admin Aide,High call volumes create interruptions throughout the day.,high call volume create interruption throughout day,negative,negative
+DOCE Admin Aide,Front-counter traffic can become overwhelming.,traffic become overwhelming,neutral,neutral
+DOCE Admin Aide,"Staff rely heavily on personal notes, cheat sheets, and reference documents.",staff rely heavily personal note cheat sheet reference document,negative,negative
+DOCE Admin Aide,Knowledge of certain processes is dependent on individual staff experience.,knowledge certain process dependent individual staff experience,positive,positive
+DOCE Admin Aide,Limited standardization exists across some administrative workflows.,limited standardization exists across administrative workflow,negative,negative
+DOCE Admin Aides,Duplicate ownership and contact records.,duplicate ownership contact record,neutral,neutral
+DOCE Admin Aides,Ownership updates do not consistently propagate across records.,ownership update consistently propagate across record,neutral,neutral
+DOCE Admin Aides,"Difficult to track relationships between owners, agents, and businesses.",difficult track relationship owner agent business,negative,negative
+DOCE Admin Aides,Property manager information is difficult to maintain.,property manager information difficult maintain,negative,negative
+DOCE Admin Aides,Address updates require extensive manual effort.,address update require extensive manual effort,neutral,neutral
+DOCE Admin Aides,Mailing and parcel addresses are managed separately.,mailing parcel address managed separately,neutral,neutral
+DOCE Admin Aides,Changes often require updates in multiple locations.,change often require update multiple location,neutral,neutral
+DOCE Admin Aides,Difficult to locate ownership and historical property information.,difficult locate ownership historical property information,negative,negative
+DOCE Admin Aides,Parcel History can be difficult to navigate.,parcel history difficult navigate,negative,negative
+DOCE Admin Aides,Historical records are not easily accessible.,historical record easily accessible,positive,negative
+DOCE Admin Aides,Searching across properties and cases is inefficient.,searching across property case inefficient,neutral,neutral
+DOCE Admin Aides,Frequent crashes and memory-related errors.,frequent crash error,negative,negative
+DOCE Admin Aides,Unexpected shutdowns can result in lost work.,unexpected shutdown result lost work,negative,negative
+DOCE Admin Aides,Performance decreases when handling multiple records.,performance decrease handling multiple record,neutral,neutral
+DOCE Admin Aides,BAA referrals require significant manual oversight.,baa referral require significant manual oversight,positive,positive
+DOCE Admin Aides,Document management and uploads can be inconsistent.,document management uploads inconsistent,neutral,neutral
+DOCE Admin Aides,Administrative workflows are not standardized across modules.,administrative workflow standardized across module,neutral,neutral
+DOCE Admin Aides,Duplicate data entry is common.,duplicate data entry common,neutral,neutral
+DOCE Admin Aides,No centralized source of property and ownership information exists.,centralized source property ownership information exists,neutral,negative
+DOCE Admin Aides,Tickets are frequently returned for minor corrections.,ticket frequently returned minor correction,neutral,neutral
+DOCE Admin Aides,Multiple review cycles delay enforcement activities.,multiple review cycle delay enforcement activity,negative,negative
+DOCE Admin Aides,"Significant coordination is required between Office Managers, inspectors, and BAA.",significant coordination required office manager inspector baa,positive,positive
+DOCE Admin Aides,Ownership verification requires multiple systems.,ownership verification requires multiple system,neutral,neutral
+DOCE Admin Aides,Historical property information can be difficult to locate.,historical property information difficult locate,negative,negative
+DOCE Admin Aides,Tracking ownership changes requires extensive manual research.,tracking ownership change requires extensive manual research,neutral,neutral
+DOCE Admin Aides,High volumes of records management and research activities.,high volume record management research activity,neutral,neutral
+DOCE Admin Aides,Significant time spent correcting data and ownership issues.,significant time spent correcting data ownership issue,positive,positive
+DOCE Admin Aides,Executive support and special projects compete with operational responsibilities.,executive support special project compete operational responsibility,positive,positive
+DOCE Building Inspectors,"Frequent Crashes: IPS crashes regularly, sometimes multiple times per week.",frequent crash ip crash regularly sometimes multiple time per week,negative,neutral
+DOCE Building Inspectors,Session Loss: Work can be lost when IPS crashes unexpectedly.,session loss work lost ip crash unexpectedly,negative,negative
+DOCE Building Inspectors,Performance Issues: System becomes slower as case volume increases.,performance issue system becomes slower case volume increase,positive,neutral
+DOCE Building Inspectors,Ownership Issues: Ownership records are inconsistent and difficult to maintain.,ownership issue ownership record inconsistent difficult maintain,negative,negative
+DOCE Building Inspectors,Multiple Record Locations: Ownership information can exist in several places.,multiple record location ownership information exist several place,neutral,neutral
+DOCE Building Inspectors,Outdated Information: Contact and ownership information is not always current.,outdated information contact ownership information always current,neutral,neutral
+DOCE Building Inspectors,Address Discrepancies: Property addresses are sometimes inconsistent across systems.,address discrepancy property address sometimes inconsistent across system,neutral,neutral
+DOCE Building Inspectors,Cases Difficult to Find: Locating specific cases can be time-consuming.,case difficult find locating specific case,negative,negative
+DOCE Building Inspectors,Too Much Information in Different Areas: Important information is spread throughout the system.,much information different area important information spread throughout system,positive,positive
+DOCE Building Inspectors,Multiple Ways to Update Data: Different update paths create inconsistencies.,multiple way update data different update path create inconsistency,positive,positive
+DOCE Building Inspectors,Tickle Dates Can Be Missed: Reminder dates can be overlooked or lost.,tickle date missed reminder date overlooked lost,negative,negative
+DOCE Building Inspectors,No Elevator Certification Visibility: Elevator certification status is difficult to access.,elevator certification visibility elevator certification status difficult access,negative,negative
+DOCE Building Inspectors,No Water Certification Visibility: Water certification information is not easily available.,water certification visibility water certification information easily available,positive,negative
+DOCE Building Inspectors,No Sprinkler Report Access: Inspectors cannot easily access sprinkler system reports.,sprinkler report access inspector easily access sprinkler system report,positive,negative
+DOCE Building Inspectors,Zoning Information Gaps: Zoning reviews do not consistently appear within inspection cases.,zoning information gap zoning review consistently appear within inspection case,neutral,neutral
+DOCE Building Inspectors,Third-Party Information Missing: Important compliance documentation exists outside IPS.,information missing important compliance documentation exists outside ip,negative,negative
+DOCE Building Inspectors,No Single Source of Truth: Information needed for inspections is spread across multiple systems.,single source truth information needed inspection spread across multiple system,positive,neutral
+DOCE Building Inspectors,Repeated Research: The same information often must be searched in several locations.,repeated research information often must searched several location,neutral,neutral
+DOCE Building Inspectors,Slow Zoning Approvals: Zone checks often delay certificate issuance.,slow zoning approval zone check often delay certificate issuance,positive,negative
+DOCE Building Inspectors,BAA Process Delays: Inspectors are often blamed for delays caused by BAA or Law.,baa process delay inspector often blamed delay caused baa law,negative,negative
+DOCE Building Inspectors,Permit Communication Gaps: Permit requirements are not always communicated effectively.,permit communication gap permit requirement always communicated effectively,positive,negative
+DOCE Building Inspectors,Tablet Reliability Issues: Existing tablets are slow and unreliable.,tablet reliability issue existing tablet slow unreliable,neutral,neutral
+DOCE Building Inspectors,Mobile Access Limitations: IPS functionality in the field is limited.,mobile access limitation ip functionality field limited,negative,negative
+DOCE Building Inspectors,Need for Personal Hotspots: Inspectors sometimes rely on personal hotspots to connect.,need personal hotspot inspector sometimes rely personal hotspot connect,neutral,neutral
+DOCE Building Inspectors,Field Documentation Challenges: Lack of effective mobile tools increases office-based data entry.,field documentation challenge lack effective mobile tool increase data entry,positive,positive
+DOCE CommercialPermitElectrical Inspectors,System Buffering & Slowdowns: IPS experiences performance issues and occasional breakdowns.,system buffering slowdown ip experience performance issue occasional breakdown,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Searching Difficulties: Finding information can be time-consuming.,searching difficulty finding information,negative,negative
+DOCE CommercialPermitElectrical Inspectors,Limited Documentation Capabilities: Difficult to document certain inspection and permit activities.,limited documentation capability difficult document certain inspection permit activity,negative,negative
+DOCE CommercialPermitElectrical Inspectors,Field Access Limitations: Limited ability to access and update cases in the field.,field access limitation limited ability access update case field,negative,positive
+DOCE CommercialPermitElectrical Inspectors,Manual Scheduling Requirements: Inspectors often maintain schedules outside IPS.,manual scheduling requirement inspector often maintain schedule outside ip,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,No Permit Workflow Integration: Permit workflows are primarily managed outside IPS.,permit workflow integration permit workflow primarily managed outside ip,neutral,negative
+DOCE CommercialPermitElectrical Inspectors,Lack of Permit Tracking Functionality: Permit inspectors rely heavily on Camino instead of IPS.,lack permit tracking functionality permit inspector rely heavily camino instead ip,negative,negative
+DOCE CommercialPermitElectrical Inspectors,Limited Follow-Up Tracking: IPS does not adequately support permit inspection workflows.,limited tracking ip adequately support permit inspection workflow,positive,negative
+DOCE CommercialPermitElectrical Inspectors,Difficulty Managing Inspection Histories: Inspectors must manually review large volumes of information.,difficulty managing inspection history inspector must manually review large volume information,negative,negative
+DOCE CommercialPermitElectrical Inspectors,Searching for Information: Important project and permit information can be difficult to locate.,searching information important project permit information difficult locate,negative,negative
+DOCE CommercialPermitElectrical Inspectors,No Unified Permit Record: Information is spread across multiple systems.,unified permit record information spread across multiple system,positive,positive
+DOCE CommercialPermitElectrical Inspectors,Project Visibility Issues: Inspectors lack visibility into all project activities from one location.,project visibility issue inspector lack visibility project activity one location,negative,negative
+DOCE CommercialPermitElectrical Inspectors,Scheduling Disconnect: Inspections scheduled in Camino do not automatically appear in Outlook.,scheduling disconnect inspection scheduled camino automatically appear outlook,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,No Calendar Integration: Inspectors maintain duplicate schedules.,calendar integration inspector maintain duplicate schedule,neutral,negative
+DOCE CommercialPermitElectrical Inspectors,No Tickler Functionality: Camino lacks reminder and follow-up tracking capabilities.,tickler functionality camino lack reminder tracking capability,negative,negative
+DOCE CommercialPermitElectrical Inspectors,Address Management Issues: Address information can be inaccurate or difficult to manage.,address management issue address information inaccurate difficult manage,negative,negative
+DOCE CommercialPermitElectrical Inspectors,Duplicate Records: Duplicate entries exist within Camino.,duplicate record duplicate entry exist within camino,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Navigation Difficulties: Users find Camino difficult to navigate.,navigation difficulty user find camino difficult navigate,negative,negative
+DOCE CommercialPermitElectrical Inspectors,Limited Visibility: Difficult to see assigned work and active projects.,limited visibility difficult see assigned work active project,negative,negative
+DOCE CommercialPermitElectrical Inspectors,No Internal Reminder System: Inspectors rely on manual notes and tracking methods.,internal reminder system inspector rely manual note tracking method,neutral,negative
+DOCE CommercialPermitElectrical Inspectors,Internet Dependency: Some functions are unavailable when connectivity issues occur.,internet dependency function unavailable connectivity issue occur,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Permit Office Coordination Issues: Permit processes are not fully integrated.,permit office coordination issue permit process fully integrated,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Contractor Coordination: Contractors do not always respond promptly to communication.,contractor coordination contractor always respond promptly communication,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Lack of Coordination: Electrical inspectors identified limited coordination across teams.,lack coordination electrical inspector identified limited coordination across team,negative,negative
+DOCE CommercialPermitElectrical Inspectors,Training Gaps: Insufficient training on Camino and related processes.,training gap insufficient training camino related process,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Manual Follow-Up Requirements: Inspectors must manually track contractor responses and inspection needs.,manual requirement inspector must manually track contractor response inspection need,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Handwritten Tracking: Inspectors often maintain handwritten schedules and inspection notes.,handwritten tracking inspector often maintain handwritten schedule inspection note,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Duplicate Data Entry: Information must be entered and tracked in multiple locations.,duplicate data entry information must entered tracked multiple location,neutral,neutral
+DOCE CommercialPermitElectrical Inspectors,Limited Mobile Functionality: Field-based work remains partially paper-driven.,limited mobile functionality work remains partially,negative,negative
+DOCE Fire Prevention Bureau,"Historical Research Takes Too Long: Researching prior violations, occupancy records, and property history requires multiple searches and system access.",historical research take long researching prior violation occupancy record property history requires multiple search system access,negative,negative
+DOCE Fire Prevention Bureau,Difficult Certificate Research: Finding previous Certificates of Occupancy and capacity information requires extensive digging.,difficult certificate research finding previous certificate occupancy capacity information requires extensive digging,negative,negative
+DOCE Fire Prevention Bureau,Multiple Search Locations: Information exists in several areas of the system.,multiple search location information exists several area system,neutral,neutral
+DOCE Fire Prevention Bureau,Parcel Search Limitations: Parcel information must be exact and is difficult to locate.,parcel search limitation parcel information must exact difficult locate,negative,negative
+DOCE Fire Prevention Bureau,"Multiple Documentation Locations: Users document actions, inspections, photos, and violations in different places.",multiple documentation location user document action inspection photo violation different place,negative,negative
+DOCE Fire Prevention Bureau,Inconsistent Documentation Practices: Different users store information differently.,inconsistent documentation practice different user store information differently,neutral,neutral
+DOCE Fire Prevention Bureau,Missing Parcel Information: Important parcel data is unavailable or difficult to locate.,missing parcel information important parcel data unavailable difficult locate,negative,negative
+DOCE Fire Prevention Bureau,Inactive Parcel Issues: Parcels that are active appear inactive within IPS.,inactive parcel issue parcel active appear inactive within ip,positive,positive
+DOCE Fire Prevention Bureau,Certificate & Inspection Review Challenges,certificate inspection review challenge,positive,positive
+DOCE Fire Prevention Bureau,CofO Sign-Off Process: Reviewing Certificates of Occupancy requires checking multiple locations.,cofo process reviewing certificate occupancy requires checking multiple location,neutral,neutral
+DOCE Fire Prevention Bureau,Closed Inspection Visibility: Difficult to locate all completed inspections associated with a project.,closed inspection visibility difficult locate completed inspection associated project,negative,negative
+DOCE Fire Prevention Bureau,Review Tracking Challenges: Tracking inspection and permit review status is cumbersome.,review tracking challenge tracking inspection permit review status cumbersome,positive,positive
+DOCE Fire Prevention Bureau,Desktop Dependency: IPS does not function well outside the office.,desktop dependency ip function well outside office,positive,negative
+DOCE Fire Prevention Bureau,No Effective Mobile Access: Inspectors cannot effectively use IPS in the field.,effective mobile access inspector effectively use ip field,positive,negative
+DOCE Fire Prevention Bureau,Limited Real-Time Documentation: Inspection information is not easily entered from mobile devices.,limited documentation inspection information easily entered mobile device,positive,negative
+DOCE Fire Prevention Bureau,No Built-In Calendar: Camino and EPR lack effective scheduling and calendar functionality.,calendar camino epr lack effective scheduling calendar functionality,positive,negative
+DOCE Fire Prevention Bureau,"Multiple Scheduling Systems: Staff use Outlook, ERP, and permit systems (Camino) simultaneously.",multiple scheduling system staff use outlook erp permit system camino simultaneously,neutral,neutral
+DOCE Fire Prevention Bureau,Duplicate Scheduling Activities: Inspection scheduling must be maintained in multiple locations.,duplicate scheduling activity inspection scheduling must maintained multiple location,neutral,neutral
+DOCE Fire Prevention Bureau,"Too Many Systems: Staff use IPS, Camino, EPR, Compliance Engine, Outlook, spreadsheets, and paper planners.",many system staff use ip camino epr compliance engine outlook spreadsheet paper planner,neutral,neutral
+DOCE Fire Prevention Bureau,Weak Integration: Information does not move efficiently between systems.,weak integration information move efficiently system,negative,negative
+DOCE Fire Prevention Bureau,Manual Coordination: Significant effort is required to coordinate data across platforms.,manual coordination significant effort required coordinate data across platform,positive,positive
+DOCE Fire Prevention Bureau,"Large Volume of Documentation: Managing plans, inspections, corrections, and approvals is time-consuming.",large volume documentation managing plan inspection correction approval,positive,neutral
+DOCE Fire Prevention Bureau,Permit Review Tracking: Monitoring project reviews requires manual follow-up.,permit review tracking monitoring project review requires manual,neutral,neutral
+DOCE Fire Prevention Bureau,Property Identification Issues: Properties with multiple businesses or occupancies are difficult to manage.,property identification issue property multiple business occupancy difficult manage,negative,negative
+DOCE Fire Prevention Bureau,Address Matching Challenges: Searches require exact addresses.,address matching challenge search require exact address,positive,positive
+DOCE Housing Inspectors,System Freezing: IPS frequently freezes or experiences loading delays.,system freezing ip frequently freeze experience loading delay,negative,negative
+DOCE Housing Inspectors,Slow Performance: Opening cases and completing actions can be slow.,slow performance opening case completing action slow,neutral,neutral
+DOCE Housing Inspectors,System Shutdowns: IPS occasionally requires restarts or intervention to function properly.,system shutdown ip occasionally requires restarts intervention function properly,neutral,neutral
+DOCE Housing Inspectors,Remote Access Issues: Difficulties connecting to IPS remotely from the field.,remote access issue difficulty connecting ip remotely field,negative,negative
+DOCE Housing Inspectors,No Global Case View: Difficult to review all active and closed cases associated with a property.,global case view difficult review active closed case associated property,positive,negative
+DOCE Housing Inspectors,Case Navigation Complexity: Navigating cases requires extensive system knowledge and experience.,case navigation complexity navigating case requires extensive system knowledge experience,neutral,neutral
+DOCE Housing Inspectors,Too Many Actions: Large numbers of actions and dropdown options create inefficiencies.,many action large number action dropdown option create inefficiency,positive,positive
+DOCE Housing Inspectors,"No Case Categorization: Cases cannot easily be categorized by status such as drive-by inspections, waiting on owners, or follow-up activities.",case categorization case easily categorized status inspection waiting owner activity,positive,negative
+DOCE Housing Inspectors,No Automated Case Monitoring: Difficult to identify cases lacking inspection dates or pending reviews.,automated case monitoring difficult identify case lacking inspection date pending review,negative,negative
+DOCE Housing Inspectors,Ownership Information Issues: Ownership information is not always updated consistently.,ownership information issue ownership information always updated consistently,neutral,neutral
+DOCE Housing Inspectors,Address Management Problems: Address changes do not automatically update across all cases.,address management problem address change automatically update across case,negative,negative
+DOCE Housing Inspectors,No Unified Address Book: Property and ownership information can vary between systems.,unified address book property ownership information vary system,positive,positive
+DOCE Housing Inspectors,Lead Map Accessibility: Lead-risk information is not readily available within cases.,lead map accessibility information readily available within case,neutral,neutral
+DOCE Housing Inspectors,Limited Water Information Access: Water records are not available directly in IPS.,limited water information access water record available directly ip,negative,negative
+DOCE Housing Inspectors,Information Fragmentation: Important information exists in multiple systems and locations.,information fragmentation important information exists multiple system location,positive,positive
+DOCE Housing Inspectors,Limited Field Access: Inspectors cannot fully access or update IPS while in the field.,limited field access inspector fully access update ip field,negative,negative
+DOCE Housing Inspectors,Photo Upload Process: Uploading and organizing photos is cumbersome.,photo upload process uploading organizing photo cumbersome,neutral,neutral
+DOCE Housing Inspectors,No Mobile Workflow: Inspectors must often return to the office to complete documentation.,mobile workflow inspector must often return office complete documentation,neutral,negative
+DOCE Housing Inspectors,No Laptop Access: Limited ability to update cases during inspections.,laptop access limited ability update case inspection,positive,negative
+DOCE Housing Inspectors,"Too Many Systems: Inspectors must use IPS, AS400, GIS, Outlook, Dropbox, spreadsheets, lead maps, and external databases.",many system inspector must use ip gi outlook dropbox spreadsheet lead map external database,neutral,neutral
+DOCE Housing Inspectors,"Repeated Research: Ownership, water, and lead information require separate searches.",repeated research ownership water lead information require separate search,neutral,neutral
+DOCE Housing Inspectors,No Single Source of Truth: Property information is spread across multiple applications.,single source truth property information spread across multiple application,positive,neutral
+DOCE Housing Inspectors,Shared Data Issues: Information entered by multiple users can create delays or confusion.,shared data issue information entered multiple user create delay confusion,neutral,positive
+DOCE Housing Inspectors,Address Updates: Address corrections are not consistently communicated throughout systems.,address update address correction consistently communicated throughout system,neutral,neutral
+DOCE Housing Inspectors,Manual Tracking: Inspectors maintain spreadsheets and notes to manage workloads.,manual tracking inspector maintain spreadsheet note manage workload,neutral,neutral
+DOCE Housing Inspectors,Lead Map Verification: Frequent manual checking of lead maps.,lead map verification frequent manual checking lead map,neutral,neutral
+DOCE Housing Inspectors,Violation Entry Delays: Simultaneous data entry can slow violation processing.,violation entry delay simultaneous data entry slow violation processing,negative,negative
+DOCE Housing Inspectors,Large Dropdown Lists: Long dropdown menus make data entry inefficient.,large dropdown list long dropdown menu make data entry inefficient,neutral,neutral
+DOCE Housing Inspectors,Case Organization Difficulties: Difficult to distinguish between different case types and statuses.,case organization difficulty difficult distinguish different case type status,negative,negative
+DOCE Office Manager,Duplicate ownership and contact records.,duplicate ownership contact record,neutral,neutral
+DOCE Office Manager,Ownership updates do not consistently propagate across records.,ownership update consistently propagate across record,neutral,neutral
+DOCE Office Manager,"Difficult to track relationships between owners, agents, and businesses.",difficult track relationship owner agent business,negative,negative
+DOCE Office Manager,Property manager information is difficult to maintain.,property manager information difficult maintain,negative,negative
+DOCE Office Manager,Address updates require extensive manual effort.,address update require extensive manual effort,neutral,neutral
+DOCE Office Manager,Mailing and parcel addresses are managed separately.,mailing parcel address managed separately,neutral,neutral
+DOCE Office Manager,Changes often require updates in multiple locations.,change often require update multiple location,neutral,neutral
+DOCE Office Manager,Difficult to locate ownership and historical property information.,difficult locate ownership historical property information,negative,negative
+DOCE Office Manager,Parcel History can be difficult to navigate.,parcel history difficult navigate,negative,negative
+DOCE Office Manager,Historical records are not easily accessible.,historical record easily accessible,positive,negative
+DOCE Office Manager,Searching across properties and cases is inefficient.,searching across property case inefficient,neutral,neutral
+DOCE Office Manager,Frequent crashes and memory-related errors.,frequent crash error,negative,negative
+DOCE Office Manager,Unexpected shutdowns can result in lost work.,unexpected shutdown result lost work,negative,negative
+DOCE Office Manager,Performance decreases when handling multiple records.,performance decrease handling multiple record,neutral,neutral
+DOCE Office Manager,BAA referrals require significant manual oversight.,baa referral require significant manual oversight,positive,positive
+DOCE Office Manager,Document management and uploads can be inconsistent.,document management uploads inconsistent,neutral,neutral
+DOCE Office Manager,Administrative workflows are not standardized across modules.,administrative workflow standardized across module,neutral,neutral
+DOCE Office Manager,Duplicate data entry is common.,duplicate data entry common,neutral,neutral
+DOCE Office Manager,No centralized source of property and ownership information exists.,centralized source property ownership information exists,neutral,negative
+DOCE Office Manager,Tickets are frequently returned for minor corrections.,ticket frequently returned minor correction,neutral,neutral
+DOCE Office Manager,Multiple review cycles delay enforcement activities.,multiple review cycle delay enforcement activity,negative,negative
+DOCE Office Manager,"Significant coordination is required between Office Managers, inspectors, and BAA.",significant coordination required office manager inspector baa,positive,positive
+DOCE Office Manager,Ownership verification requires multiple systems.,ownership verification requires multiple system,neutral,neutral
+DOCE Office Manager,Historical property information can be difficult to locate.,historical property information difficult locate,negative,negative
+DOCE Office Manager,Tracking ownership changes requires extensive manual research.,tracking ownership change requires extensive manual research,neutral,neutral
+DOCE Office Manager,High volumes of records management and research activities.,high volume record management research activity,neutral,neutral
+DOCE Office Manager,Significant time spent correcting data and ownership issues.,significant time spent correcting data ownership issue,positive,positive
+DOCE Office Manager,Executive support and special projects compete with operational responsibilities.,executive support special project compete operational responsibility,positive,positive
+DOCE Office Managers,IPS crashes frequently during complaint entry and daily operations.,ip crash frequently complaint entry daily operation,negative,negative
+DOCE Office Managers,Users experience unhandled exceptions and memory-related errors.,user experience unhandled exception error,negative,negative
+DOCE Office Managers,Work can be lost when the system crashes unexpectedly.,work lost system crash unexpectedly,negative,negative
+DOCE Office Managers,Multiple open tabs may contribute to instability.,multiple open tab may contribute instability,neutral,neutral
+DOCE Office Managers,Inspection appointments must be entered into multiple systems.,inspection appointment must entered multiple system,neutral,neutral
+DOCE Office Managers,Outlook and IPS schedules are not synchronized.,outlook ip schedule synchronized,neutral,neutral
+DOCE Office Managers,Periodic Inspection scheduling workflows are cumbersome.,periodic inspection scheduling workflow cumbersome,neutral,neutral
+DOCE Office Managers,Inspector lists in the Periodic Inspection module are not alphabetized.,inspector list periodic inspection module alphabetized,neutral,neutral
+DOCE Office Managers,Finding specific cases can be difficult.,finding specific case difficult,negative,negative
+DOCE Office Managers,Parcel History provides limited information when reviewing large properties.,parcel history provides limited information reviewing large property,negative,negative
+DOCE Office Managers,Important information can be difficult to locate within cases.,important information difficult locate within case,negative,negative
+DOCE Office Managers,Case notes and attachments are not always organized consistently.,case note attachment always organized consistently,positive,positive
+DOCE Office Managers,Some features behave differently across modules.,feature behave differently across module,neutral,neutral
+DOCE Office Managers,Certain attachments cannot always be uploaded successfully.,certain attachment always uploaded successfully,positive,positive
+DOCE Office Managers,Some complaint types do not have clearly defined workflows.,complaint type clearly defined workflow,positive,negative
+DOCE Office Managers,Complaint cases can take significant time to open.,complaint case take significant time open,negative,negative
+DOCE Office Managers,System responsiveness slows when handling multiple activities simultaneously.,system responsiveness slows handling multiple activity simultaneously,neutral,neutral
+DOCE Office Managers,Uploading documents can impact performance.,uploading document impact performance,neutral,neutral
+DOCE Office Managers,Calls automatically disconnect after several minutes.,call automatically disconnect several minute,neutral,neutral
+DOCE Office Managers,Long scheduling conversations are frequently interrupted.,long scheduling conversation frequently interrupted,negative,negative
+DOCE Office Managers,Customers become frustrated when calls are dropped.,customer become frustrated call dropped,negative,negative
+DOCE Office Managers,Staff lose significant time handling repeat calls.,staff lose significant time handling repeat call,negative,negative
+DOCE Office Managers,Duplicate data entry is required across multiple applications.,duplicate data entry required across multiple application,neutral,neutral
+DOCE Office Managers,Staff must frequently switch between systems to complete a task.,staff must frequently switch system complete task,neutral,neutral
+DOCE Office Managers,Ownership information can be difficult to verify.,ownership information difficult verify,negative,negative
+DOCE Office Managers,Address changes are not always reflected consistently.,address change always reflected consistently,neutral,neutral
+DOCE Office Managers,Multiple property research tools must be used together.,multiple property research tool must used together,neutral,neutral
+DOCE Office Managers,High call volumes create interruptions throughout the day.,high call volume create interruption throughout day,negative,negative
+DOCE Office Managers,Front-counter traffic can become overwhelming.,traffic become overwhelming,neutral,neutral
+DOCE Office Managers,"Staff rely heavily on personal notes, cheat sheets, and reference documents.",staff rely heavily personal note cheat sheet reference document,negative,negative
+DOCE Office Managers,Knowledge of certain processes is dependent on individual staff experience.,knowledge certain process dependent individual staff experience,positive,positive
+DOCE Office Managers,Limited standardization exists across some administrative workflows.,limited standardization exists across administrative workflow,negative,negative
+DOCE Supervisors,Missed Case Tracking: Cases can be missed if tickle dates are not entered correctly.,missed case tracking case missed tickle date entered correctly,negative,negative
+DOCE Supervisors,No Automatic Monitoring: No system-generated alerts for inactive or stalled cases.,automatic monitoring alert inactive stalled case,positive,negative
+DOCE Supervisors,Open Case Cleanup: Large number of legacy and inactive cases require manual cleanup.,open case cleanup large number legacy inactive case require manual cleanup,positive,positive
+DOCE Supervisors,"Cases Easily Lost: Cases, permits, and assignments can disappear from visibility if workflows are not followed correctly.",case easily lost case permit assignment disappear visibility workflow followed correctly,negative,negative
+DOCE Supervisors,Human Error Dependency: The system relies heavily on users remembering to complete actions.,human error dependency system relies heavily user remembering complete action,negative,negative
+DOCE Supervisors,Incomplete Historical Data: Historical information is missing or difficult to locate.,incomplete historical data historical information missing difficult locate,negative,negative
+DOCE Supervisors,Difficult Property Research: Researching property history requires navigating multiple records and screens.,difficult property research researching property history requires navigating multiple record screen,negative,negative
+DOCE Supervisors,Parcel Search Challenges: Subdivided and inactive parcels are difficult to track.,parcel search challenge subdivided inactive parcel difficult track,negative,negative
+DOCE Supervisors,Scattered Information: Related property information is not presented in a single view.,scattered information related property information presented single view,neutral,neutral
+DOCE Supervisors,Limited Reporting Capability: Reporting and analysis require significant manual effort.,limited reporting capability reporting analysis require significant manual effort,neutral,neutral
+DOCE Supervisors,"No Advanced Analytics: Limited ability to identify trends, recurring offenders, or enforcement patterns.",advanced analytics limited ability identify trend recurring offender enforcement pattern,neutral,negative
+DOCE Supervisors,Volume Challenges: IPS becomes cumbersome as case volume increases.,volume challenge ip becomes cumbersome case volume increase,positive,positive
+DOCE Supervisors,Specialized Knowledge Required: Users require significant experience to fully utilize the system.,specialized knowledge required user require significant experience fully utilize system,positive,positive
+DOCE Supervisors,No Batch Processing: Large-scale updates and cleanup activities are difficult to perform.,batch processing update cleanup activity difficult perform,negative,negative
+DOCE Supervisors,Duplicate Data Entry: Information must be entered and verified across multiple applications.,duplicate data entry information must entered verified across multiple application,neutral,neutral
+DOCE Supervisors,No Single Source of Truth: Property information is distributed across multiple databases.,single source truth property information distributed across multiple database,positive,neutral
+DOCE Supervisors,Missing Historical Records: Some historical records were lost or remain inaccessible.,missing historical record historical record lost remain inaccessible,negative,negative
+DOCE Supervisors,"Paper-Based Archives: Information remains stored in microfiche, paper files, and legacy systems.",archive information remains stored microfiche paper file legacy system,neutral,neutral
+DOCE Supervisors,Incomplete Digital Migration: Historical information has not been fully digitized.,incomplete digital migration historical information fully digitized,neutral,neutral
+DOCE Supervisors,Email Overload: Excessive reliance on email for project management and collaboration.,email overload excessive reliance email project management collaboration,negative,negative
+DOCE Supervisors,"Coordination Delays: Multiple departments are involved in many workflows, creating delays.",coordination delay multiple department involved many workflow creating delay,negative,positive
+DOCE Supervisors,Camino Frustration: Contractors frequently struggle with Camino.,camino frustration contractor frequently struggle camino,negative,negative
+DOCE Supervisors,"Address Discrepancies: Property addresses often differ between systems, creating confusion.",address discrepancy property address often differ system creating confusion,neutral,neutral
+DOCE Supervisors,Constituent Escalations: Supervisors spend significant time responding to escalated complaints and requests.,constituent escalation supervisor spend significant time responding escalated complaint request,negative,negative
+DOCE Zoning,"Fragmented Historical Records: Historical property, zoning, and parcel records are scattered across IPS, Camino, OnBase, AS400, microfiche, and paper archives, making research time-consuming.",fragmented historical record historical property zoning parcel record scattered across ip camino onbase microfiche paper archive making research,neutral,neutral
+DOCE Zoning,"Complex Property Research: Parcel history is difficult to follow after subdivisions, lot alterations, ownership changes, and address changes.",complex property research parcel history difficult follow subdivision lot alteration ownership change address change,negative,negative
+DOCE Zoning,"Incomplete Digital Records: Many historical zoning projects and approvals have not been migrated into IPS, requiring staff to search legacy systems.",incomplete digital record many historical zoning project approval migrated ip requiring staff search legacy system,positive,neutral
+DOCE Zoning,"Limited Search Functionality: Searching historical parcels, addresses, and zoning records is inefficient due to limited filtering and search capabilities.",limited search functionality searching historical parcel address zoning record inefficient due limited filtering search capability,negative,negative
+DOCE Zoning,"Scattered Project Information: Project documents, approvals, and historical records are distributed across multiple systems, making it difficult to view complete project history.",scattered project information project document approval historical record distributed across multiple system making difficult view complete project history,positive,negative
+DOCE Zoning,Missing Supporting Documentation: Older zoning projects often contain incomplete attachments or missing supporting documents within IPS.,missing supporting documentation older zoning project often contain incomplete attachment missing supporting document within ip,positive,positive
+DOCE Zoning,"Late Zoning Reviews: Certificate of Use and zoning reviews sometimes occur too late in the permitting process, delaying approvals.",late zoning review certificate use zoning review sometimes occur late permitting process delaying approval,positive,neutral
+DOCE Zoning,Manual Research Process: Staff must switch between multiple systems and physical archives to complete property research.,manual research process staff must switch multiple system physical archive complete property research,neutral,neutral
+DOCE Zoning,High Communication Volume: Responding to applicant inquiries and coordinating with reviewing departments consumes significant staff time.,high communication volume responding applicant inquiry coordinating reviewing department consumes significant staff time,positive,positive
+DOCE Zoning,Cross-Department Dependencies: Zoning reviews depend on timely input and coordination from multiple City departments.,dependency zoning review depend timely input coordination multiple city department,neutral,neutral
+DOCE Zoning,Legacy Record Dependency: Historical paper files and basement archives are still required to complete many zoning reviews.,legacy record dependency historical paper file basement archive still required complete many zoning review,neutral,neutral
+LAW Law,"Incomplete Case Documentation: Legal work cannot proceed when notices, Nail & Mail documentation, photographs, or inspection records have not been uploaded into IPS.",incomplete case documentation legal work proceed notice nail mail documentation photograph inspection record uploaded ip,positive,positive
+LAW Law,"Underutilized System: IPS is valuable when fully utilized, but inconsistent use by Code Enforcement results in incomplete notes and missing documentation.",underutilized system ip valuable fully utilized inconsistent use code enforcement result incomplete note missing documentation,positive,negative
+LAW Law,Limited Property Overview: IPS cannot easily combine multiple complaints and violations into a comprehensive property-level view.,limited property overview ip easily combine multiple complaint violation comprehensive view,negative,negative
+LAW Law,External Data Dependency: Water records require AS400 and tax information requires external systems because they are not integrated into IPS.,external data dependency water record require tax information requires external system integrated ip,neutral,neutral
+LAW Law,Limited Document Export: IPS information cannot easily transfer into Microsoft Word for preparing legal documents.,limited document export ip information easily transfer microsoft word preparing legal document,positive,negative
+LAW Law,Difficult Record Review: The Action Notes layout makes reviewing case history difficult because information is not presented clearly.,difficult record review action note layout make reviewing case history difficult information presented clearly,negative,negative
+LAW Law,"Documentation Quality: Court cases are delayed when inspectors do not consistently upload documents, photographs, or complete notes.",documentation quality court case delayed inspector consistently upload document photograph complete note,negative,negative
+LAW Law,"Manual Legal Research: Ownership, tax, and legal research require multiple external systems including Westlaw, County Clerk, eTax, and AS400.",manual legal research ownership tax legal research require multiple external system including westlaw county clerk etax,positive,positive
+LAW Law,Cross-Department Dependencies: Legal work depends on inspectors completing investigations and providing complete documentation before cases can proceed.,dependency legal work depends inspector completing investigation providing complete documentation case proceed,positive,positive
+LAW Law,Evidence Collection: Gathering exhibits and supporting documentation requires manual coordination across multiple departments and file repositories.,evidence collection gathering exhibit supporting documentation requires manual coordination across multiple department file repository,positive,positive

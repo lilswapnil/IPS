@@ -1,0 +1,453 @@
+﻿focus_group,pain_points
+Assessment Assessment Supervisors,IPS Related
+Assessment Assessment Supervisors,Historical Record Management: Historical permits and property records often require searching IPS together with OnBase because historical information is not consolidated.
+Assessment Assessment Supervisors,"Incomplete Property History: IPS does not always provide a complete historical picture for permits, Certificates of Occupancy, or property changes."
+Assessment Assessment Supervisors,Large Plan Viewing: Large plans and surveys cannot be viewed effectively within IPS.
+Assessment Assessment Supervisors,Limited Historical Visibility: Historical records are frequently needed to determine legal occupancy and previous property conditions but are not always easily accessible.
+Assessment Assessment Supervisors,Other
+Assessment Assessment Supervisors,"Property Research Complexity: Assessment work frequently requires combining information from permits, surveys, Engineering, and historical records to understand complete property history."
+Assessment Assessment Supervisors,Subdivision Tracking: Following parcel history after resubdivisions requires coordination with Engineering and County mapping records.
+Assessment Assessment Supervisors,"Permit Dependency: Assessment activities depend heavily on permit activity to identify changes affecting assessed value, although unpermitted improvements can still occur."
+Assessment Assessment Supervisors,"Seasonal Workload: Assessment activities vary throughout the year based on tax deadlines, permit volume, and market activity."
+CPO Central Permit Office,IPS Related
+CPO Central Permit Office,System Fragmentation
+CPO Central Permit Office,Split Permit & Code Systems: Permit and Code Enforcement information exists in separate systems and workflows.
+CPO Central Permit Office,"Scattered Information: Property and permit information is distributed across IPS, Camino, AS400, OnBase, and historical archives."
+CPO Central Permit Office,Research Complexity: Users must search multiple systems to understand complete property history.
+CPO Central Permit Office,"Difficult Information Retrieval: Finding relevant information often feels like ""hunting"" through multiple systems."
+CPO Central Permit Office,Integration Limitations
+CPO Central Permit Office,Limited IPS-Camino Integration: Information does not flow seamlessly between systems.
+CPO Central Permit Office,No Shared Permit/Violation Visibility: Permit reviewers cannot easily see related code information.
+CPO Central Permit Office,Duplicate Research Effort: Staff repeatedly search for the same information across systems.
+CPO Central Permit Office,No Automatic Cross-System Notifications: Permit and code workflows do not automatically notify each other.
+CPO Central Permit Office,Applicant Visibility Issues
+CPO Central Permit Office,Limited Status Transparency: Applicants cannot easily see permit status and review progress.
+CPO Central Permit Office,Review Status Gaps: Difficult for applicants to understand where applications are within the review process.
+CPO Central Permit Office,Communication Burden: Staff spend significant time responding to status inquiries.
+CPO Central Permit Office,Other
+CPO Central Permit Office,Application & Review Challenges
+CPO Central Permit Office,Too Many Applications: Large permit volumes create administrative workload.
+CPO Central Permit Office,Incorrect Document Uploads: Applicants frequently upload incorrect or incomplete documentation.
+CPO Central Permit Office,Review Delays: Applications can stall while waiting on reviews from other departments.
+CPO Central Permit Office,Manual Tracking Requirements: Staff use spreadsheets and external tools to monitor progress.
+CPO Central Permit Office,Documentation Challenges
+CPO Central Permit Office,Documentation Gaps: Existing systems do not adequately support permit documentation needs.
+CPO Central Permit Office,Historical Records Across Multiple Sources: Research requires navigating legacy repositories.
+CPO Central Permit Office,No Centralized Repository: Information is spread across numerous databases and archives.
+CPO Central Permit Office,Coordination Challenges
+CPO Central Permit Office,Cross-Department Dependencies: Progress depends on multiple departments completing reviews.
+CPO Central Permit Office,Permit-to-Code Disconnect: Code Enforcement and permitting activities are not fully synchronized.
+CPO Central Permit Office,Reviewer Coordination: Managing comments and approvals from multiple reviewers is time-consuming.
+CPO CPO Co-Ordinator,IPS related:
+CPO CPO Co-Ordinator,System Stability
+CPO CPO Co-Ordinator,System Crashes: IPS crashes during high-volume processing activities.
+CPO CPO Co-Ordinator,Attachment Issues: Problems saving and managing attachments.
+CPO CPO Co-Ordinator,Slow Performance: Delays when processing applications and notices.
+CPO CPO Co-Ordinator,Workflow Interruptions: Certain activities require workarounds or manual intervention.
+CPO CPO Co-Ordinator,Case Management Limitations
+CPO CPO Co-Ordinator,Complex Navigation: Multiple screens and tabs create inefficiencies.
+CPO CPO Co-Ordinator,Duplicate Ownership Records: Ownership information is difficult to maintain.
+CPO CPO Co-Ordinator,Expiration Tracking Limitations: Renewal tracking depends heavily on reports.
+CPO CPO Co-Ordinator,Address Lookup Challenges: Difficulty locating accurate address information.
+CPO CPO Co-Ordinator,Information Management Challenges
+CPO CPO Co-Ordinator,Manual Ownership Maintenance: Significant effort required to maintain ownership records.
+CPO CPO Co-Ordinator,No Automated Renewal Queue: Renewal management requires manual tracking.
+CPO CPO Co-Ordinator,Property Research Complexity: Multiple searches are often required to locate information.
+CPO CPO Co-Ordinator,Other
+CPO CPO Co-Ordinator,Camino Challenges
+CPO CPO Co-Ordinator,Duplicate Data Entry: Information must often be entered into both IPS and Camino.
+CPO CPO Co-Ordinator,Poor Integration: Limited integration between Camino and IPS.
+CPO CPO Co-Ordinator,"Split Workflows: Licensing, permitting, and registry processes span multiple systems."
+CPO CPO Co-Ordinator,Application Processing Complexity: Certain workflows became more complicated after Camino implementation.
+CPO CPO Co-Ordinator,Scheduling & Communication Challenges
+CPO CPO Co-Ordinator,Manual Scheduling: Significant effort required to coordinate inspections.
+CPO CPO Co-Ordinator,Applicant Status Requests: Staff spend considerable time responding to status inquiries.
+CPO CPO Co-Ordinator,Manual Notification Processes: Renewal and expiration notices require manual effort.
+CPO CPO Co-Ordinator,Applicant Confusion: Applicants often struggle to understand requirements and application status.
+CPO CPO Co-Ordinator,Operational Challenges
+CPO CPO Co-Ordinator,Spreadsheet Dependency: External spreadsheets are required to track work.
+CPO CPO Co-Ordinator,Cross-System Research: Information must be gathered from several systems.
+CPO CPO Co-Ordinator,Duplicate Processes: Similar information is maintained in multiple locations.
+DOCE Admin Aide,IPS Related
+DOCE Admin Aide,System Stability
+DOCE Admin Aide,IPS crashes frequently during complaint entry and daily operations.
+DOCE Admin Aide,Users experience unhandled exceptions and memory-related errors.
+DOCE Admin Aide,Work can be lost when the system crashes unexpectedly.
+DOCE Admin Aide,Multiple open tabs may contribute to instability.
+DOCE Admin Aide,Scheduling Limitations
+DOCE Admin Aide,Inspection appointments must be entered into multiple systems.
+DOCE Admin Aide,Outlook and IPS schedules are not synchronized.
+DOCE Admin Aide,Periodic Inspection scheduling workflows are cumbersome.
+DOCE Admin Aide,Inspector lists in the Periodic Inspection module are not alphabetized.
+DOCE Admin Aide,Case Management Challenges
+DOCE Admin Aide,Finding specific cases can be difficult.
+DOCE Admin Aide,Parcel History provides limited information when reviewing large properties.
+DOCE Admin Aide,Important information can be difficult to locate within cases.
+DOCE Admin Aide,Case notes and attachments are not always organized consistently.
+DOCE Admin Aide,Workflow Challenges
+DOCE Admin Aide,Some features behave differently across modules.
+DOCE Admin Aide,Save functions are inconsistent.
+DOCE Admin Aide,Certain attachments cannot always be uploaded successfully.
+DOCE Admin Aide,Some complaint types do not have clearly defined workflows.
+DOCE Admin Aide,Performance Issues
+DOCE Admin Aide,Complaint cases can take significant time to open.
+DOCE Admin Aide,System responsiveness slows when handling multiple activities simultaneously.
+DOCE Admin Aide,Uploading documents can impact performance.
+DOCE Admin Aide,Other
+DOCE Admin Aide,Phone System Issues
+DOCE Admin Aide,Calls automatically disconnect after several minutes.
+DOCE Admin Aide,Long scheduling conversations are frequently interrupted.
+DOCE Admin Aide,Customers become frustrated when calls are dropped.
+DOCE Admin Aide,Staff lose significant time handling repeat calls.
+DOCE Admin Aide,Multiple Systems
+DOCE Admin Aide,"Information must be accessed across IPS, Camino, AS400, GIS, Outlook, and other systems."
+DOCE Admin Aide,Duplicate data entry is required across multiple applications.
+DOCE Admin Aide,Staff must frequently switch between systems to complete a task.
+DOCE Admin Aide,Property Research Challenges
+DOCE Admin Aide,Ownership information can be difficult to verify.
+DOCE Admin Aide,Address changes are not always reflected consistently.
+DOCE Admin Aide,Multiple property research tools must be used together.
+DOCE Admin Aide,Workload Challenges
+DOCE Admin Aide,High call volumes create interruptions throughout the day.
+DOCE Admin Aide,Front-counter traffic can become overwhelming.
+DOCE Admin Aide,Staff often support requests intended for other city departments.
+DOCE Admin Aide,Training & Knowledge Challenges
+DOCE Admin Aide,"Staff rely heavily on personal notes, cheat sheets, and reference documents."
+DOCE Admin Aide,Knowledge of certain processes is dependent on individual staff experience.
+DOCE Admin Aide,Limited standardization exists across some administrative workflows.
+DOCE Admin Aides,IPS Related
+DOCE Admin Aides,Ownership & Contact Management
+DOCE Admin Aides,Duplicate ownership and contact records.
+DOCE Admin Aides,Ownership updates do not consistently propagate across records.
+DOCE Admin Aides,"Difficult to track relationships between owners, agents, and businesses."
+DOCE Admin Aides,Property manager information is difficult to maintain.
+DOCE Admin Aides,Address Management
+DOCE Admin Aides,Address updates require extensive manual effort.
+DOCE Admin Aides,Mailing and parcel addresses are managed separately.
+DOCE Admin Aides,Changes often require updates in multiple locations.
+DOCE Admin Aides,Search & Navigation
+DOCE Admin Aides,Difficult to locate ownership and historical property information.
+DOCE Admin Aides,Parcel History can be difficult to navigate.
+DOCE Admin Aides,Historical records are not easily accessible.
+DOCE Admin Aides,Searching across properties and cases is inefficient.
+DOCE Admin Aides,System Stability
+DOCE Admin Aides,Frequent crashes and memory-related errors.
+DOCE Admin Aides,Unexpected shutdowns can result in lost work.
+DOCE Admin Aides,Performance decreases when handling multiple records.
+DOCE Admin Aides,Workflow Limitations
+DOCE Admin Aides,BAA referrals require significant manual oversight.
+DOCE Admin Aides,Document management and uploads can be inconsistent.
+DOCE Admin Aides,Administrative workflows are not standardized across modules.
+DOCE Admin Aides,Other
+DOCE Admin Aides,Multiple Systems
+DOCE Admin Aides,"Information is spread across IPS, AS400, Camino, ImageMate, GIS, deed searches, and other systems."
+DOCE Admin Aides,Duplicate data entry is common.
+DOCE Admin Aides,No centralized source of property and ownership information exists.
+DOCE Admin Aides,BAA Process Challenges
+DOCE Admin Aides,Tickets are frequently returned for minor corrections.
+DOCE Admin Aides,Multiple review cycles delay enforcement activities.
+DOCE Admin Aides,"Significant coordination is required between Office Managers, inspectors, and BAA."
+DOCE Admin Aides,Property Research Challenges
+DOCE Admin Aides,Ownership verification requires multiple systems.
+DOCE Admin Aides,Historical property information can be difficult to locate.
+DOCE Admin Aides,Tracking ownership changes requires extensive manual research.
+DOCE Admin Aides,Administrative Workload
+DOCE Admin Aides,High volumes of records management and research activities.
+DOCE Admin Aides,Significant time spent correcting data and ownership issues.
+DOCE Admin Aides,Executive support and special projects compete with operational responsibilities.
+DOCE Building Inspectors,IPS Related
+DOCE Building Inspectors,System Stability
+DOCE Building Inspectors,"Frequent Crashes: IPS crashes regularly, sometimes multiple times per week."
+DOCE Building Inspectors,Session Loss: Work can be lost when IPS crashes unexpectedly.
+DOCE Building Inspectors,Performance Issues: System becomes slower as case volume increases.
+DOCE Building Inspectors,Ownership & Property Information
+DOCE Building Inspectors,Ownership Issues: Ownership records are inconsistent and difficult to maintain.
+DOCE Building Inspectors,Multiple Record Locations: Ownership information can exist in several places.
+DOCE Building Inspectors,Outdated Information: Contact and ownership information is not always current.
+DOCE Building Inspectors,Address Discrepancies: Property addresses are sometimes inconsistent across systems.
+DOCE Building Inspectors,Case Management Limitations
+DOCE Building Inspectors,Cases Difficult to Find: Locating specific cases can be time-consuming.
+DOCE Building Inspectors,Too Much Information in Different Areas: Important information is spread throughout the system.
+DOCE Building Inspectors,Multiple Ways to Update Data: Different update paths create inconsistencies.
+DOCE Building Inspectors,Case Visibility Issues: Limited visibility into activities completed by other departments.
+DOCE Building Inspectors,Tickle Dates Can Be Missed: Reminder dates can be overlooked or lost.
+DOCE Building Inspectors,Missing Information
+DOCE Building Inspectors,No Elevator Certification Visibility: Elevator certification status is difficult to access.
+DOCE Building Inspectors,No Water Certification Visibility: Water certification information is not easily available.
+DOCE Building Inspectors,No Sprinkler Report Access: Inspectors cannot easily access sprinkler system reports.
+DOCE Building Inspectors,Zoning Information Gaps: Zoning reviews do not consistently appear within inspection cases.
+DOCE Building Inspectors,Third-Party Information Missing: Important compliance documentation exists outside IPS.
+DOCE Building Inspectors,Other
+DOCE Building Inspectors,Multiple Systems
+DOCE Building Inspectors,"Too Many Applications: Inspectors must switch between IPS, Camino, AS400, Compliance Engine, Outlook, and other tools."
+DOCE Building Inspectors,No Single Source of Truth: Information needed for inspections is spread across multiple systems.
+DOCE Building Inspectors,Repeated Research: The same information often must be searched in several locations.
+DOCE Building Inspectors,Communication & Coordination
+DOCE Building Inspectors,Slow Zoning Approvals: Zone checks often delay certificate issuance.
+DOCE Building Inspectors,"Lack of Updates from Other Departments: Fire, Zoning, Law, and BAA do not consistently update case information."
+DOCE Building Inspectors,Reliance on Others: Inspectors depend heavily on other departments to complete work.
+DOCE Building Inspectors,BAA Process Delays: Inspectors are often blamed for delays caused by BAA or Law.
+DOCE Building Inspectors,Permit Communication Gaps: Permit requirements are not always communicated effectively.
+DOCE Building Inspectors,Field Technology Limitations
+DOCE Building Inspectors,Tablet Reliability Issues: Existing tablets are slow and unreliable.
+DOCE Building Inspectors,Mobile Access Limitations: IPS functionality in the field is limited.
+DOCE Building Inspectors,Need for Personal Hotspots: Inspectors sometimes rely on personal hotspots to connect.
+DOCE Building Inspectors,Field Documentation Challenges: Lack of effective mobile tools increases office-based data entry.
+DOCE CommercialPermitElectrical Inspectors,IPS Related
+DOCE CommercialPermitElectrical Inspectors,System Performance
+DOCE CommercialPermitElectrical Inspectors,System Buffering & Slowdowns: IPS experiences performance issues and occasional breakdowns.
+DOCE CommercialPermitElectrical Inspectors,Searching Difficulties: Finding information can be time-consuming.
+DOCE CommercialPermitElectrical Inspectors,Limited Documentation Capabilities: Difficult to document certain inspection and permit activities.
+DOCE CommercialPermitElectrical Inspectors,Field Access Limitations: Limited ability to access and update cases in the field.
+DOCE CommercialPermitElectrical Inspectors,Manual Scheduling Requirements: Inspectors often maintain schedules outside IPS.
+DOCE CommercialPermitElectrical Inspectors,Case Management Limitations
+DOCE CommercialPermitElectrical Inspectors,No Permit Workflow Integration: Permit workflows are primarily managed outside IPS.
+DOCE CommercialPermitElectrical Inspectors,Lack of Permit Tracking Functionality: Permit inspectors rely heavily on Camino instead of IPS.
+DOCE CommercialPermitElectrical Inspectors,Limited Follow-Up Tracking: IPS does not adequately support permit inspection workflows.
+DOCE CommercialPermitElectrical Inspectors,Difficulty Managing Inspection Histories: Inspectors must manually review large volumes of information.
+DOCE CommercialPermitElectrical Inspectors,Data & Information Challenges
+DOCE CommercialPermitElectrical Inspectors,Searching for Information: Important project and permit information can be difficult to locate.
+DOCE CommercialPermitElectrical Inspectors,No Unified Permit Record: Information is spread across multiple systems.
+DOCE CommercialPermitElectrical Inspectors,Project Visibility Issues: Inspectors lack visibility into all project activities from one location.
+DOCE CommercialPermitElectrical Inspectors,Other
+DOCE CommercialPermitElectrical Inspectors,Camino Challenges
+DOCE CommercialPermitElectrical Inspectors,Scheduling Disconnect: Inspections scheduled in Camino do not automatically appear in Outlook.
+DOCE CommercialPermitElectrical Inspectors,No Calendar Integration: Inspectors maintain duplicate schedules.
+DOCE CommercialPermitElectrical Inspectors,No Tickler Functionality: Camino lacks reminder and follow-up tracking capabilities.
+DOCE CommercialPermitElectrical Inspectors,Address Management Issues: Address information can be inaccurate or difficult to manage.
+DOCE CommercialPermitElectrical Inspectors,Duplicate Records: Duplicate entries exist within Camino.
+DOCE CommercialPermitElectrical Inspectors,Navigation Difficulties: Users find Camino difficult to navigate.
+DOCE CommercialPermitElectrical Inspectors,Limited Visibility: Difficult to see assigned work and active projects.
+DOCE CommercialPermitElectrical Inspectors,No Internal Reminder System: Inspectors rely on manual notes and tracking methods.
+DOCE CommercialPermitElectrical Inspectors,Internet Dependency: Some functions are unavailable when connectivity issues occur.
+DOCE CommercialPermitElectrical Inspectors,Permit Office Coordination Issues: Permit processes are not fully integrated.
+DOCE CommercialPermitElectrical Inspectors,Communication Challenges
+DOCE CommercialPermitElectrical Inspectors,Contractor Coordination: Contractors do not always respond promptly to communication.
+DOCE CommercialPermitElectrical Inspectors,Lack of Coordination: Electrical inspectors identified limited coordination across teams.
+DOCE CommercialPermitElectrical Inspectors,Training Gaps: Insufficient training on Camino and related processes.
+DOCE CommercialPermitElectrical Inspectors,Manual Follow-Up Requirements: Inspectors must manually track contractor responses and inspection needs.
+DOCE CommercialPermitElectrical Inspectors,Operational Challenges
+DOCE CommercialPermitElectrical Inspectors,Handwritten Tracking: Inspectors often maintain handwritten schedules and inspection notes.
+DOCE CommercialPermitElectrical Inspectors,"Multiple Systems: Staff must switch between Camino, IPS, Outlook, phones, and other tools."
+DOCE CommercialPermitElectrical Inspectors,Duplicate Data Entry: Information must be entered and tracked in multiple locations.
+DOCE CommercialPermitElectrical Inspectors,Limited Mobile Functionality: Field-based work remains partially paper-driven.
+DOCE Fire Prevention Bureau,IPS related
+DOCE Fire Prevention Bureau,Property Research Difficulties
+DOCE Fire Prevention Bureau,"Historical Research Takes Too Long: Researching prior violations, occupancy records, and property history requires multiple searches and system access."
+DOCE Fire Prevention Bureau,Difficult Certificate Research: Finding previous Certificates of Occupancy and capacity information requires extensive digging.
+DOCE Fire Prevention Bureau,Multiple Search Locations: Information exists in several areas of the system.
+DOCE Fire Prevention Bureau,Parcel Search Limitations: Parcel information must be exact and is difficult to locate.
+DOCE Fire Prevention Bureau,Information Fragmentation
+DOCE Fire Prevention Bureau,"Multiple Documentation Locations: Users document actions, inspections, photos, and violations in different places."
+DOCE Fire Prevention Bureau,Inconsistent Documentation Practices: Different users store information differently.
+DOCE Fire Prevention Bureau,Missing Parcel Information: Important parcel data is unavailable or difficult to locate.
+DOCE Fire Prevention Bureau,Inactive Parcel Issues: Parcels that are active appear inactive within IPS.
+DOCE Fire Prevention Bureau,Certificate & Inspection Review Challenges
+DOCE Fire Prevention Bureau,CofO Sign-Off Process: Reviewing Certificates of Occupancy requires checking multiple locations.
+DOCE Fire Prevention Bureau,Closed Inspection Visibility: Difficult to locate all completed inspections associated with a project.
+DOCE Fire Prevention Bureau,Review Tracking Challenges: Tracking inspection and permit review status is cumbersome.
+DOCE Fire Prevention Bureau,Remote Access Limitations
+DOCE Fire Prevention Bureau,Desktop Dependency: IPS does not function well outside the office.
+DOCE Fire Prevention Bureau,No Effective Mobile Access: Inspectors cannot effectively use IPS in the field.
+DOCE Fire Prevention Bureau,Limited Real-Time Documentation: Inspection information is not easily entered from mobile devices.
+DOCE Fire Prevention Bureau,Other
+DOCE Fire Prevention Bureau,Scheduling Challenges
+DOCE Fire Prevention Bureau,No Built-In Calendar: Camino and EPR lack effective scheduling and calendar functionality.
+DOCE Fire Prevention Bureau,"Multiple Scheduling Systems: Staff use Outlook, ERP, and permit systems (Camino) simultaneously."
+DOCE Fire Prevention Bureau,Duplicate Scheduling Activities: Inspection scheduling must be maintained in multiple locations.
+DOCE Fire Prevention Bureau,System Integration Challenges
+DOCE Fire Prevention Bureau,"Too Many Systems: Staff use IPS, Camino, EPR, Compliance Engine, Outlook, spreadsheets, and paper planners."
+DOCE Fire Prevention Bureau,Weak Integration: Information does not move efficiently between systems.
+DOCE Fire Prevention Bureau,Manual Coordination: Significant effort is required to coordinate data across platforms.
+DOCE Fire Prevention Bureau,Operational Challenges
+DOCE Fire Prevention Bureau,"Large Volume of Documentation: Managing plans, inspections, corrections, and approvals is time-consuming."
+DOCE Fire Prevention Bureau,Permit Review Tracking: Monitoring project reviews requires manual follow-up.
+DOCE Fire Prevention Bureau,Property Identification Issues: Properties with multiple businesses or occupancies are difficult to manage.
+DOCE Fire Prevention Bureau,Address Matching Challenges: Searches require exact addresses.
+DOCE Housing Inspectors,IPS Related:
+DOCE Housing Inspectors,System Performance
+DOCE Housing Inspectors,System Freezing: IPS frequently freezes or experiences loading delays.
+DOCE Housing Inspectors,Slow Performance: Opening cases and completing actions can be slow.
+DOCE Housing Inspectors,System Shutdowns: IPS occasionally requires restarts or intervention to function properly.
+DOCE Housing Inspectors,Remote Access Issues: Difficulties connecting to IPS remotely from the field.
+DOCE Housing Inspectors,Case Management Limitations
+DOCE Housing Inspectors,No Global Case View: Difficult to review all active and closed cases associated with a property.
+DOCE Housing Inspectors,Case Navigation Complexity: Navigating cases requires extensive system knowledge and experience.
+DOCE Housing Inspectors,Too Many Actions: Large numbers of actions and dropdown options create inefficiencies.
+DOCE Housing Inspectors,"No Case Categorization: Cases cannot easily be categorized by status such as drive-by inspections, waiting on owners, or follow-up activities."
+DOCE Housing Inspectors,No Automated Case Monitoring: Difficult to identify cases lacking inspection dates or pending reviews.
+DOCE Housing Inspectors,Data & Information Challenges
+DOCE Housing Inspectors,Ownership Information Issues: Ownership information is not always updated consistently.
+DOCE Housing Inspectors,Address Management Problems: Address changes do not automatically update across all cases.
+DOCE Housing Inspectors,No Unified Address Book: Property and ownership information can vary between systems.
+DOCE Housing Inspectors,Lead Map Accessibility: Lead-risk information is not readily available within cases.
+DOCE Housing Inspectors,Limited Water Information Access: Water records are not available directly in IPS.
+DOCE Housing Inspectors,Information Fragmentation: Important information exists in multiple systems and locations.
+DOCE Housing Inspectors,Field Functionality Limitations
+DOCE Housing Inspectors,Limited Field Access: Inspectors cannot fully access or update IPS while in the field.
+DOCE Housing Inspectors,Photo Upload Process: Uploading and organizing photos is cumbersome.
+DOCE Housing Inspectors,No Mobile Workflow: Inspectors must often return to the office to complete documentation.
+DOCE Housing Inspectors,No Laptop Access: Limited ability to update cases during inspections.
+DOCE Housing Inspectors,Other:
+DOCE Housing Inspectors,Multiple Systems
+DOCE Housing Inspectors,"Too Many Systems: Inspectors must use IPS, AS400, GIS, Outlook, Dropbox, spreadsheets, lead maps, and external databases."
+DOCE Housing Inspectors,"Repeated Research: Ownership, water, and lead information require separate searches."
+DOCE Housing Inspectors,No Single Source of Truth: Property information is spread across multiple applications.
+DOCE Housing Inspectors,Communication Challenges
+DOCE Housing Inspectors,Coordination Delays: Delays occur when waiting for information from other staff or departments.
+DOCE Housing Inspectors,Shared Data Issues: Information entered by multiple users can create delays or confusion.
+DOCE Housing Inspectors,Address Updates: Address corrections are not consistently communicated throughout systems.
+DOCE Housing Inspectors,Operational Challenges
+DOCE Housing Inspectors,Manual Tracking: Inspectors maintain spreadsheets and notes to manage workloads.
+DOCE Housing Inspectors,Lead Map Verification: Frequent manual checking of lead maps.
+DOCE Housing Inspectors,Violation Entry Delays: Simultaneous data entry can slow violation processing.
+DOCE Housing Inspectors,Large Dropdown Lists: Long dropdown menus make data entry inefficient.
+DOCE Housing Inspectors,Case Organization Difficulties: Difficult to distinguish between different case types and statuses.
+DOCE Office Manager,IPS Related
+DOCE Office Manager,Ownership & Contact Management
+DOCE Office Manager,Duplicate ownership and contact records.
+DOCE Office Manager,Ownership updates do not consistently propagate across records.
+DOCE Office Manager,"Difficult to track relationships between owners, agents, and businesses."
+DOCE Office Manager,Property manager information is difficult to maintain.
+DOCE Office Manager,Address Management
+DOCE Office Manager,Address updates require extensive manual effort.
+DOCE Office Manager,Mailing and parcel addresses are managed separately.
+DOCE Office Manager,Changes often require updates in multiple locations.
+DOCE Office Manager,Search & Navigation
+DOCE Office Manager,Difficult to locate ownership and historical property information.
+DOCE Office Manager,Parcel History can be difficult to navigate.
+DOCE Office Manager,Historical records are not easily accessible.
+DOCE Office Manager,Searching across properties and cases is inefficient.
+DOCE Office Manager,System Stability
+DOCE Office Manager,Frequent crashes and memory-related errors.
+DOCE Office Manager,Unexpected shutdowns can result in lost work.
+DOCE Office Manager,Performance decreases when handling multiple records.
+DOCE Office Manager,Workflow Limitations
+DOCE Office Manager,BAA referrals require significant manual oversight.
+DOCE Office Manager,Document management and uploads can be inconsistent.
+DOCE Office Manager,Administrative workflows are not standardized across modules.
+DOCE Office Manager,Other
+DOCE Office Manager,Multiple Systems
+DOCE Office Manager,"Information is spread across IPS, AS400, Camino, ImageMate, GIS, deed searches, and other systems."
+DOCE Office Manager,Duplicate data entry is common.
+DOCE Office Manager,No centralized source of property and ownership information exists.
+DOCE Office Manager,BAA Process Challenges
+DOCE Office Manager,Tickets are frequently returned for minor corrections.
+DOCE Office Manager,Multiple review cycles delay enforcement activities.
+DOCE Office Manager,"Significant coordination is required between Office Managers, inspectors, and BAA."
+DOCE Office Manager,Property Research Challenges
+DOCE Office Manager,Ownership verification requires multiple systems.
+DOCE Office Manager,Historical property information can be difficult to locate.
+DOCE Office Manager,Tracking ownership changes requires extensive manual research.
+DOCE Office Manager,Administrative Workload
+DOCE Office Manager,High volumes of records management and research activities.
+DOCE Office Manager,Significant time spent correcting data and ownership issues.
+DOCE Office Manager,Executive support and special projects compete with operational responsibilities.
+DOCE Office Managers,IPS Related
+DOCE Office Managers,System Stability
+DOCE Office Managers,IPS crashes frequently during complaint entry and daily operations.
+DOCE Office Managers,Users experience unhandled exceptions and memory-related errors.
+DOCE Office Managers,Work can be lost when the system crashes unexpectedly.
+DOCE Office Managers,Multiple open tabs may contribute to instability.
+DOCE Office Managers,Scheduling Limitations
+DOCE Office Managers,Inspection appointments must be entered into multiple systems.
+DOCE Office Managers,Outlook and IPS schedules are not synchronized.
+DOCE Office Managers,Periodic Inspection scheduling workflows are cumbersome.
+DOCE Office Managers,Inspector lists in the Periodic Inspection module are not alphabetized.
+DOCE Office Managers,Case Management Challenges
+DOCE Office Managers,Finding specific cases can be difficult.
+DOCE Office Managers,Parcel History provides limited information when reviewing large properties.
+DOCE Office Managers,Important information can be difficult to locate within cases.
+DOCE Office Managers,Case notes and attachments are not always organized consistently.
+DOCE Office Managers,Workflow Challenges
+DOCE Office Managers,Some features behave differently across modules.
+DOCE Office Managers,Save functions are inconsistent.
+DOCE Office Managers,Certain attachments cannot always be uploaded successfully.
+DOCE Office Managers,Some complaint types do not have clearly defined workflows.
+DOCE Office Managers,Performance Issues
+DOCE Office Managers,Complaint cases can take significant time to open.
+DOCE Office Managers,System responsiveness slows when handling multiple activities simultaneously.
+DOCE Office Managers,Uploading documents can impact performance.
+DOCE Office Managers,Other
+DOCE Office Managers,Phone System Issues
+DOCE Office Managers,Calls automatically disconnect after several minutes.
+DOCE Office Managers,Long scheduling conversations are frequently interrupted.
+DOCE Office Managers,Customers become frustrated when calls are dropped.
+DOCE Office Managers,Staff lose significant time handling repeat calls.
+DOCE Office Managers,Multiple Systems
+DOCE Office Managers,"Information must be accessed across IPS, Camino, AS400, GIS, Outlook, and other systems."
+DOCE Office Managers,Duplicate data entry is required across multiple applications.
+DOCE Office Managers,Staff must frequently switch between systems to complete a task.
+DOCE Office Managers,Property Research Challenges
+DOCE Office Managers,Ownership information can be difficult to verify.
+DOCE Office Managers,Address changes are not always reflected consistently.
+DOCE Office Managers,Multiple property research tools must be used together.
+DOCE Office Managers,Workload Challenges
+DOCE Office Managers,High call volumes create interruptions throughout the day.
+DOCE Office Managers,Front-counter traffic can become overwhelming.
+DOCE Office Managers,Staff often support requests intended for other city departments.
+DOCE Office Managers,Training & Knowledge Challenges
+DOCE Office Managers,"Staff rely heavily on personal notes, cheat sheets, and reference documents."
+DOCE Office Managers,Knowledge of certain processes is dependent on individual staff experience.
+DOCE Office Managers,Limited standardization exists across some administrative workflows.
+DOCE Supervisors,IPS Related:
+DOCE Supervisors,Case Management Gaps
+DOCE Supervisors,Missed Case Tracking: Cases can be missed if tickle dates are not entered correctly.
+DOCE Supervisors,No Automatic Monitoring: No system-generated alerts for inactive or stalled cases.
+DOCE Supervisors,Open Case Cleanup: Large number of legacy and inactive cases require manual cleanup.
+DOCE Supervisors,"Cases Easily Lost: Cases, permits, and assignments can disappear from visibility if workflows are not followed correctly."
+DOCE Supervisors,Human Error Dependency: The system relies heavily on users remembering to complete actions.
+DOCE Supervisors,Data & Information Issues
+DOCE Supervisors,Incomplete Historical Data: Historical information is missing or difficult to locate.
+DOCE Supervisors,Difficult Property Research: Researching property history requires navigating multiple records and screens.
+DOCE Supervisors,Parcel Search Challenges: Subdivided and inactive parcels are difficult to track.
+DOCE Supervisors,Scattered Information: Related property information is not presented in a single view.
+DOCE Supervisors,Reporting Limitations
+DOCE Supervisors,Limited Reporting Capability: Reporting and analysis require significant manual effort.
+DOCE Supervisors,"No Advanced Analytics: Limited ability to identify trends, recurring offenders, or enforcement patterns."
+DOCE Supervisors,System Performance & Usability
+DOCE Supervisors,Volume Challenges: IPS becomes cumbersome as case volume increases.
+DOCE Supervisors,Specialized Knowledge Required: Users require significant experience to fully utilize the system.
+DOCE Supervisors,No Batch Processing: Large-scale updates and cleanup activities are difficult to perform.
+DOCE Supervisors,Other
+DOCE Supervisors,Multiple Systems
+DOCE Supervisors,"Too Many Systems: Staff must use IPS, Camino, AS400, OnBase, GIS, Compliance Engine, spreadsheets, and other tools to complete a single workflow."
+DOCE Supervisors,Duplicate Data Entry: Information must be entered and verified across multiple applications.
+DOCE Supervisors,No Single Source of Truth: Property information is distributed across multiple databases.
+DOCE Supervisors,Historical Information
+DOCE Supervisors,Missing Historical Records: Some historical records were lost or remain inaccessible.
+DOCE Supervisors,"Paper-Based Archives: Information remains stored in microfiche, paper files, and legacy systems."
+DOCE Supervisors,Incomplete Digital Migration: Historical information has not been fully digitized.
+DOCE Supervisors,Communication Challenges
+DOCE Supervisors,Email Overload: Excessive reliance on email for project management and collaboration.
+DOCE Supervisors,Cross-Department Visibility: Difficult to understand case status once another department becomes involved.
+DOCE Supervisors,"Coordination Delays: Multiple departments are involved in many workflows, creating delays."
+DOCE Supervisors,Contractor & Public Challenges
+DOCE Supervisors,Camino Frustration: Contractors frequently struggle with Camino.
+DOCE Supervisors,"Address Discrepancies: Property addresses often differ between systems, creating confusion."
+DOCE Supervisors,Constituent Escalations: Supervisors spend significant time responding to escalated complaints and requests.
+DOCE Zoning,IPS related:
+DOCE Zoning,"Fragmented Historical Records: Historical property, zoning, and parcel records are scattered across IPS, Camino, OnBase, AS400, microfiche, and paper archives, making research time-consuming."
+DOCE Zoning,"Complex Property Research: Parcel history is difficult to follow after subdivisions, lot alterations, ownership changes, and address changes."
+DOCE Zoning,"Incomplete Digital Records: Many historical zoning projects and approvals have not been migrated into IPS, requiring staff to search legacy systems."
+DOCE Zoning,"Limited Search Functionality: Searching historical parcels, addresses, and zoning records is inefficient due to limited filtering and search capabilities."
+DOCE Zoning,"Scattered Project Information: Project documents, approvals, and historical records are distributed across multiple systems, making it difficult to view complete project history."
+DOCE Zoning,Missing Supporting Documentation: Older zoning projects often contain incomplete attachments or missing supporting documents within IPS.
+DOCE Zoning,Other:
+DOCE Zoning,"Late Zoning Reviews: Certificate of Use and zoning reviews sometimes occur too late in the permitting process, delaying approvals."
+DOCE Zoning,Manual Research Process: Staff must switch between multiple systems and physical archives to complete property research.
+DOCE Zoning,High Communication Volume: Responding to applicant inquiries and coordinating with reviewing departments consumes significant staff time.
+DOCE Zoning,Cross-Department Dependencies: Zoning reviews depend on timely input and coordination from multiple City departments.
+DOCE Zoning,Legacy Record Dependency: Historical paper files and basement archives are still required to complete many zoning reviews.
+LAW Law,IPS related:
+LAW Law,"Incomplete Case Documentation: Legal work cannot proceed when notices, Nail & Mail documentation, photographs, or inspection records have not been uploaded into IPS."
+LAW Law,"Underutilized System: IPS is valuable when fully utilized, but inconsistent use by Code Enforcement results in incomplete notes and missing documentation."
+LAW Law,Limited Property Overview: IPS cannot easily combine multiple complaints and violations into a comprehensive property-level view.
+LAW Law,External Data Dependency: Water records require AS400 and tax information requires external systems because they are not integrated into IPS.
+LAW Law,Limited Document Export: IPS information cannot easily transfer into Microsoft Word for preparing legal documents.
+LAW Law,Difficult Record Review: The Action Notes layout makes reviewing case history difficult because information is not presented clearly.
+LAW Law,Other:
+LAW Law,"Documentation Quality: Court cases are delayed when inspectors do not consistently upload documents, photographs, or complete notes."
+LAW Law,"Manual Legal Research: Ownership, tax, and legal research require multiple external systems including Westlaw, County Clerk, eTax, and AS400."
+LAW Law,Cross-Department Dependencies: Legal work depends on inspectors completing investigations and providing complete documentation before cases can proceed.
+LAW Law,Evidence Collection: Gathering exhibits and supporting documentation requires manual coordination across multiple departments and file repositories.
