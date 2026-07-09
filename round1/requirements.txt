@@ -2,9 +2,12 @@ transformers
 torch
 tqdm
 python-dotenv
-
+scikit-learn
+joblib
+docx
 pandas
 numpy
 matplotlib
+seaborn
 anywidget 
 wordcloud
