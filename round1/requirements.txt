@@ -11,3 +11,5 @@ matplotlib
 seaborn
 anywidget 
 wordcloud
+plotly
+textblob
