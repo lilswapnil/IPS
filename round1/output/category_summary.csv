@@ -1,0 +1,41 @@
+category_phrase,frequency,source
+additional workflow actions add more dropdown and action options for common baa tasks,1,expectations
+automated ticket processing automate ticket creation hearing preparation payments appeals and administrative workflows,1,expectations
+better organization make ips cleaner and more organized for day to day processing,1,expectations
+bulk fee processing allow multiple default fees to be applied at one time,1,expectations
+enhanced search capabilities improve searching by owner llc parcel address and tax id while providing more reliable reports,1,expectations
+improved case notes organize case notes so multiple rounds of tickets are easier to distinguish,1,expectations
+improved department coordination continue improving coordination with engineering and other departments involved in property information,1,expectations
+improved document viewing improve the ability to view large plans and historical documents within the system,1,expectations
+improved document workflow reduce manual editing and pdf conversion when preparing decisions,1,expectations
+improved evidence management provide a centralized repository for inspection photographs documents hearing evidence and supporting materials,1,expectations
+improved historical records maintain comprehensive historical permit and property records that reduce the need to search multiple systems,1,expectations
+improved parcel information improve access to parcel history following resubdivisions,1,expectations
+improved property research reduce the amount of searching required across multiple sources when researching property history,1,expectations
+improved search capabilities provide additional filters for addresses and multiple cases,1,expectations
+improved ticket visibility show cases with open violations or fines without opening each individual record,1,expectations
+integrated payment management link payments directly to specific violations and improve payment tracking across cases,1,expectations
+integrated property information better integrate historical permits certificates surveys and property documentation into one location,1,expectations
+linked property cases automatically link all violations complaints hearings and tickets associated with the same property or owner,1,expectations
+reduced system switching minimize the need to move between ips and other applications,1,expectations
+simplified navigation remove unnecessary tabs and action buttons while keeping commonly used functions,1,expectations
+case note management case notes become difficult to follow when multiple rounds of tickets exist for the same case,1,pain_points
+complex navigation ips contains numerous tabs and action buttons that are rarely used,1,pain_points
+historical property research research often requires reviewing permits surveys engineering records and historical documents together,1,pain_points
+historical record management historical permits and property records often require searching ips together with onbase because historical information is not consolidated,1,pain_points
+incomplete property history ips does not always provide a complete historical picture for permits certificates of occupancy or property changes,1,pain_points
+inspection information the inspection tab contains information that baa operations staff does not use,1,pain_points
+large plan viewing large plans and surveys can not be viewed effectively within ips,1,pain_points
+limited action options additional action and dropdown options are needed for common baa activities,1,pain_points
+limited historical visibility historical records are frequently needed to determine legal occupancy and previous property conditions but are not always easily accessible,1,pain_points
+limited search functionality not enough filtering options are available when searching addresses and multiple cases,1,pain_points
+manual document preparation decisions are drafted in word and converted to pdf before uploading,1,pain_points
+manual fee processing default fees must be applied individually rather than in bulk,1,pain_points
+manual ticket processing administrative tickets and hearing workflows rely on significant manual effort and repetitive data entry rather than automated workflows,1,pain_points
+manual ticket review staff has to open individual cases to determine whether violations or fines exists,1,pain_points
+multiple systems daily work requires switching between ips word outlook foxit westlaw and as,1,pain_points
+ownership research ownership information requires searching as,1,pain_points
+permit driven workload most assessment work begins with permit activity although unpermitted work may still be discovered,1,pain_points
+resubdivision coordination parcel updates require coordination with engineering and county mapping,1,pain_points
+seasonal review process permit monitoring and field review activities vary throughout the year based on the assessment calendar,1,pain_points
+unlinked related cases cases involving the same property or owner are not linked together making it difficult to view complete violation history,1,pain_points
