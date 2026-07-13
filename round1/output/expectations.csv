@@ -1,5 +1,51 @@
 ﻿focus_group,expectations
+Assessment Assessment Supervisors,IPS Related
+Assessment Assessment Supervisors,Improved Historical Records: Maintain comprehensive historical permit and property records that reduce the need to search multiple systems.
+Assessment Assessment Supervisors,"Integrated Property Information: Better integrate historical permits, certificates, surveys, and property documentation into one location."
+Assessment Assessment Supervisors,Improved Document Viewing: Improve the ability to view large plans and historical documents within the system.
+Assessment Assessment Supervisors,Improved Property Research: Reduce the amount of searching required across multiple sources when researching property history.
+Assessment Assessment Supervisors,Improved Parcel Information: Improve access to parcel history following resubdivisions.
+Assessment Assessment Supervisors,Other
+Assessment Assessment Supervisors,Improved Department Coordination: Continue improving coordination with Engineering and other departments involved in property information.
 BAA BAA ALJs,Expectation:
+BAA BAA Ops,IPS Related:
+BAA BAA Ops,Bulk Fee Processing: Allow multiple default fees to be applied at one time.
+BAA BAA Ops,Improved Search Capabilities: Provide additional filters for addresses and multiple cases.
+BAA BAA Ops,Improved Case Notes: Organize case notes so multiple rounds of tickets are easier to distinguish.
+BAA BAA Ops,Simplified Navigation: Remove unnecessary tabs and action buttons while keeping commonly used functions.
+BAA BAA Ops,Additional Workflow Actions: Add more dropdown and action options for common BAA tasks.
+BAA BAA Ops,Improved Ticket Visibility: Show cases with open violations or fines without opening each individual record.
+BAA BAA Ops,Improved Document Workflow: Reduce manual editing and PDF conversion when preparing decisions.
+BAA BAA Ops,Reduced System Switching: Minimize the need to move between IPS and other applications.
+BAA BAA Ops,Better Organization: Make IPS cleaner and more organized for day-to-day processing.
+BAA BAA Supervisors,IPS related:
+BAA BAA Supervisors,"Automated Ticket Processing: Automate ticket creation, hearing preparation, payments, appeals, and administrative workflows."
+BAA BAA Supervisors,"Linked Property Cases: Automatically link all violations, complaints, hearings, and tickets associated with the same property or owner."
+BAA BAA Supervisors,"Improved Evidence Management: Provide a centralized repository for inspection photographs, documents, hearing evidence, and supporting materials."
+BAA BAA Supervisors,"Enhanced Search Capabilities: Improve searching by owner, LLC, parcel, address, and tax ID while providing more reliable reports."
+BAA BAA Supervisors,Integrated Payment Management: Link payments directly to specific violations and improve payment tracking across cases.
+BAA BAA Supervisors,"Simplified User Experience: Reduce unnecessary actions, improve case navigation, color-code BAA activities, and make notes more accessible."
+BAA BAA Supervisors,"Online Constituent Portal: Allow property owners to view evidence, dispute violations, schedule hearings, submit appeals, and make payments through an online portal."
+BAA BAA Supervisors,"Standardized Documentation Practices: Improve consistency in inspector documentation, photographs, evidence submission, and case notes before hearings."
+BAA BAA Supervisors,"Improved Constituent Experience: Provide clearer communication, easier payment options, real-time case status, and self-service capabilities for property owners."
+BAA BAA Supervisors,Other:
+BAA BAA Supervisors,"Improved Interdepartmental Coordination: Strengthen communication and information sharing between BAA, Code Enforcement, Common Counsel, and CPC."
+BAA BAA Supervisors,"Hearing Management: Support online dispute resolution, virtual hearings, automated scheduling, and streamlined appeal processes."
+CPC CPC,IPS Related:
+CPC CPC,"Improved Search Capabilities: Search by address, owner, parcel, violation number, ticket number, permit number, or account records from a single search."
+CPC CPC,Separated Violation Records: Clearly distinguish BAA tickets from Code Enforcement violations within IPS.
+CPC CPC,"Real-Time Data Updates: Ensure violations, payments, and parcel information update automatically across systems."
+CPC CPC,"Integrated Financial Information: Display payment history, outstanding balances, tax searches, and financial records in one location."
+CPC CPC,Reduced Duplicate Data Entry: Eliminate repetitive entry across IPS and other systems.
+CPC CPC,"Improved Case Visibility: Provide a complete parcel and property view that includes violations, permits, payments, certificates, and tax information."
+CPC CPC,Simplified Navigation: Reduce the need to switch between multiple applications during customer service activities.
+CPC CPC,"System Consolidation: Integrate AIMS, Invoice Cloud, eTax, AS400, and IPS into a unified workflow."
+CPC CPC,"Automated Financial Processes: Automate payment reconciliation, collections, reporting, and financial updates."
+CPC CPC,"Single Source of Truth: Provide one authoritative record for property, parcel, payment, permit, and violation information across all departments."
+CPC CPC,Other:
+CPC CPC,"Improved Interdepartmental Coordination: Improve communication and information sharing between CPC, BAA, Finance, Law, and Code Enforcement."
+CPC CPC,"Improved Public Experience: Enable staff to answer public questions quickly using complete, accurate information from one system."
+CPC CPC,"Enhanced Administrative Efficiency: Streamline tax searches, board files, certificates, and payment processing to reduce manual effort."
 CPO Central Permit Office,IPS Related
 CPO Central Permit Office,Full IPS-Camino Integration
 CPO Central Permit Office,Unified Permit & Code Platform: Create a seamless connection between permit and code enforcement activities.
@@ -35,19 +81,6 @@ CPO Central Permit Office,Enhanced Collaboration
 CPO Central Permit Office,"Cross-Department Workflow Integration: Improve coordination among Permits, Code Enforcement, Fire, DPW, and other reviewers."
 CPO Central Permit Office,Shared Review Visibility: Allow all stakeholders to view review progress and comments.
 CPO Central Permit Office,Improved Communication Tools: Reduce reliance on manual follow-up and spreadsheets.
-BAA BAA Supervisors,IPS related:
-BAA BAA Supervisors,"Automated Ticket Processing: Automate ticket creation, hearing preparation, payments, appeals, and administrative workflows."
-BAA BAA Supervisors,"Linked Property Cases: Automatically link all violations, complaints, hearings, and tickets associated with the same property or owner."
-BAA BAA Supervisors,"Improved Evidence Management: Provide a centralized repository for inspection photographs, documents, hearing evidence, and supporting materials."
-BAA BAA Supervisors,"Enhanced Search Capabilities: Improve searching by owner, LLC, parcel, address, and tax ID while providing more reliable reports."
-BAA BAA Supervisors,Integrated Payment Management: Link payments directly to specific violations and improve payment tracking across cases.
-BAA BAA Supervisors,"Simplified User Experience: Reduce unnecessary actions, improve case navigation, color-code BAA activities, and make notes more accessible."
-BAA BAA Supervisors,"Online Constituent Portal: Allow property owners to view evidence, dispute violations, schedule hearings, submit appeals, and make payments through an online portal."
-BAA BAA Supervisors,"Standardized Documentation Practices: Improve consistency in inspector documentation, photographs, evidence submission, and case notes before hearings."
-BAA BAA Supervisors,"Improved Constituent Experience: Provide clearer communication, easier payment options, real-time case status, and self-service capabilities for property owners."
-BAA BAA Supervisors,Other:
-BAA BAA Supervisors,"Improved Interdepartmental Coordination: Strengthen communication and information sharing between BAA, Code Enforcement, Common Counsel, and CPC."
-BAA BAA Supervisors,"Hearing Management: Support online dispute resolution, virtual hearings, automated scheduling, and streamlined appeal processes."
 CPO CPO Co-Ordinator,IPS related
 CPO CPO Co-Ordinator,Improved Case Management
 CPO CPO Co-Ordinator,Simplified Application Management: Easier case administration and processing.
@@ -82,6 +115,45 @@ CPO CPO Co-Ordinator,Reduced Spreadsheet Usage: Replace manual tracking tools.
 CPO CPO Co-Ordinator,Improved Reporting: Enhance operational reporting and monitoring.
 CPO CPO Co-Ordinator,Streamlined Certificate Processing: Improve issuance and renewal workflows.
 CPO CPO Co-Ordinator,"Integrated Licensing & Registry Processes: Connect licensing, registry, scheduling, and certificate activities into a unified workflow."
+DOCE Admin Aide,IPS Related
+DOCE Admin Aide,Improved Scheduling
+DOCE Admin Aide,Automatically synchronize inspection schedules between IPS and Outlook.
+DOCE Admin Aide,Reduce duplicate scheduling activities.
+DOCE Admin Aide,Improve scheduling coordination for inspections involving multiple departments.
+DOCE Admin Aide,Streamline the Periodic Inspection module.
+DOCE Admin Aide,Improved Case Management
+DOCE Admin Aide,Improve search functionality for cases and properties.
+DOCE Admin Aide,Make Parcel History easier to navigate for large properties.
+DOCE Admin Aide,Improve visibility of case notes and attachments.
+DOCE Admin Aide,Standardize workflows across modules.
+DOCE Admin Aide,Enhanced Data Entry
+DOCE Admin Aide,Auto-populate commonly used complaint and inspection information.
+DOCE Admin Aide,Reduce repetitive manual data entry.
+DOCE Admin Aide,Improve attachment management and document uploads.
+DOCE Admin Aide,Provide more consistent user interface behavior.
+DOCE Admin Aide,Improved System Performance
+DOCE Admin Aide,Reduce crashes and memory-related errors.
+DOCE Admin Aide,Improve loading and response times.
+DOCE Admin Aide,Support multitasking without affecting system stability.
+DOCE Admin Aide,System Integration
+DOCE Admin Aide,Reduce reliance on multiple disconnected systems.
+DOCE Admin Aide,"Improve integration between IPS, Camino, GIS, and AS400."
+DOCE Admin Aide,Create a more unified view of property and inspection information.
+DOCE Admin Aide,Eliminate duplicate data entry where possible.
+DOCE Admin Aide,Property Information Access
+DOCE Admin Aide,Improve access to ownership and property information.
+DOCE Admin Aide,Simplify property research processes.
+DOCE Admin Aide,Make relevant property information easier to locate and verify.
+DOCE Admin Aide,User Experience Improvements
+DOCE Admin Aide,Add spell-check and grammar-check functionality.
+DOCE Admin Aide,Improve visual organization of records and attachments.
+DOCE Admin Aide,Support dark mode and modern user interface features.
+DOCE Admin Aide,Make frequently used information easier to identify and access.
+DOCE Admin Aide,Other
+DOCE Admin Aide,Customer Service Improvements
+DOCE Admin Aide,Resolve phone system issues causing dropped calls.
+DOCE Admin Aide,Improve communication tools for public interactions.
+DOCE Admin Aide,Better support high-volume scheduling and customer service activities.
 DOCE Building Inspectors,IPS Related
 DOCE Building Inspectors,Unified Information Access
 DOCE Building Inspectors,"Single Property View: Access ownership, permits, zoning, water, elevator, sprinkler, and enforcement information from one location."
@@ -153,83 +225,131 @@ DOCE CommercialPermitElectrical Inspectors,Improved User Training: Provide more 
 DOCE CommercialPermitElectrical Inspectors,"Better Cross-Team Coordination: Improve coordination among Permit Office, inspectors, contractors, and Code Enforcement."
 DOCE CommercialPermitElectrical Inspectors,Standardized Processes: Establish consistent workflows across permit disciplines.
 DOCE CommercialPermitElectrical Inspectors,Qualified Staffing & Knowledge Transfer: Improve onboarding and training for specialized inspection roles.
-CPC CPC,IPS Related:
-CPC CPC,"Improved Search Capabilities: Search by address, owner, parcel, violation number, ticket number, permit number, or account records from a single search."
-CPC CPC,Separated Violation Records: Clearly distinguish BAA tickets from Code Enforcement violations within IPS.
-CPC CPC,"Real-Time Data Updates: Ensure violations, payments, and parcel information update automatically across systems."
-CPC CPC,"Integrated Financial Information: Display payment history, outstanding balances, tax searches, and financial records in one location."
-CPC CPC,Reduced Duplicate Data Entry: Eliminate repetitive entry across IPS and other systems.
-CPC CPC,"Improved Case Visibility: Provide a complete parcel and property view that includes violations, permits, payments, certificates, and tax information."
-CPC CPC,Simplified Navigation: Reduce the need to switch between multiple applications during customer service activities.
-CPC CPC,"System Consolidation: Integrate AIMS, Invoice Cloud, eTax, AS400, and IPS into a unified workflow."
-CPC CPC,"Automated Financial Processes: Automate payment reconciliation, collections, reporting, and financial updates."
-CPC CPC,"Single Source of Truth: Provide one authoritative record for property, parcel, payment, permit, and violation information across all departments."
-CPC CPC,Other:
-CPC CPC,"Improved Interdepartmental Coordination: Improve communication and information sharing between CPC, BAA, Finance, Law, and Code Enforcement."
-CPC CPC,"Improved Public Experience: Enable staff to answer public questions quickly using complete, accurate information from one system."
-CPC CPC,"Enhanced Administrative Efficiency: Streamline tax searches, board files, certificates, and payment processing to reduce manual effort."
-NBD NBD Internal,IPS Related:
-NBD NBD Internal,Improved Referral Management: Better support ERP referrals by identifying referral sources and automating referral workflows.
-NBD NBD Internal,"Enhanced Search Capabilities: Improve searching for addresses, ownership, neighborhood information, and related cases."
-NBD NBD Internal,Improved Case History: Present case information in a clear chronological order.
-NBD NBD Internal,Better Contact Management: Improve contact records and reduce duplicate address book entries.
-NBD NBD Internal,Improved Cross-Case Visibility: Allow users to view related information across multiple cases from a single location.
-NBD NBD Internal,Workflow Automation: Reduce manual data entry and automate repetitive program tasks.
-NBD NBD Internal,Geographic Property View: Provide geographic visualization of nearby properties and neighborhood activity within the system.
-NBD NBD Internal,System Consolidation: Reduce the number of separate systems needed to complete property research and program administration.
-NBD NBD Internal,"Improved Interdepartmental Collaboration: Improve information sharing between NBD, Code Enforcement, Assessment, Finance, Law, and other City departments."
-NBD NBD Internal,"Integrated Property Information: Create a single location for ownership, tax, permits, violations, redevelopment history, and housing program information."
-NBD NBD Internal,Better Data Sharing: Improve access to County and external property data.
-NBD NBD Internal,Enhanced Reporting: Improve reporting and analysis capabilities for neighborhood planning and housing programs.
-NBD NBD Internal,Improved Record Management: Better organize historical property and redevelopment records while preserving program history.
-Assessment Assessment Supervisors,IPS Related
-Assessment Assessment Supervisors,Improved Historical Records: Maintain comprehensive historical permit and property records that reduce the need to search multiple systems.
-Assessment Assessment Supervisors,"Integrated Property Information: Better integrate historical permits, certificates, surveys, and property documentation into one location."
-Assessment Assessment Supervisors,Improved Document Viewing: Improve the ability to view large plans and historical documents within the system.
-Assessment Assessment Supervisors,Improved Property Research: Reduce the amount of searching required across multiple sources when researching property history.
-Assessment Assessment Supervisors,Improved Parcel Information: Improve access to parcel history following resubdivisions.
-Assessment Assessment Supervisors,Other
-Assessment Assessment Supervisors,Improved Department Coordination: Continue improving coordination with Engineering and other departments involved in property information.
-DOCE Admin Aide,IPS Related
-DOCE Admin Aide,Improved Scheduling
-DOCE Admin Aide,Automatically synchronize inspection schedules between IPS and Outlook.
-DOCE Admin Aide,Reduce duplicate scheduling activities.
-DOCE Admin Aide,Improve scheduling coordination for inspections involving multiple departments.
-DOCE Admin Aide,Streamline the Periodic Inspection module.
-DOCE Admin Aide,Improved Case Management
-DOCE Admin Aide,Improve search functionality for cases and properties.
-DOCE Admin Aide,Make Parcel History easier to navigate for large properties.
-DOCE Admin Aide,Improve visibility of case notes and attachments.
-DOCE Admin Aide,Standardize workflows across modules.
-DOCE Admin Aide,Enhanced Data Entry
-DOCE Admin Aide,Auto-populate commonly used complaint and inspection information.
-DOCE Admin Aide,Reduce repetitive manual data entry.
-DOCE Admin Aide,Improve attachment management and document uploads.
-DOCE Admin Aide,Provide more consistent user interface behavior.
-DOCE Admin Aide,Improved System Performance
-DOCE Admin Aide,Reduce crashes and memory-related errors.
-DOCE Admin Aide,Improve loading and response times.
-DOCE Admin Aide,Support multitasking without affecting system stability.
-DOCE Admin Aide,System Integration
-DOCE Admin Aide,Reduce reliance on multiple disconnected systems.
-DOCE Admin Aide,"Improve integration between IPS, Camino, GIS, and AS400."
-DOCE Admin Aide,Create a more unified view of property and inspection information.
-DOCE Admin Aide,Eliminate duplicate data entry where possible.
-DOCE Admin Aide,Property Information Access
-DOCE Admin Aide,Improve access to ownership and property information.
-DOCE Admin Aide,Simplify property research processes.
-DOCE Admin Aide,Make relevant property information easier to locate and verify.
-DOCE Admin Aide,User Experience Improvements
-DOCE Admin Aide,Add spell-check and grammar-check functionality.
-DOCE Admin Aide,Improve visual organization of records and attachments.
-DOCE Admin Aide,Support dark mode and modern user interface features.
-DOCE Admin Aide,Make frequently used information easier to identify and access.
-DOCE Admin Aide,Other
-DOCE Admin Aide,Customer Service Improvements
-DOCE Admin Aide,Resolve phone system issues causing dropped calls.
-DOCE Admin Aide,Improve communication tools for public interactions.
-DOCE Admin Aide,Better support high-volume scheduling and customer service activities.
-NBD NBD Data Team,Expectation:
+DOCE Fire Prevention Bureau,IPS related
+DOCE Fire Prevention Bureau,Improved Property Research
+DOCE Fire Prevention Bureau,"Single Property View: View violations, permits, inspections, COs, capacities, and historical records from one screen."
+DOCE Fire Prevention Bureau,Better Historical Visibility: Quickly access prior violations and occupancy history.
+DOCE Fire Prevention Bureau,Improved Search Capabilities: Simplify parcel and property searches.
+DOCE Fire Prevention Bureau,Integrated Property Intelligence: Display all relevant property information together.
+DOCE Fire Prevention Bureau,Better Documentation Management
+DOCE Fire Prevention Bureau,"Standardized Documentation: Store inspections, photos, violations, and actions in a consistent location."
+DOCE Fire Prevention Bureau,Unified Case Records: Eliminate multiple documentation locations.
+DOCE Fire Prevention Bureau,Improved Certificate Review Process: Consolidate information required for CO sign-offs.
+DOCE Fire Prevention Bureau,Integrated Inspection History: Provide complete inspection visibility.
+DOCE Fire Prevention Bureau,Mobile Functionality
+DOCE Fire Prevention Bureau,Mobile IPS Access: Support inspections from mobile devices.
+DOCE Fire Prevention Bureau,Real-Time Documentation: Enter inspection findings directly in the field.
+DOCE Fire Prevention Bureau,Field-Based Reporting: Generate inspection reports without returning to the office.
+DOCE Fire Prevention Bureau,Integrated Fire Operations: Connect IPS violations and inspections with other Fire Department functions.
+DOCE Fire Prevention Bureau,System Integration
+DOCE Fire Prevention Bureau,Better IPS-Camino-EPR Integration: Reduce duplicate work across systems.
+DOCE Fire Prevention Bureau,"Unified Fire Prevention Workflow: Connect permit reviews, inspections, complaints, and enforcement."
+DOCE Fire Prevention Bureau,Automated Data Sharing: Improve information sharing between systems.
+DOCE Fire Prevention Bureau,Integrated Compliance Engine Data: Better access to sprinkler and fire system compliance information.
+DOCE Fire Prevention Bureau,Other
+DOCE Fire Prevention Bureau,Scheduling Improvements
+DOCE Fire Prevention Bureau,Integrated Calendar Functionality: Add scheduling and reminder capabilities directly into permitting and inspection workflows.
+DOCE Fire Prevention Bureau,Automated Task Tracking: Reduce reliance on Outlook and personal planners.
+DOCE Fire Prevention Bureau,Inspection Workflow Visibility: Better visibility into inspection schedules and assignments.
+DOCE Fire Prevention Bureau,Operational Efficiency
+DOCE Fire Prevention Bureau,Cloud-Based Platform: Improve accessibility and usability.
+DOCE Fire Prevention Bureau,Modern User Interface: Replace outdated and non-intuitive screens.
+DOCE Fire Prevention Bureau,Reduced Research Time: Minimize time spent locating property and occupancy information.
+DOCE Fire Prevention Bureau,Improved Cross-Department Visibility: Better access to information maintained by other departments.
+DOCE Fire Prevention Bureau,Future-State Vision
+DOCE Fire Prevention Bureau,"Comprehensive Fire Prevention Platform: Support plan reviews, inspections, complaints, licensing, enforcement, and certificates in one connected environment."
+DOCE Fire Prevention Bureau,Real-Time Field Operations: Enable inspectors and Fire Marshals to perform all field activities electronically.
+DOCE Fire Prevention Bureau,Integrated Public Safety Data: Connect Fire Prevention activities with broader Code Enforcement and permitting operations.
+DOCE Housing Inspectors,IPS Related
+DOCE Housing Inspectors,Improved Case Management
+DOCE Housing Inspectors,Global Property View: Display all active and historical cases associated with a property.
+DOCE Housing Inspectors,Case Status Labels: Allow cases to be categorized by status and activity type.
+DOCE Housing Inspectors,Cases Needing Review Dashboard: Identify cases requiring attention.
+DOCE Housing Inspectors,Missing Inspection Tracking: Report on cases without scheduled inspections.
+DOCE Housing Inspectors,Batch Processing: Generate violation numbers and perform updates more efficiently.
+DOCE Housing Inspectors,Enhanced Property Research
+DOCE Housing Inspectors,Integrated Water Information: Provide direct access to water records.
+DOCE Housing Inspectors,Integrated Lead Information: Display lead-risk information within property records.
+DOCE Housing Inspectors,Unified Address Management: Create a centralized address database.
+DOCE Housing Inspectors,Ownership Synchronization: Automatically update ownership information across related cases.
+DOCE Housing Inspectors,Cross-Case Updates: Ensure information changes apply to all relevant records.
+DOCE Housing Inspectors,Improved Usability
+DOCE Housing Inspectors,Faster Action Selection: Reduce clicks required to complete common tasks.
+DOCE Housing Inspectors,Custom Shortcuts: Allow user-defined shortcuts for common actions.
+DOCE Housing Inspectors,Simplified Dropdowns: Reduce unnecessary dropdown options.
+DOCE Housing Inspectors,Streamlined Rental Registry Integration: Better integration between IPS and the Periodic Inspection portal.
+DOCE Housing Inspectors,Improved Search & Navigation: Make property and case information easier to find.
+DOCE Housing Inspectors,Performance Improvements
+DOCE Housing Inspectors,Reduce Freezing & Crashes: Improve reliability and responsiveness.
+DOCE Housing Inspectors,Faster Case Loading: Improve performance when opening and reviewing cases.
+DOCE Housing Inspectors,Stable Remote Access: Improve connectivity for remote users.
+DOCE Housing Inspectors,Mobile & In-Field Capabilities
+DOCE Housing Inspectors,Field-Based Case Updates: Allow inspectors to update cases while conducting inspections.
+DOCE Housing Inspectors,Laptop Access in Field: Restore or expand laptop access for field work.
+DOCE Housing Inspectors,Mobile Documentation: Enable real-time note and photo uploads.
+DOCE Housing Inspectors,Remote System Access: Improve remote access to inspection systems.
+DOCE Housing Inspectors,Data Consolidation
+DOCE Housing Inspectors,"Single Property Record: Consolidate ownership, water, lead, permit, and case information."
+DOCE Housing Inspectors,Centralized Property Research: Reduce the need to use multiple systems.
+DOCE Housing Inspectors,Unified Information Management: Create a single source of truth for housing enforcement activities.
+DOCE Housing Inspectors,Reporting & Analytics
+DOCE Housing Inspectors,Operational Statistics: Provide reporting on cases without inspection dates and cases awaiting review.
+DOCE Housing Inspectors,Case Monitoring Dashboards: Improve visibility into workload and case status.
+DOCE Housing Inspectors,Lead Risk Identification: Automatically identify high-risk lead properties when cases are opened.
+DOCE Housing Inspectors,Training & User Support
+DOCE Housing Inspectors,User Documentation: Provide clear user guides and training materials.
+DOCE Housing Inspectors,Consistent Workflows: Standardize processes across Housing Inspectors.
+DOCE Housing Inspectors,Improved User Experience: Maintain IPS's user-friendly design while improving efficiency and functionality.
+DOCE Housing Inspectors,Other:
+DOCE Office Manager,IPS Related
+DOCE Office Manager,Ownership & Contact Management
+DOCE Office Manager,Single ownership record per owner or organization.
+DOCE Office Manager,Automatic synchronization of ownership updates across IPS tabs.
+DOCE Office Manager,Better visualization of ownership relationships.
+DOCE Office Manager,Improved property manager tracking.
+DOCE Office Manager,Address Management
+DOCE Office Manager,Simplified ownership and address updates.
+DOCE Office Manager,Better parcel history visibility.
+DOCE Office Manager,Improved support for multi-unit and complex ownership structures.
+DOCE Office Manager,Consolidated property information view.
+DOCE Office Manager,Better Search & Navigation
+DOCE Office Manager,Enhanced search capabilities.
+DOCE Office Manager,Improved parcel and address searching.
+DOCE Office Manager,Easier access to historical records.
+DOCE Office Manager,More intuitive navigation.
+DOCE Office Manager,Improved Document Management
+DOCE Office Manager,Dedicated legal and court document sections.
+DOCE Office Manager,Better organization of attachments and correspondence.
+DOCE Office Manager,Improved upload functionality.
+DOCE Office Manager,Better BAA referral tracking.
+DOCE Office Manager,System Performance & Usability Improvements
+DOCE Office Manager,Reduced crashes and memory issues.
+DOCE Office Manager,Faster performance.
+DOCE Office Manager,Improved reliability and stability.
+DOCE Office Manager,System Integration
+DOCE Office Manager,"Single source of truth for ownership, property, permit, and enforcement information."
+DOCE Office Manager,"Better integration between IPS, AS400, Camino, GIS, and external databases."
+DOCE Office Manager,Elimination of duplicate data entry.
+DOCE Office Manager,Automatic synchronization between systems.
+DOCE Office Manager,User Experience Improvements
+DOCE Office Manager,Modernized workflows and interface.
+DOCE Office Manager,Better organization of information.
+DOCE Office Manager,Improved search capabilities.
+DOCE Office Manager,Easier access to frequently used information.
+DOCE Office Manager,Information Access
+DOCE Office Manager,"Easier access to ownership, tax, water, and licensing information."
+DOCE Office Manager,Centralized property research capabilities.
+DOCE Office Manager,Improved historical records access.
+DOCE Office Manager,Other
+DOCE Office Manager,Reporting & Administrative Support
+DOCE Office Manager,Better reporting and tracking tools.
+DOCE Office Manager,Improved visibility into BAA tickets and legal referrals.
+DOCE Office Manager,Enhanced administrative monitoring capabilities.
+DOCE Office Manager,Process Improvements
+DOCE Office Manager,Reduced manual administrative work.
+DOCE Office Manager,Streamlined legal referral and enforcement documentation processes.
+DOCE Office Manager,"Improved collaboration between Code Enforcement, Law, BAA, Assessment, and other departments."
+DOCE Office Manager,Standardized administrative workflows across the department.
 DOCE Supervisors,IPS Related:
 DOCE Supervisors,Improved Case Management
 DOCE Supervisors,Automated Case Alerts: Alert supervisors when cases become inactive.
@@ -284,90 +404,6 @@ DOCE Zoning,Enhanced Reporting & GIS Integration: Expand GIS capabilities and pr
 DOCE Zoning,Other:
 DOCE Zoning,Earlier Zoning Review: Integrate zoning reviews earlier into permit and Certificate of Use workflows.
 DOCE Zoning,Better Applicant Communication: Improve transparency by providing applicants with easier access to project status and zoning information.
-DOCE Office Manager,IPS Related
-DOCE Office Manager,Ownership & Contact Management
-DOCE Office Manager,Single ownership record per owner or organization.
-DOCE Office Manager,Automatic synchronization of ownership updates across IPS tabs.
-DOCE Office Manager,Better visualization of ownership relationships.
-DOCE Office Manager,Improved property manager tracking.
-DOCE Office Manager,Address Management
-DOCE Office Manager,Simplified ownership and address updates.
-DOCE Office Manager,Better parcel history visibility.
-DOCE Office Manager,Improved support for multi-unit and complex ownership structures.
-DOCE Office Manager,Consolidated property information view.
-DOCE Office Manager,Better Search & Navigation
-DOCE Office Manager,Enhanced search capabilities.
-DOCE Office Manager,Improved parcel and address searching.
-DOCE Office Manager,Easier access to historical records.
-DOCE Office Manager,More intuitive navigation.
-DOCE Office Manager,Improved Document Management
-DOCE Office Manager,Dedicated legal and court document sections.
-DOCE Office Manager,Better organization of attachments and correspondence.
-DOCE Office Manager,Improved upload functionality.
-DOCE Office Manager,Better BAA referral tracking.
-DOCE Office Manager,System Performance & Usability Improvements
-DOCE Office Manager,Reduced crashes and memory issues.
-DOCE Office Manager,Faster performance.
-DOCE Office Manager,Improved reliability and stability.
-DOCE Office Manager,System Integration
-DOCE Office Manager,"Single source of truth for ownership, property, permit, and enforcement information."
-DOCE Office Manager,"Better integration between IPS, AS400, Camino, GIS, and external databases."
-DOCE Office Manager,Elimination of duplicate data entry.
-DOCE Office Manager,Automatic synchronization between systems.
-DOCE Office Manager,User Experience Improvements
-DOCE Office Manager,Modernized workflows and interface.
-DOCE Office Manager,Better organization of information.
-DOCE Office Manager,Improved search capabilities.
-DOCE Office Manager,Easier access to frequently used information.
-DOCE Office Manager,Information Access
-DOCE Office Manager,"Easier access to ownership, tax, water, and licensing information."
-DOCE Office Manager,Centralized property research capabilities.
-DOCE Office Manager,Improved historical records access.
-DOCE Office Manager,Other
-DOCE Office Manager,Reporting & Administrative Support
-DOCE Office Manager,Better reporting and tracking tools.
-DOCE Office Manager,Improved visibility into BAA tickets and legal referrals.
-DOCE Office Manager,Enhanced administrative monitoring capabilities.
-DOCE Office Manager,Process Improvements
-DOCE Office Manager,Reduced manual administrative work.
-DOCE Office Manager,Streamlined legal referral and enforcement documentation processes.
-DOCE Office Manager,"Improved collaboration between Code Enforcement, Law, BAA, Assessment, and other departments."
-DOCE Office Manager,Standardized administrative workflows across the department.
-DOCE Fire Prevention Bureau,IPS related
-DOCE Fire Prevention Bureau,Improved Property Research
-DOCE Fire Prevention Bureau,"Single Property View: View violations, permits, inspections, COs, capacities, and historical records from one screen."
-DOCE Fire Prevention Bureau,Better Historical Visibility: Quickly access prior violations and occupancy history.
-DOCE Fire Prevention Bureau,Improved Search Capabilities: Simplify parcel and property searches.
-DOCE Fire Prevention Bureau,Integrated Property Intelligence: Display all relevant property information together.
-DOCE Fire Prevention Bureau,Better Documentation Management
-DOCE Fire Prevention Bureau,"Standardized Documentation: Store inspections, photos, violations, and actions in a consistent location."
-DOCE Fire Prevention Bureau,Unified Case Records: Eliminate multiple documentation locations.
-DOCE Fire Prevention Bureau,Improved Certificate Review Process: Consolidate information required for CO sign-offs.
-DOCE Fire Prevention Bureau,Integrated Inspection History: Provide complete inspection visibility.
-DOCE Fire Prevention Bureau,Mobile Functionality
-DOCE Fire Prevention Bureau,Mobile IPS Access: Support inspections from mobile devices.
-DOCE Fire Prevention Bureau,Real-Time Documentation: Enter inspection findings directly in the field.
-DOCE Fire Prevention Bureau,Field-Based Reporting: Generate inspection reports without returning to the office.
-DOCE Fire Prevention Bureau,Integrated Fire Operations: Connect IPS violations and inspections with other Fire Department functions.
-DOCE Fire Prevention Bureau,System Integration
-DOCE Fire Prevention Bureau,Better IPS-Camino-EPR Integration: Reduce duplicate work across systems.
-DOCE Fire Prevention Bureau,"Unified Fire Prevention Workflow: Connect permit reviews, inspections, complaints, and enforcement."
-DOCE Fire Prevention Bureau,Automated Data Sharing: Improve information sharing between systems.
-DOCE Fire Prevention Bureau,Integrated Compliance Engine Data: Better access to sprinkler and fire system compliance information.
-DOCE Fire Prevention Bureau,Other
-DOCE Fire Prevention Bureau,Scheduling Improvements
-DOCE Fire Prevention Bureau,Integrated Calendar Functionality: Add scheduling and reminder capabilities directly into permitting and inspection workflows.
-DOCE Fire Prevention Bureau,Automated Task Tracking: Reduce reliance on Outlook and personal planners.
-DOCE Fire Prevention Bureau,Inspection Workflow Visibility: Better visibility into inspection schedules and assignments.
-DOCE Fire Prevention Bureau,Operational Efficiency
-DOCE Fire Prevention Bureau,Cloud-Based Platform: Improve accessibility and usability.
-DOCE Fire Prevention Bureau,Modern User Interface: Replace outdated and non-intuitive screens.
-DOCE Fire Prevention Bureau,Reduced Research Time: Minimize time spent locating property and occupancy information.
-DOCE Fire Prevention Bureau,Improved Cross-Department Visibility: Better access to information maintained by other departments.
-DOCE Fire Prevention Bureau,Future-State Vision
-DOCE Fire Prevention Bureau,"Comprehensive Fire Prevention Platform: Support plan reviews, inspections, complaints, licensing, enforcement, and certificates in one connected environment."
-DOCE Fire Prevention Bureau,Real-Time Field Operations: Enable inspectors and Fire Marshals to perform all field activities electronically.
-DOCE Fire Prevention Bureau,Integrated Public Safety Data: Connect Fire Prevention activities with broader Code Enforcement and permitting operations.
 IT IT,Expectation:
 LAW Law,IPS related:
 LAW Law,"Complete Case Documentation: Require complete notes, notices, photographs, Nail & Mail documentation, and supporting evidence before cases are forwarded for legal review."
@@ -380,55 +416,19 @@ LAW Law,"Improved Interdepartmental Coordination: Strengthen communication betwe
 LAW Law,Reduced Manual Research: Reduce the need to search multiple external systems by consolidating legal and property information.
 LAW Law,Other:
 LAW Law,Improved Workflow Efficiency: Streamline the process from case referral through court filing by ensuring complete information is available at each stage.
-BAA BAA Ops,IPS Related:
-BAA BAA Ops,Bulk Fee Processing: Allow multiple default fees to be applied at one time.
-BAA BAA Ops,Improved Search Capabilities: Provide additional filters for addresses and multiple cases.
-BAA BAA Ops,Improved Case Notes: Organize case notes so multiple rounds of tickets are easier to distinguish.
-BAA BAA Ops,Simplified Navigation: Remove unnecessary tabs and action buttons while keeping commonly used functions.
-BAA BAA Ops,Additional Workflow Actions: Add more dropdown and action options for common BAA tasks.
-BAA BAA Ops,Improved Ticket Visibility: Show cases with open violations or fines without opening each individual record.
-BAA BAA Ops,Improved Document Workflow: Reduce manual editing and PDF conversion when preparing decisions.
-BAA BAA Ops,Reduced System Switching: Minimize the need to move between IPS and other applications.
-BAA BAA Ops,Better Organization: Make IPS cleaner and more organized for day-to-day processing.
+NBD NBD Data Team,Expectation:
+NBD NBD Internal,IPS Related:
+NBD NBD Internal,Improved Referral Management: Better support ERP referrals by identifying referral sources and automating referral workflows.
+NBD NBD Internal,"Enhanced Search Capabilities: Improve searching for addresses, ownership, neighborhood information, and related cases."
+NBD NBD Internal,Improved Case History: Present case information in a clear chronological order.
+NBD NBD Internal,Better Contact Management: Improve contact records and reduce duplicate address book entries.
+NBD NBD Internal,Improved Cross-Case Visibility: Allow users to view related information across multiple cases from a single location.
+NBD NBD Internal,Workflow Automation: Reduce manual data entry and automate repetitive program tasks.
+NBD NBD Internal,Geographic Property View: Provide geographic visualization of nearby properties and neighborhood activity within the system.
+NBD NBD Internal,System Consolidation: Reduce the number of separate systems needed to complete property research and program administration.
+NBD NBD Internal,"Improved Interdepartmental Collaboration: Improve information sharing between NBD, Code Enforcement, Assessment, Finance, Law, and other City departments."
+NBD NBD Internal,"Integrated Property Information: Create a single location for ownership, tax, permits, violations, redevelopment history, and housing program information."
+NBD NBD Internal,Better Data Sharing: Improve access to County and external property data.
+NBD NBD Internal,Enhanced Reporting: Improve reporting and analysis capabilities for neighborhood planning and housing programs.
+NBD NBD Internal,Improved Record Management: Better organize historical property and redevelopment records while preserving program history.
 OCHD OCHD,Expectation:
-DOCE Housing Inspectors,IPS Related
-DOCE Housing Inspectors,Improved Case Management
-DOCE Housing Inspectors,Global Property View: Display all active and historical cases associated with a property.
-DOCE Housing Inspectors,Case Status Labels: Allow cases to be categorized by status and activity type.
-DOCE Housing Inspectors,Cases Needing Review Dashboard: Identify cases requiring attention.
-DOCE Housing Inspectors,Missing Inspection Tracking: Report on cases without scheduled inspections.
-DOCE Housing Inspectors,Batch Processing: Generate violation numbers and perform updates more efficiently.
-DOCE Housing Inspectors,Enhanced Property Research
-DOCE Housing Inspectors,Integrated Water Information: Provide direct access to water records.
-DOCE Housing Inspectors,Integrated Lead Information: Display lead-risk information within property records.
-DOCE Housing Inspectors,Unified Address Management: Create a centralized address database.
-DOCE Housing Inspectors,Ownership Synchronization: Automatically update ownership information across related cases.
-DOCE Housing Inspectors,Cross-Case Updates: Ensure information changes apply to all relevant records.
-DOCE Housing Inspectors,Improved Usability
-DOCE Housing Inspectors,Faster Action Selection: Reduce clicks required to complete common tasks.
-DOCE Housing Inspectors,Custom Shortcuts: Allow user-defined shortcuts for common actions.
-DOCE Housing Inspectors,Simplified Dropdowns: Reduce unnecessary dropdown options.
-DOCE Housing Inspectors,Streamlined Rental Registry Integration: Better integration between IPS and the Periodic Inspection portal.
-DOCE Housing Inspectors,Improved Search & Navigation: Make property and case information easier to find.
-DOCE Housing Inspectors,Performance Improvements
-DOCE Housing Inspectors,Reduce Freezing & Crashes: Improve reliability and responsiveness.
-DOCE Housing Inspectors,Faster Case Loading: Improve performance when opening and reviewing cases.
-DOCE Housing Inspectors,Stable Remote Access: Improve connectivity for remote users.
-DOCE Housing Inspectors,Mobile & In-Field Capabilities
-DOCE Housing Inspectors,Field-Based Case Updates: Allow inspectors to update cases while conducting inspections.
-DOCE Housing Inspectors,Laptop Access in Field: Restore or expand laptop access for field work.
-DOCE Housing Inspectors,Mobile Documentation: Enable real-time note and photo uploads.
-DOCE Housing Inspectors,Remote System Access: Improve remote access to inspection systems.
-DOCE Housing Inspectors,Data Consolidation
-DOCE Housing Inspectors,"Single Property Record: Consolidate ownership, water, lead, permit, and case information."
-DOCE Housing Inspectors,Centralized Property Research: Reduce the need to use multiple systems.
-DOCE Housing Inspectors,Unified Information Management: Create a single source of truth for housing enforcement activities.
-DOCE Housing Inspectors,Reporting & Analytics
-DOCE Housing Inspectors,Operational Statistics: Provide reporting on cases without inspection dates and cases awaiting review.
-DOCE Housing Inspectors,Case Monitoring Dashboards: Improve visibility into workload and case status.
-DOCE Housing Inspectors,Lead Risk Identification: Automatically identify high-risk lead properties when cases are opened.
-DOCE Housing Inspectors,Training & User Support
-DOCE Housing Inspectors,User Documentation: Provide clear user guides and training materials.
-DOCE Housing Inspectors,Consistent Workflows: Standardize processes across Housing Inspectors.
-DOCE Housing Inspectors,Improved User Experience: Maintain IPS's user-friendly design while improving efficiency and functionality.
-DOCE Housing Inspectors,Other:
