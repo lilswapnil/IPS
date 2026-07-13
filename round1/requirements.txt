@@ -6,10 +6,13 @@ scikit-learn
 joblib
 docx
 pandas
-numpy
+numpy<2.5
 matplotlib
 seaborn
 anywidget 
 wordcloud
 plotly
 textblob
+sentence-transformers
+hdbscan
+umap-learn
