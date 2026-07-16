@@ -16,21 +16,45 @@ from sklearn.metrics.pairwise import cosine_similarity
 from transformers import pipeline
 
 # ---------------------------------------------------------------------------
-# Sentiment — dataset-aware workplace zero-shot
+# Sentiment — 7-class DistilBERT + source prior + keyword hints
 # ---------------------------------------------------------------------------
 SENTIMENT_MODEL = "Thi144/sentiment-distilbert-7class"
+# Kept for notebook docs / backwards compatibility (not used by this classifier)
 SENTIMENT_HYPOTHESIS = "This workplace discovery note indicates {}."
-SENTIMENT_LABELS  = {
+
+# Index / HF label → coarse polarity used downstream
+SENTIMENT_LABELS = {
     0: {"scale": -3, "label": "negative", "name": "Very Negative"},
     1: {"scale": -2, "label": "negative", "name": "Negative"},
     2: {"scale": -1, "label": "negative", "name": "Slightly Negative"},
     3: {"scale": 0, "label": "neutral", "name": "Neutral"},
     4: {"scale": 1, "label": "positive", "name": "Slightly Positive"},
     5: {"scale": 2, "label": "positive", "name": "Positive"},
-    6: {"scale": 3, "label": "positive", "name": "Very Positive"}
+    6: {"scale": 3, "label": "positive", "name": "Very Positive"},
 }
-# If the top two labels are close, trust the source dataset prior
-CONFIDENCE_MARGIN = 0.08
+
+# Alternate keys the HF pipeline may return
+_SENTIMENT_LOOKUP = {
+    **{str(i): meta for i, meta in SENTIMENT_LABELS.items()},
+    **{f"LABEL_{i}": meta for i, meta in SENTIMENT_LABELS.items()},
+    **{meta["name"]: meta for meta in SENTIMENT_LABELS.values()},
+    **{meta["name"].lower(): meta for meta in SENTIMENT_LABELS.values()},
+    "negative": SENTIMENT_LABELS[1],
+    "neutral": SENTIMENT_LABELS[3],
+    "positive": SENTIMENT_LABELS[5],
+}
+
+# Back-compat alias used by older notebook cells
+SENTIMENT_LABEL_MAP = {
+    meta["name"]: meta["label"] for meta in SENTIMENT_LABELS.values()
+} | {
+    f"LABEL_{i}": meta["label"] for i, meta in SENTIMENT_LABELS.items()
+} | {
+    str(i): meta["label"] for i, meta in SENTIMENT_LABELS.items()
+}
+
+# If the top score is weak, trust the source dataset prior
+CONFIDENCE_MARGIN = 0.45
 
 PAIN_HINTS = re.compile(
     r"\b("
@@ -66,29 +90,47 @@ def _load_hf_token() -> None:
             os.environ["HF_TOKEN"] = val
 
 
+def resolve_sentiment_label(raw_label) -> dict:
+    """Map pipeline label (LABEL_n / name / int) → SENTIMENT_LABELS meta."""
+    key = raw_label if not isinstance(raw_label, str) else raw_label
+    if isinstance(key, str) and key.isdigit():
+        key = int(key)
+    if isinstance(key, int) and key in SENTIMENT_LABELS:
+        return SENTIMENT_LABELS[key]
+    meta = _SENTIMENT_LOOKUP.get(str(raw_label)) or _SENTIMENT_LOOKUP.get(
+        str(raw_label).lower()
+    )
+    if meta is None:
+        return {"scale": 0, "label": "neutral", "name": str(raw_label)}
+    return meta
+
+
 def build_sentiment_classifier():
+    """Build the 7-class sentiment-analysis pipeline."""
     _load_hf_token()
     return pipeline(
-        "zero-shot-classification",
+        "sentiment-analysis",
         model=SENTIMENT_MODEL,
-        multi_label=False,
-    )
-
-
-def _score_one(classifier, text: str) -> tuple[str, float, float]:
-    """Return (label, top_score, margin_over_second)."""
-    result = classifier(
-        text,
-        candidate_labels=list(SENTIMENT_LABELS.keys()),
-        hypothesis_template=SENTIMENT_HYPOTHESIS,
         truncation=True,
         max_length=512,
+        top_k=None,  # return all 7 class scores when supported
     )
-    labels = result["labels"]
-    scores = result["scores"]
-    top = SENTIMENT_LABELS[labels[0]]["label"]
-    margin = float(scores[0] - scores[1]) if len(scores) > 1 else float(scores[0])
-    return top, float(scores[0]), margin
+
+
+def _score_one(classifier, text: str) -> tuple[str, float, float, str]:
+    """Return (polarity, top_score, margin_over_second, fine_name)."""
+    result = classifier(text)
+    # pipeline may return list[dict] (top-1) or list[list[dict]] (all classes)
+    if result and isinstance(result[0], list):
+        ranked = sorted(result[0], key=lambda r: r["score"], reverse=True)
+    else:
+        ranked = result if isinstance(result, list) else [result]
+
+    top_meta = resolve_sentiment_label(ranked[0]["label"])
+    top_score = float(ranked[0]["score"])
+    second = float(ranked[1]["score"]) if len(ranked) > 1 else 0.0
+    margin = top_score - second
+    return top_meta["label"], top_score, margin, top_meta["name"]
 
 
 def predict_sentiment(
@@ -98,7 +140,7 @@ def predict_sentiment(
     classifier=None,
     batch_size: int = 8,
 ) -> list[str]:
-    """Score texts with workplace zero-shot + source prior + keyword hints.
+    """Score texts with 7-class sentiment + source prior + keyword hints.
 
     source: \"challenges\" → prior negative; \"expectations\" → prior positive
     """
@@ -116,10 +158,10 @@ def predict_sentiment(
                 out.append("neutral")
                 continue
 
-            label, score, margin = _score_one(classifier, text)
+            label, score, margin, _name = _score_one(classifier, text)
 
-            # Low-margin → prefer dataset prior (notes filed as pain vs wish)
-            if margin < CONFIDENCE_MARGIN:
+            # Low confidence → prefer dataset prior (notes filed as pain vs wish)
+            if score < CONFIDENCE_MARGIN or margin < 0.05:
                 label = prior
 
             # Keyword overrides when model is uncertain / conflicted
