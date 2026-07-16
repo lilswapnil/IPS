@@ -1,0 +1,16 @@
+transformers
+torch
+tqdm
+python-dotenv
+scikit-learn
+python-docx
+pandas
+numpy<2.5
+plotly
+ipywidgets
+sentence-transformers
+hdbscan
+umap-learn
+nbformat>=4.2.0
+nbconvert
+anywidget
