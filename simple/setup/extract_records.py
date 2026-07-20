@@ -1,12 +1,16 @@
 """Setup pipeline: build challenges.csv and expectations.csv.
 
 Creates output dirs, splits discovery notes, extracts worksheets (one record per
-line), merges one-word meeting-note lines into the next note (notes only),
-adds cleaned text for sentiment, then writes (nothing is dropped):
+line), merges short (≤3 word) meeting-note lines into the next note (notes only),
+tags each row with source (worksheet | meeting_notes), adds cleaned text for
+sentiment, then writes (nothing is dropped):
 
   output/raw/worksheets.csv
-  output/processed/challenges.csv    (focus_group, pain_points, processed_text)
-  output/processed/expectations.csv  (focus_group, expectations, processed_text)
+  output/processed/challenges.csv    (department, focus_group, pain_points, source, processed_text)
+  output/processed/expectations.csv  (department, focus_group, expectations, source, processed_text)
+
+Analysis notebooks should load via ``load_prepared_records()`` (aliases, source
+normalization, short-note merge, stakeholder-name redaction from dictionary.txt).
 
 Usage:
   python3 setup/extract_records.py
@@ -26,6 +30,7 @@ from docx import Document
 # ---------------------------------------------------------------------------
 NOTES_PATH = Path("./data/notes.docx")
 WORKSHEETS_DIR = Path("./data/worksheets")
+DICTIONARY_PATH = Path("./dictionary.txt")
 OUTPUT_DIR = Path("./output")
 RAW_DIR = OUTPUT_DIR / "raw"
 PROCESSED_DIR = OUTPUT_DIR / "processed"
@@ -34,24 +39,104 @@ WORKSHEETS_CSV = RAW_DIR / "worksheets.csv"
 CHALLENGES_CSV = PROCESSED_DIR  / "challenges.csv"
 EXPECTATIONS_CSV = PROCESSED_DIR  / "expectations.csv"
 
+# Focus Group Names from the Round 1 focus-group roster.
+FOCUS_GROUPS = [
+    "Housing Inspectors",
+    "Building Inspectors",
+    "Permit/Commercial/Electrical Inspectors",
+    "Admin Aide",
+    "Office Managers",
+    "Supervisors",
+    "Zoning",
+    "CPO-Coordinators",
+    "Fire",
+    "Permits",
+    "Law",
+    "Assessment",
+    "BAA Supervisors",
+    "BAA ALJs",
+    "BAA Operations",
+    "NBD Internal",
+    "CPC",
+    "IT",
+    "OCHD",
+    "NBD Data Team",
+]
+
+# Group Name → Department (Round 1 roster)
+FOCUS_GROUP_DEPARTMENT = {
+    "Housing Inspectors": "DOCE",
+    "Building Inspectors": "DOCE",
+    "Permit/Commercial/Electrical Inspectors": "DOCE",
+    "Admin Aide": "DOCE",
+    "Office Managers": "DOCE",
+    "Supervisors": "DOCE",
+    "Zoning": "DOCE",
+    "CPO-Coordinators": "DOCE",
+    "Fire": "FPB",
+    "Permits": "CPO",
+    "Law": "Law",
+    "Assessment": "Assessment",
+    "BAA Supervisors": "BAA",
+    "BAA ALJs": "BAA",
+    "BAA Operations": "BAA",
+    "NBD Internal": "NBD",
+    "CPC": "CPC",
+    "IT": "IT",
+    "OCHD": "OCHD",
+    "NBD Data Team": "NBD",
+}
+
+
+# Worksheet filename stem (after stripping "Worksheet") → canonical Group Name
 WORKSHEET_FOCUS_GROUPS = {
-    "baa supervisors focus group": "BAA Supervisors & Admin Aide",
-    "building inspector - round 1 doce": "DOCE Building Inspectors",
+    "baa aljs internal focus group": "BAA ALJs",
+    "baa ops internal focus group": "BAA Operations",
+    "baa supervisors focus group": "BAA Supervisors",
     "cpc focus group": "CPC",
-    "cpo central permit office": "DOCE Central Permit Office",
-    "cpo co-ordinator focus group": "DOCE CPO Coordinators",
-    "cpo coordinator focus group": "DOCE CPO Coordinators",
-    "doce admin aide": "DOCE Admin Aides",
-    "fire department focus group": "DOCE Fire Prevention Bureau",
-    "housing inspectors - round 1 doce": "DOCE Housing Inspectors",
-    "law": "Law",
-    "nbd data team worksheet response": "NBD Data Team",
+    "cpo central permit office": "Permits",
+    "doce admin aide focus group": "Admin Aide",
+    "doce building inspector focus group": "Building Inspectors",
+    "doce cpo co-ordinator focus group": "CPO-Coordinators",
+    "doce cpo coordinator focus group": "CPO-Coordinators",
+    "doce housing inspectors focus group": "Housing Inspectors",
+    "doce office manager focus group": "Office Managers",
+    "doce perm_com_elec inspectors focus group": "Permit/Commercial/Electrical Inspectors",
+    "doce supervisors focus group": "Supervisors",
+    "doce zoning focus group": "Zoning",
+    "fpb fire focus group": "Fire",
+    "law focus group": "Law",
     "nbd data team": "NBD Data Team",
-    "nbd focus group": "NBD Neighborhood Planning",
-    "office manager - round 1 doce": "DOCE Office Staff",
-    "perm_com_elec inspectors - round 1 doce": "DOCE CommercialPermitElectrical Inspectors",
-    "round 1 discover worksheet response zoning": "DOCE Zoning",
-    "supervisors - round 1 doce": "DOCE Supervisors",
+    "nbd focus group": "NBD Internal",
+    "ochd focus group": "OCHD",
+}
+
+# Notes Heading-3 derived name (via simple_focus_group_name) → canonical Group Name
+NOTES_FOCUS_GROUPS = {
+    "doce admin aides": "Admin Aide",
+    "doce building inspectors": "Building Inspectors",
+    "doce supervisors": "Supervisors",
+    "doce housing inspectors": "Housing Inspectors",
+    "doce commercialpermitelectrical inspectors": "Permit/Commercial/Electrical Inspectors",
+    "doce fire prevention bureau": "Fire",
+    "doce central permit office": "Permits",
+    "doce zoning": "Zoning",
+    "doce office staff": "Office Managers",
+    "doce cpo coordinators": "CPO-Coordinators",
+    "law": "Law",
+    "assessment": "Assessment",
+    "baa supervisors & admin aide": "BAA Supervisors",
+    "baa clerks & admin aides": "BAA Supervisors",
+    "baa aljs": "BAA ALJs",
+    "baa ops": "BAA Operations",
+    "nbd neighborhood planning": "NBD Internal",
+    "nbd kate": "NBD Internal",
+    "nbd internal": "NBD Internal",
+    "nbd data team": "NBD Data Team",
+    "cpc": "CPC",
+    "it": "IT",
+    "external ochd": "OCHD",
+    "ochd": "OCHD",
 }
 
 LIKES_HEADER = "what features do you like about ips"
@@ -64,6 +149,22 @@ PAIN_HEADING = re.compile(
 EXPECTATION_HEADING = re.compile(r"^future\s*capabilities?\s*:?\s*$", re.I)
 
 MIN_WORDS = 4
+
+# Provenance tags written to challenges/expectations CSVs
+SOURCE_WORKSHEET = "worksheet"
+SOURCE_MEETING_NOTES = "meeting_notes"
+
+# Meeting-note lines with this many words or fewer prepend onto the next note
+NOTES_SHORT_MAX_WORDS = 3
+
+# Focus-group aliases applied at load/prep time
+FOCUS_GROUP_ALIASES = {
+    "NBD Kate": "NBD Internal",
+    "NBD Internal 2": "NBD Internal",
+}
+
+# Neutral placeholder — better for sentiment than hashes/removal (keeps structure)
+PERSON_TOKEN = "[PERSON]"
 
 
 # ---------------------------------------------------------------------------
@@ -78,8 +179,100 @@ def normalize_text(text: str) -> str:
     return text.strip().lower().replace("\u2019", "'").replace("\xa0", " ")
 
 
+def load_stakeholder_names(path: Path | str = DICTIONARY_PATH) -> list[str]:
+    """Load unique stakeholder first names from dictionary.txt (longest first)."""
+    path = Path(path)
+    if not path.exists():
+        return []
+
+    names: set[str] = set()
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip().strip(",").strip()
+        if not line or line.startswith("#"):
+            continue
+        # "Haohui (Nate)" → Haohui, Nate
+        for part in re.split(r"[()/|,;]+", line):
+            name = part.strip()
+            if len(name) >= 2:
+                names.add(name)
+    # Longest first so "Katelynn" wins over "Kate" when both listed
+    return sorted(names, key=lambda n: (-len(n), n.lower()))
+
+
+def _stakeholder_name_regex(name: str) -> re.Pattern:
+    """Match a name as a whole token; do not match contractions (Don ⊂ don't)."""
+    escaped = re.escape(name)
+    return re.compile(
+        rf"(?<![A-Za-z]){escaped}(?!(?:'[A-Za-z]|[A-Za-z]))",
+        re.IGNORECASE,
+    )
+
+
+def redact_stakeholder_names(
+    text,
+    names: list[str] | None = None,
+    *,
+    token: str = PERSON_TOKEN,
+) -> str:
+    """Replace stakeholder names with a neutral token (best for sentiment + privacy)."""
+    if text is None or (isinstance(text, float) and pd.isna(text)):
+        return ""
+    out = str(text).replace("\u2019", "'").replace("\u2018", "'").replace("\xa0", " ")
+    if not out.strip():
+        return out
+
+    if names is None:
+        names = load_stakeholder_names()
+    for name in names:
+        out = _stakeholder_name_regex(name).sub(token, out)
+
+    # "Haohui (Nate)" → "[PERSON] ( [PERSON] )" → single token
+    out = re.sub(rf"\(\s*{re.escape(token)}\s*\)", token, out)
+    # Clean speaker-label leftovers: "[PERSON]: text" → "[PERSON] text"
+    out = re.sub(rf"{re.escape(token)}\s*:", token, out)
+    out = re.sub(rf"\s*{re.escape(token)}\s*", f" {token} ", out)
+    out = re.sub(rf"(?:\s*{re.escape(token)}\s*)+", f" {token} ", out)
+    out = re.sub(r"\s{2,}", " ", out).strip()
+    return out
+
+
+def redact_dataframe_names(
+    df: pd.DataFrame,
+    text_cols: list[str],
+    *,
+    names: list[str] | None = None,
+) -> pd.DataFrame:
+    """Redact stakeholder names in the given text columns."""
+    out = df.copy()
+    if names is None:
+        names = load_stakeholder_names()
+    if not names:
+        return out
+    for col in text_cols:
+        if col in out.columns:
+            out[col] = out[col].map(lambda v: redact_stakeholder_names(v, names))
+    return out
+
+
 def normalize_focus_group(name) -> str:
     return re.sub(r"\s+", " ", str(name).replace("\xa0", " ")).strip()
+
+
+def department_for(focus_group: str) -> str:
+    name = normalize_focus_group(focus_group)
+    return FOCUS_GROUP_DEPARTMENT.get(name, "")
+
+
+def focus_group_filename(name: str) -> str:
+    """Filesystem-safe stem for section docx files (slashes are path separators)."""
+    text = normalize_focus_group(name)
+    text = text.replace("/", "_").replace("\\", "_")
+    text = "".join(ch for ch in text if ch not in '<>:"|?*')
+    return re.sub(r"\s{2,}", " ", text).strip(" .-_") or "section"
+
+
+# Safe section filename stem → canonical Group Name
+FOCUS_GROUP_FROM_FILENAME = {focus_group_filename(g): g for g in FOCUS_GROUPS}
 
 
 def split_lines(text) -> list[str]:
@@ -122,7 +315,10 @@ def simple_focus_group_name(heading_text: str, fallback: str = "section") -> str
     name = re.sub(r"\s{2,}", " ", name).strip(" .-_")
     name = "".join(ch for ch in name if ch not in '<>:"/\\|?*').strip()
     name = re.sub(r"\s{2,}", " ", name).strip(" .-_")
-    return name or fallback
+    name = name or fallback
+
+    mapped = NOTES_FOCUS_GROUPS.get(name.lower())
+    return mapped if mapped else name
 
 
 def _copy_paragraph(src_para, dst_doc):
@@ -181,7 +377,8 @@ def split_docx_by_heading(
     for index, (heading_para, content_paras) in enumerate(sections, start=1):
         heading_text = heading_para.text if heading_para is not None else f"section_{index}"
         focus_group = simple_focus_group_name(heading_text, fallback=f"section_{index}")
-        out_path = output_dir / f"{focus_group}.docx"
+        safe_name = focus_group_filename(focus_group)
+        out_path = output_dir / f"{safe_name}.docx"
 
         section_doc = Document(out_path) if focus_group in written else Document()
         _copy_paragraph(heading_para, section_doc)
@@ -191,7 +388,7 @@ def split_docx_by_heading(
 
         written[focus_group] = written.get(focus_group, 0) + 1
         action = "Merged" if written[focus_group] > 1 else "Saved"
-        print(f"  {action}: {out_path.name}")
+        print(f"  {action}: {out_path.name} ({focus_group})")
 
     print(f"Split {len(written)} focus-group files → {output_dir}")
     return written
@@ -202,19 +399,25 @@ def split_docx_by_heading(
 # ---------------------------------------------------------------------------
 def focus_group_name_from_filename(filename: str) -> str:
     stem = Path(filename).stem.replace("\xa0", " ")
-    stem = re.sub(r"\s+Worksheet(?:\s+Response)?$", "", stem, flags=re.I)
     stem = re.sub(r"\s{2,}", " ", stem).strip()
     key = stem.lower()
     if key in WORKSHEET_FOCUS_GROUPS:
         return WORKSHEET_FOCUS_GROUPS[key]
 
-    cleaned = re.sub(r"(?i)\bfocus\s+group\b", "", stem)
+    # Also try after stripping a trailing "Worksheet" suffix
+    stem_no_ws = re.sub(r"\s+Worksheet(?:\s+Response)?$", "", stem, flags=re.I).strip()
+    key_no_ws = stem_no_ws.lower()
+    if key_no_ws in WORKSHEET_FOCUS_GROUPS:
+        return WORKSHEET_FOCUS_GROUPS[key_no_ws]
+
+    cleaned = re.sub(r"(?i)\bfocus\s+group\b", "", stem_no_ws)
     cleaned = re.sub(r"(?i)\bround\s*1\b", "", cleaned)
     cleaned = re.sub(r"(?i)\bdiscover(?:y)?\b", "", cleaned)
     cleaned = re.sub(r"(?i)\bresponse\b", "", cleaned)
     cleaned = re.sub(r"\s*[-–—]\s*", " ", cleaned)
     cleaned = re.sub(r"\s{2,}", " ", cleaned).strip(" .-_")
-    return cleaned or stem
+    fallback = cleaned or stem_no_ws or stem
+    return NOTES_FOCUS_GROUPS.get(fallback.lower(), fallback)
 
 
 def get_table_type(table) -> str | None:
@@ -339,7 +542,11 @@ def build_worksheets_df(worksheets_dir: Path | str = WORKSHEETS_DIR) -> pd.DataF
 
     return pd.DataFrame(
         all_records, columns=["focus_group_name", "pain_point", "expectations"]
-    )
+    ).assign(
+        department=lambda d: d["focus_group_name"].map(department_for)
+    )[
+        ["department", "focus_group_name", "pain_point", "expectations"]
+    ]
 
 
 # ---------------------------------------------------------------------------
@@ -362,15 +569,16 @@ def heading4_section_type(text: str) -> str | None:
 
 
 def records_from_worksheets(worksheets) -> tuple[list[tuple], list[tuple]]:
+    """Extract worksheet lines as independent rows tagged source=worksheet."""
     df = worksheets if isinstance(worksheets, pd.DataFrame) else pd.read_csv(worksheets)
     pain_points, expectations = [], []
 
     for row in df.itertuples(index=False):
         focus_group = normalize_focus_group(row.focus_group_name)
         for line in split_lines(getattr(row, "pain_point", None)):
-            pain_points.append((focus_group, line))
+            pain_points.append((focus_group, line, SOURCE_WORKSHEET))
         for line in split_lines(getattr(row, "expectations", None)):
-            expectations.append((focus_group, line))
+            expectations.append((focus_group, line, SOURCE_WORKSHEET))
 
     print(f"Worksheets: {len(pain_points)} pain · {len(expectations)} expectations")
     return pain_points, expectations
@@ -379,9 +587,9 @@ def records_from_worksheets(worksheets) -> tuple[list[tuple], list[tuple]]:
 def records_from_discovery_notes(
     discovery_notes_path: Path | str = SECTIONS_DIR,
 ) -> tuple[list[tuple], list[tuple]]:
-    """Extract Heading 4 pain/expectation lines, then merge one-word speaker labels.
+    """Extract Heading 4 pain/expectation lines, then merge short (≤3 word) notes.
 
-    One-word consolidation happens here (meeting-note order) so context stays with
+    Short consolidation happens here (meeting-note order) so context stays with
     the following line. Worksheet rows are left alone — cells are independent.
     """
     pain_points, expectations = [], []
@@ -392,7 +600,8 @@ def records_from_discovery_notes(
         return pain_points, expectations
 
     for doc_path in section_files:
-        focus_group = normalize_focus_group(doc_path.stem)
+        stem = normalize_focus_group(doc_path.stem)
+        focus_group = FOCUS_GROUP_FROM_FILENAME.get(stem, stem)
         section = None
         for para in Document(doc_path).paragraphs:
             style = para.style.name if para.style else ""
@@ -406,22 +615,30 @@ def records_from_discovery_notes(
                 continue
             target = pain_points if section == "pain" else expectations
             for line in split_lines(text):
-                target.append((focus_group, line))
+                target.append((focus_group, line, SOURCE_MEETING_NOTES))
 
     before = (len(pain_points), len(expectations))
     if pain_points:
-        pain_df = pd.DataFrame(pain_points, columns=["focus_group", "pain_points"])
-        pain_df = consolidate_one_word_with_next(pain_df, "pain_points")
+        pain_df = pd.DataFrame(
+            pain_points, columns=["focus_group", "pain_points", "source"]
+        )
+        pain_df = consolidate_short_with_next(
+            pain_df, "pain_points", max_words=NOTES_SHORT_MAX_WORDS
+        )
         pain_points = list(pain_df.itertuples(index=False, name=None))
     if expectations:
-        exp_df = pd.DataFrame(expectations, columns=["focus_group", "expectations"])
-        exp_df = consolidate_one_word_with_next(exp_df, "expectations")
+        exp_df = pd.DataFrame(
+            expectations, columns=["focus_group", "expectations", "source"]
+        )
+        exp_df = consolidate_short_with_next(
+            exp_df, "expectations", max_words=NOTES_SHORT_MAX_WORDS
+        )
         expectations = list(exp_df.itertuples(index=False, name=None))
 
     print(
         f"Discovery notes: pain {before[0]} → {len(pain_points)}, "
         f"expectations {before[1]} → {len(expectations)} "
-        f"(one-word lines merged into following note)"
+        f"(≤{NOTES_SHORT_MAX_WORDS}-word lines merged into following note)"
     )
     return pain_points, expectations
 
@@ -438,16 +655,25 @@ def filter_short(
     )
 
 
-def consolidate_one_word_with_next(
-    df: pd.DataFrame, text_col: str, group_col: str = "focus_group"
+def consolidate_short_with_next(
+    df: pd.DataFrame,
+    text_col: str,
+    group_col: str = "focus_group",
+    max_words: int = NOTES_SHORT_MAX_WORDS,
 ) -> pd.DataFrame:
-    """Merge one-word rows into the next multi-word row within the same focus group.
+    """Merge rows with ≤ max_words into the next longer row within the same focus group.
 
     Intended for discovery-session notes (paragraph order). Do not apply to
-    worksheet rows — those cells are separate answers.
+    worksheet rows — those cells are separate answers. Extra columns (e.g. source)
+    are preserved on the surviving row.
     """
+    if df.empty:
+        return df.copy()
+
     rows = df.reset_index(drop=True).to_dict("records")
-    result, i = [], 0
+    result: list[dict] = []
+    i = 0
+    cols = list(df.columns)
 
     while i < len(rows):
         group = rows[i][group_col]
@@ -456,7 +682,7 @@ def consolidate_one_word_with_next(
             i += 1
             continue
 
-        if len(text.split()) == 1:
+        if len(text.split()) <= max_words:
             parts = [text]
             j = i + 1
             while j < len(rows) and rows[j][group_col] == group:
@@ -468,22 +694,37 @@ def consolidate_one_word_with_next(
                 if not nxt:
                     j += 1
                     continue
-                if len(nxt.split()) == 1:
+                if len(nxt.split()) <= max_words:
                     parts.append(nxt)
                     j += 1
                     continue
-                rows[j][text_col] = f"{' '.join(parts)} {nxt}".strip()
+                merged = dict(rows[j])
+                merged[text_col] = f"{' '.join(parts)} {nxt}".strip()
+                rows[j] = merged
                 i = j
                 break
             else:
-                result.append({group_col: group, text_col: " ".join(parts)})
+                keep = dict(rows[i])
+                keep[text_col] = " ".join(parts)
+                result.append(keep)
                 i = j
             continue
 
-        result.append({group_col: group, text_col: text})
+        keep = dict(rows[i])
+        keep[text_col] = text
+        result.append(keep)
         i += 1
 
-    return pd.DataFrame(result, columns=[group_col, text_col])
+    return pd.DataFrame(result, columns=cols)
+
+
+def consolidate_one_word_with_next(
+    df: pd.DataFrame, text_col: str, group_col: str = "focus_group"
+) -> pd.DataFrame:
+    """Back-compat wrapper: merge exactly one-word rows into the next longer row."""
+    return consolidate_short_with_next(
+        df, text_col=text_col, group_col=group_col, max_words=1
+    )
 
 
 def clean_for_sentiment(series: pd.Series) -> pd.Series:
@@ -529,6 +770,126 @@ def preprocess_records(
     return challenges_df, expectations_df
 
 
+def normalize_focus_groups(df: pd.DataFrame) -> pd.DataFrame:
+    """Apply FOCUS_GROUP_ALIASES and refresh department when present."""
+    out = df.copy()
+    if "focus_group" not in out.columns:
+        return out
+    out["focus_group"] = out["focus_group"].replace(FOCUS_GROUP_ALIASES)
+    if "department" in out.columns:
+        out["department"] = out["focus_group"].map(department_for)
+    return out
+
+
+def normalize_source_labels(df: pd.DataFrame) -> pd.DataFrame:
+    """Map legacy source tags (e.g. notes) onto SOURCE_* constants."""
+    out = df.copy()
+    if "source" not in out.columns:
+        return out
+    out["source"] = out["source"].replace({"notes": SOURCE_MEETING_NOTES})
+    return out
+
+
+def merge_short_meeting_notes(
+    challenges_df: pd.DataFrame,
+    expectations_df: pd.DataFrame,
+    *,
+    challenge_col: str = "pain_points",
+    expectation_col: str = "expectations",
+    max_words: int = NOTES_SHORT_MAX_WORDS,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Merge ≤max_words meeting-note lines into the next note; worksheets untouched."""
+    challenges_df = challenges_df.copy()
+    expectations_df = expectations_df.copy()
+
+    if "source" not in challenges_df.columns:
+        raise ValueError(
+            "Missing `source` column. Re-run: python3 setup/extract_records.py"
+        )
+
+    notes_mask = challenges_df["source"] == SOURCE_MEETING_NOTES
+    challenges_df = pd.concat(
+        [
+            challenges_df.loc[~notes_mask],
+            consolidate_short_with_next(
+                challenges_df.loc[notes_mask].copy(),
+                text_col=challenge_col,
+                max_words=max_words,
+            ),
+        ],
+        ignore_index=True,
+    )
+
+    if "source" in expectations_df.columns:
+        exp_mask = expectations_df["source"] == SOURCE_MEETING_NOTES
+        expectations_df = pd.concat(
+            [
+                expectations_df.loc[~exp_mask],
+                consolidate_short_with_next(
+                    expectations_df.loc[exp_mask].copy(),
+                    text_col=expectation_col,
+                    max_words=max_words,
+                ),
+            ],
+            ignore_index=True,
+        )
+
+    return challenges_df, expectations_df
+
+
+def prepare_records(
+    challenges_df: pd.DataFrame,
+    expectations_df: pd.DataFrame,
+    *,
+    merge_short_notes: bool = True,
+    redact_names: bool = True,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Normalize focus groups/source, merge short notes, redact stakeholder names."""
+    challenges_df = normalize_source_labels(normalize_focus_groups(challenges_df))
+    expectations_df = normalize_source_labels(normalize_focus_groups(expectations_df))
+
+    if merge_short_notes:
+        challenges_df, expectations_df = merge_short_meeting_notes(
+            challenges_df, expectations_df
+        )
+
+    if redact_names:
+        names = load_stakeholder_names()
+        challenges_df = redact_dataframe_names(
+            challenges_df, ["pain_points", "processed_text"], names=names
+        )
+        expectations_df = redact_dataframe_names(
+            expectations_df, ["expectations", "processed_text"], names=names
+        )
+        if names:
+            print(f"  Redacted stakeholder names ({len(names)} dictionary entries → {PERSON_TOKEN})")
+
+    if "pain_points" in challenges_df.columns:
+        challenges_df["processed_text"] = clean_for_sentiment(
+            challenges_df["pain_points"]
+        )
+    if "expectations" in expectations_df.columns:
+        expectations_df["processed_text"] = clean_for_sentiment(
+            expectations_df["expectations"]
+        )
+
+    return challenges_df, expectations_df
+
+
+def load_prepared_records(
+    challenges_csv: Path | str = CHALLENGES_CSV,
+    expectations_csv: Path | str = EXPECTATIONS_CSV,
+    *,
+    merge_short_notes: bool = True,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Load challenges/expectations CSVs and run prepare_records()."""
+    challenges_df = pd.read_csv(challenges_csv)
+    expectations_df = pd.read_csv(expectations_csv)
+    return prepare_records(
+        challenges_df, expectations_df, merge_short_notes=merge_short_notes
+    )
+
+
 # ---------------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------------
@@ -571,10 +932,21 @@ def run(
     dn_pain, dn_exp = records_from_discovery_notes(sections_dir)
 
     challenges_df = pd.DataFrame(
-        ws_pain + dn_pain, columns=["focus_group", "pain_points"]
+        ws_pain + dn_pain, columns=["focus_group", "pain_points", "source"]
     )
     expectations_df = pd.DataFrame(
-        ws_exp + dn_exp, columns=["focus_group", "expectations"]
+        ws_exp + dn_exp, columns=["focus_group", "expectations", "source"]
+    )
+    challenges_df.insert(0, "department", challenges_df["focus_group"].map(department_for))
+    expectations_df.insert(
+        0, "department", expectations_df["focus_group"].map(department_for)
+    )
+    challenges_df, expectations_df = prepare_records(
+        challenges_df, expectations_df, merge_short_notes=False
+    )
+    print(
+        "  Source mix (challenges): "
+        + challenges_df["source"].value_counts().to_dict().__repr__()
     )
 
     if preprocess:

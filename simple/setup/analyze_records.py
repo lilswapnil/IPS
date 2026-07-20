@@ -187,9 +187,35 @@ def predict_sentiment(
 def realign_by_sentiment(
     challenges: pd.DataFrame,
     expectations: pd.DataFrame,
+    *,
+    only_source: str | None = None,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Move positive challenges → expectations; negative expectations → challenges."""
+    """Move positive challenges → expectations; negative expectations → challenges.
+
+    If ``only_source`` is set (e.g. ``\"meeting_notes\"``), only that source is
+    realigned; other rows stay in their original frames.
+    """
     shared = ["focus_group", "processed_text", "sentiment"]
+    if "department" in challenges.columns and "department" in expectations.columns:
+        shared = ["department"] + shared
+    if only_source is not None:
+        if "source" not in challenges.columns or "source" not in expectations.columns:
+            raise ValueError(
+                "only_source requires a `source` column on both frames "
+                f"(got challenges={list(challenges.columns)}, "
+                f"expectations={list(expectations.columns)})"
+            )
+        ch_other = challenges.loc[challenges["source"] != only_source].copy()
+        ex_other = expectations.loc[expectations["source"] != only_source].copy()
+        ch_target = challenges.loc[challenges["source"] == only_source].copy()
+        ex_target = expectations.loc[expectations["source"] == only_source].copy()
+        ch_target, ex_target = realign_by_sentiment(ch_target, ex_target)
+        challenges = pd.concat([ch_other, ch_target], ignore_index=True)
+        expectations = pd.concat([ex_other, ex_target], ignore_index=True)
+        return challenges, expectations
+
+    if "source" in challenges.columns and "source" in expectations.columns:
+        shared = shared + ["source"]
 
     to_exp = (
         challenges.loc[challenges["sentiment"] == "positive", shared + ["pain_points"]]
@@ -238,7 +264,7 @@ CATEGORY_CONFIG = {
         "bulk": 3, "status gap": 4, "overwhelming": 4, "traffic": 3, "ticketing": 4,
     },
     "Case Management": {
-        "case": 3, "case management": 5, "inspection": 3, "inspector": 3, "violation": 3,
+        "case": 2, "cases": 2, "case management": 5, "inspections": 3, "inspection": 3, "violation": 3, "violations": 3,
         "complaint": 3, "assignment": 2, "owner": 2, "priority": 2, "status": 2,
         "follow up": 3, "resolution": 2, "permit": 2, "citation": 2, "referral": 5,
         "referral tracking": 5, "ticket": 3, "hearing": 3, "appeal": 3, "evidence": 4,
@@ -285,7 +311,7 @@ CATEGORY_CONFIG = {
         "seasonal": 3, "60-day": 4, "60 day": 4,
     },
     "User Experience & Performance": {
-        "slow": 4, "performance": 4, "lag": 4, "freeze": 4, "crash": 4, "timeout": 4,
+        "slow": 5, "performance": 4, "lag": 5, "freeze": 6, "crash": 6, "timeout": 5,
         "loading": 3, "usability": 4, "user friendly": 5, "navigation": 3,
         "click": 2, "screen": 2, "confusing": 3, "easy": 2, "difficult": 2, "mobile": 4,
         "tablet": 4, "desktop": 3, "internet": 4, "offline": 5, "network": 4,
@@ -295,7 +321,7 @@ CATEGORY_CONFIG = {
         "cluttered": 4, "organized": 3,
     },
     "Training & Documentation": {
-        "training": 5, "documentation": 5, "guide": 3, "instruction": 3,
+        "training": 5, "train" : 5, "documentation": 5, "document": 5, "guide": 3, "instruction": 3,
         "support": 2, "knowledge": 4, "faq": 3, "onboarding": 4, "reference": 2, "sop": 5,
     },
 }
@@ -360,21 +386,53 @@ def extract_title(text: str) -> str:
 
 
 def _keyword_hit(text_lower: str, keyword: str) -> bool:
-    """Substring for multi-word phrases; word-boundary (+ optional plural) for short tokens."""
-    if " " in keyword or len(keyword) >= 6:
+    """Substring for multi-word phrases; word-boundary (+ English inflection) for tokens."""
+    if " " in keyword:
         return keyword in text_lower
-    # Match "case"/"cases", "fee"/"fees" but not "fee" inside "feedback"
-    return bool(re.search(rf"\b{re.escape(keyword)}s?\b", text_lower))
+    kw = re.escape(keyword)
+    if len(keyword) >= 4:
+        # crash→crashes/crashing; freeze→freezes/freezing (drop silent e)
+        if re.search(rf"\b{kw}(?:ing|es|ed|s)?\b", text_lower):
+            return True
+        if keyword.endswith("e") and re.search(
+            rf"\b{re.escape(keyword[:-1])}ing\b", text_lower
+        ):
+            return True
+        return False
+    return bool(re.search(rf"\b{kw}(?:es|s)?\b", text_lower))
+
+
+# Symptom words that should beat contextual nouns (e.g. "scheduling crashes" → UX)
+_UX_FAILURE_RE = re.compile(
+    r"\b("
+    r"crash|crashes|crashing|freeze|freezes|freezing|frozen|"
+    r"slow|slows|lag|lags|lagging|timeout|timeouts|"
+    r"bug|bugs|reboot|reboots|restart|restarts|shutdown"
+    r")\b",
+    re.I,
+)
 
 
 def assign_keyword(text: str, category_config: dict) -> tuple[str, float]:
     text_lower = str(text).lower()
-    best_category, best_score = "Other", 0.0
+    scores: dict[str, float] = {}
     for category, keywords in category_config.items():
-        score = sum(w for kw, w in keywords.items() if _keyword_hit(text_lower, kw))
-        if score > best_score:
-            best_category, best_score = category, float(score)
-    return best_category, best_score
+        score = float(sum(w for kw, w in keywords.items() if _keyword_hit(text_lower, kw)))
+        if score > 0:
+            scores[category] = score
+
+    if not scores:
+        return "Other", 0.0
+
+    # Reliability/performance failures outrank setting/context keywords
+    ux = "User Experience & Performance"
+    if _UX_FAILURE_RE.search(text_lower) and ux in scores:
+        best_other = max((s for c, s in scores.items() if c != ux), default=0.0)
+        if scores[ux] >= best_other - 2:
+            scores[ux] = max(scores[ux], best_other) + 2
+
+    best_category = max(scores, key=scores.get)
+    return best_category, scores[best_category]
 
 
 def pick_category(row: pd.Series) -> tuple[str, str, float]:
