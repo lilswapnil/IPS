@@ -19,23 +19,13 @@ Optional: put a Hugging Face token in `.env` as `HF_TOKEN=...` (faster model dow
 
 ## Run
 
-### 1. Extract records
-
-```bash
-python3 setup/extract_records.py
-```
-
-Writes:
-- `output/processed/challenges.csv`
-- `output/processed/expectations.csv`
-
-### 2. Analyze (sentiment + categories)
+### 1. Analyze (sentiment + categories)
 
 Open and run **`analysis.ipynb`** top to bottom.
 
 Writes scored / categorized CSVs under `output/processed/`.
 
-### 3. Visualize
+### 2. Visualize
 
 | Notebook | Purpose |
 |----------|---------|
