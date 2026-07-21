@@ -10,7 +10,6 @@ Pipeline for Round 1 IPS transition discovery. It turns focus-group worksheets a
 3. **Categorize** — Assign each record to one of ten municipal themes via a hybrid keyword + embedding approach.
 =======
 3. **Categorize** — Assign each record to one of ten category groups / themes via a hybrid keyword + embedding approach.
->>>>>>> edd0f41f7e2b639be210c06702c672af9a8ddeda
 4. **Visualize** — Explore category mix, focus-group volume, and sentiment in notebooks / Plotly figures.
 
 ## Requirements
