@@ -46,8 +46,6 @@ echo 'HF_TOKEN=hf_...' > .env
 
 Activate the venv, then either use the CLI extract step or jump straight into the analysis notebook (it calls extract for you).
 
-### Option A — Full analysis notebook (recommended)
-
 Open and run **`notebook/analysis.ipynb`** top to bottom. It:
 
 1. Extracts records → `output/processed/challenges.csv`, `expectations.csv`
@@ -57,13 +55,6 @@ Open and run **`notebook/analysis.ipynb`** top to bottom. It:
 5. Builds exploratory Plotly charts under `output/figures/`
 
 First run downloads DistilBERT (sentiment) and `all-mpnet-base-v2` (categorization); later runs reuse the local cache.
-
-### Option B — Extract only from the terminal
-
-```bash
-source .venv/bin/activate
-python3 scripts/extract_records.py
-```
 
 Writes:
 
