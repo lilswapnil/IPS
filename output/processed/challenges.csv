@@ -14,18 +14,32 @@ BAA,BAA ALJs,Scheduling of hearings and case posture/history/state/ not readable
 BAA,BAA ALJs,"Fines, fees difficult to distinguish in IPS",worksheet,"Fines, fees difficult to distinguish in IPS"
 BAA,BAA ALJs,Cannot easily rename files in IPS,worksheet,Cannot easily rename files in IPS
 BAA,BAA ALJs,Too many windows,worksheet,Too many windows
+BAA,BAA ALJs,Automatic records of adjudication downloads / uploads,worksheet,Automatic records of adjudication downloads / uploads
+BAA,BAA ALJs,No decision bank,worksheet,No decision bank
+BAA,BAA ALJs,No change tracking,worksheet,No change tracking
+BAA,BAA ALJs,No Related properties visualization,worksheet,No Related properties visualization
+BAA,BAA ALJs,Track of service / check USPS,worksheet,Track of service / check USPS
 BAA,BAA Operations,Search case when client doesn't have a violation number,worksheet,Search case when client doesn't have a violation number
 BAA,BAA Operations,Case notes not submitted in one spot,worksheet,Case notes not submitted in one spot
+BAA,BAA Operations,Not very visual or information are not put together (notes),worksheet,Not very visual or information are not put together (notes)
 BAA,BAA Operations,Actions log is so hard to understand,worksheet,Actions log is so hard to understand
 BAA,BAA Operations,No hearing schedule: a way to view hearings in designated time frame,worksheet,No hearing schedule: a way to view hearings in designated time frame
 BAA,BAA Operations,Having to search by tax ID instead of address,worksheet,Having to search by tax ID instead of address
+BAA,BAA Operations,Not being able to search by address,worksheet,Not being able to search by address
+BAA,BAA Operations,When you search one of the previews should show fine amount,worksheet,When you search one of the previews should show fine amount
+BAA,BAA Operations,Would love for there to be a “hearing schedule (date)” action that then makes a schedule,worksheet,Would love for there to be a “hearing schedule (date)” action that then makes a schedule
+BAA,BAA Operations,A way to filter the action log so you can see only “BAA” or only “codes”,worksheet,A way to filter the action log so you can see only “BAA” or only “codes”
 BAA,BAA Operations,Repeat same information,worksheet,Repeat same information
+BAA,BAA Operations,Hunting for files,worksheet,Hunting for files
+BAA,BAA Operations,Respondent cannot access files,worksheet,Respondent cannot access files
 BAA,BAA Operations,Violation searches: have to search for address then click each case to see if any open fees,worksheet,Violation searches: have to search for address then click each case to see if any open fees
 BAA,BAA Operations,In IPS have to approve pending tickets twice.,worksheet,In IPS have to approve pending tickets twice.
 BAA,BAA Operations,BAA case notes: if multiple rounds of tickets only way to make sure correct note is based on date,worksheet,BAA case notes: if multiple rounds of tickets only way to make sure correct note is based on date
 BAA,BAA Operations,"Adding default fees, you have to do individually",worksheet,"Adding default fees, you have to do individually"
+BAA,BAA Operations,Manually opening each case to see if theres a fine,worksheet,Manually opening each case to see if theres a fine
 BAA,BAA Operations,There are so many tabs that aren't used,worksheet,There are so many tabs that aren't used
 BAA,BAA Operations,Inspections tab needs to contain more things,worksheet,Inspections tab needs to contain more things
+BAA,BAA Operations,Just need more options for what we currently do more drop downs,worksheet,Just need more options for what we currently do more drop downs
 BAA,BAA Supervisors,Manual ticketing process,worksheet,Manual ticketing process
 BAA,BAA Supervisors,Overachieving user account,worksheet,Overachieving user account
 BAA,BAA Supervisors,payments,worksheet,payments
@@ -45,20 +59,27 @@ BAA,BAA Supervisors,Can't search for LLC,worksheet,Can't search for LLC
 BAA,BAA Supervisors,Unreliable address search,worksheet,Unreliable address search
 BAA,BAA Supervisors,Unreliable reports,worksheet,Unreliable reports
 BAA,BAA Supervisors,Too many interfaces not linking info (i.e. parcel search),worksheet,Too many interfaces not linking info (i.e. parcel search)
+BAA,BAA Supervisors,Payment only described with type – not linked to violations; worse in different rounds,worksheet,Payment only described with type – not linked to violations; worse in different rounds
+BAA,BAA Supervisors,Have to add fees one by one,worksheet,Have to add fees one by one
 BAA,BAA Supervisors,Note taking (nothing technical),worksheet,Note taking (nothing technical)
 CPC,CPC,BAA fines,worksheet,BAA fines
 CPC,CPC,Open / closed symbols on complaints,worksheet,Open / closed symbols on complaints
+CPC,CPC,Account balance for entire property,worksheet,Account balance for entire property
 CPC,CPC,Violation sheet mixed with everything else,worksheet,Violation sheet mixed with everything else
+CPC,CPC,Maybe the speed sometimes,worksheet,Maybe the speed sometimes
 CPC,CPC,Searching complaints by address – most green / pink icons are incorrect,worksheet,Searching complaints by address – most green / pink icons are incorrect
 CPC,CPC,When a property has many violations- it loads slower,worksheet,When a property has many violations- it loads slower
 CPC,CPC,Search by ticket number and violation number,worksheet,Search by ticket number and violation number
 CPC,CPC,Currently only allows search by ticket number,worksheet,Currently only allows search by ticket number
+CPC,CPC,Open / closed icons are mostly incorrect,worksheet,Open / closed icons are mostly incorrect
 CPC,CPC,It's straightforward,worksheet,It's straightforward
 CPC,CPC,Ability to cross-reference account other than address,worksheet,Ability to cross-reference account other than address
 CPC,CPC,Any accounts listed under an individual,worksheet,Any accounts listed under an individual
 CPO,Permits,Too many applications,worksheet,Too many applications
 CPO,Permits,Lack of integration (data being shared),worksheet,Lack of integration (data being shared)
 CPO,Permits,Notification to code enforcement applicants and reviews,worksheet,Notification to code enforcement applicants and reviews
+CPO,Permits,Applications cannot see status,worksheet,Applications cannot see status
+CPO,Permits,No integration with other software used,worksheet,No integration with other software used
 CPO,Permits,Split permits and codes,worksheet,Split permits and codes
 CPO,Permits,Reads less like a report and more like a hunt for information,worksheet,Reads less like a report and more like a hunt for information
 CPO,Permits,In camino when application uploads the wrong document,worksheet,In camino when application uploads the wrong document
@@ -67,66 +88,107 @@ DOCE,Admin Aide,Sometimes it saves sometimes it doesn't; different parts of IPS 
 DOCE,Admin Aide,Cannot search person with associated addresses/complaints,worksheet,Cannot search person with associated addresses/complaints
 DOCE,Admin Aide,Difficult to find individual complaints,worksheet,Difficult to find individual complaints
 DOCE,Admin Aide,Reverts to former address updated addresses don't always stay saved,worksheet,Reverts to former address updated addresses don't always stay saved
+DOCE,Admin Aide,Does not spell/grammer check,worksheet,Does not spell/grammer check
+DOCE,Admin Aide,"GIS deed search, catchments should be a part f each parcel",worksheet,"GIS deed search, catchments should be a part f each parcel"
 DOCE,Admin Aide,Phone calls dropping,worksheet,Phone calls dropping
 DOCE,Admin Aide,Can't upload attachments,worksheet,Can't upload attachments
 DOCE,Admin Aide,Saving an inspection after scheduling crashes IPS or sometimes it slows down,worksheet,Saving an inspection after scheduling crashes IPS or sometimes it slows down
 DOCE,Admin Aide,Inspector names listed for periodic inspection are never in order/alphabetical,worksheet,Inspector names listed for periodic inspection are never in order/alphabetical
 DOCE,Admin Aide,Sometimes Rent Holds / Rent Release doesn't appear as an option to input,worksheet,Sometimes Rent Holds / Rent Release doesn't appear as an option to input
+DOCE,Admin Aide,The fact that the processing speed after saving things lags.,worksheet,The fact that the processing speed after saving things lags.
+DOCE,Admin Aide,"We can't have to man windows/tabs open at once sometimes because it slows down and crashes. However, due to the volume of calls we get and they can be consecutive we don't always have the time to close everything in between",worksheet,"We can't have to man windows/tabs open at once sometimes because it slows down and crashes. However, due to the volume of calls we get and they can be consecutive we don't always have the time to close everything in between"
 DOCE,Admin Aide,Prolonged loading time,worksheet,Prolonged loading time
 DOCE,Admin Aide,Freezing and crashing of IPS,worksheet,Freezing and crashing of IPS
 DOCE,Building Inspectors,Updated Contact Information,worksheet,Updated Contact Information
 DOCE,Building Inspectors,Updated address,worksheet,Updated address
 DOCE,Building Inspectors,Task to be done for inspection addressed before Inspection,worksheet,Task to be done for inspection addressed before Inspection
+DOCE,Building Inspectors,New tablets,worksheet,New tablets
 DOCE,Building Inspectors,Citing in field,worksheet,Citing in field
 DOCE,Building Inspectors,Required permits,worksheet,Required permits
+DOCE,Building Inspectors,some information is outdated,worksheet,some information is outdated
 DOCE,Building Inspectors,Having to rely on other people,worksheet,Having to rely on other people
 DOCE,Building Inspectors,So many systems,worksheet,So many systems
 DOCE,Building Inspectors,Lack of communication,worksheet,Lack of communication
 DOCE,Building Inspectors,Getting blamed for slow BAA and Law process,worksheet,Getting blamed for slow BAA and Law process
+DOCE,Building Inspectors,Ownership issues/updates,worksheet,Ownership issues/updates
+DOCE,Building Inspectors,Too many areas for same information,worksheet,Too many areas for same information
+DOCE,Building Inspectors,Not able to hold all information we need,worksheet,Not able to hold all information we need
+DOCE,Building Inspectors,Finding cases,worksheet,Finding cases
 DOCE,Building Inspectors,Zoning approval/zone check,worksheet,Zoning approval/zone check
 DOCE,Building Inspectors,Tax delinquecy,worksheet,Tax delinquecy
 DOCE,Building Inspectors,Elevator certification,worksheet,Elevator certification
 DOCE,Building Inspectors,Water certification,worksheet,Water certification
+DOCE,Building Inspectors,Crashing at least thrice a week,worksheet,Crashing at least thrice a week
+DOCE,Building Inspectors,Doesn't show zoning work on our case,worksheet,Doesn't show zoning work on our case
 DOCE,CPO-Coordinators,Moving things / duplicating from Camino to IPS,worksheet,Moving things / duplicating from Camino to IPS
 DOCE,CPO-Coordinators,Application process made more difficult with Camino,worksheet,Application process made more difficult with Camino
+DOCE,CPO-Coordinators,Workflows often “break” / stop working,worksheet,Workflows often “break” / stop working
+DOCE,CPO-Coordinators,"Nowhere to notify me of renewal / expirations, unless report if generated",worksheet,"Nowhere to notify me of renewal / expirations, unless report if generated"
+DOCE,CPO-Coordinators,Case management could be made easier somehow,worksheet,Case management could be made easier somehow
 DOCE,CPO-Coordinators,60day notices: crashes and takes time to process,worksheet,60day notices: crashes and takes time to process
 DOCE,CPO-Coordinators,Applicant communication,worksheet,Applicant communication
 DOCE,CPO-Coordinators,Updating owner information,worksheet,Updating owner information
+DOCE,CPO-Coordinators,Attachments and IPS crashing (saving attachments),worksheet,Attachments and IPS crashing (saving attachments)
+DOCE,CPO-Coordinators,IPS crashes,worksheet,IPS crashes
+DOCE,CPO-Coordinators,Having multiple tabs in IPS and everyone isn't on them (periodic vs complaint),worksheet,Having multiple tabs in IPS and everyone isn't on them (periodic vs complaint)
 DOCE,CPO-Coordinators,Why is family based not in Camino,worksheet,Why is family based not in Camino
 DOCE,Housing Inspectors,When IPS freezes or not working efficiently it can cause a delay in process,worksheet,When IPS freezes or not working efficiently it can cause a delay in process
+DOCE,Housing Inspectors,The lapses - “freezing” or “loading” that occasionally happens.,worksheet,The lapses - “freezing” or “loading” that occasionally happens.
+DOCE,Housing Inspectors,If the Rental registry portal a.k.a. “Periodic Inspection” and IPS were more streamlined it could be more efficient,worksheet,If the Rental registry portal a.k.a. “Periodic Inspection” and IPS were more streamlined it could be more efficient
 DOCE,Housing Inspectors,Actions in IPS are slow to select,worksheet,Actions in IPS are slow to select
 DOCE,Housing Inspectors,Selection same actions multiple times,worksheet,Selection same actions multiple times
 DOCE,Housing Inspectors,Organize cases based on type of cases,worksheet,Organize cases based on type of cases
 DOCE,Housing Inspectors,Checking lead map frequently,worksheet,Checking lead map frequently
+DOCE,Housing Inspectors,Action are slow,worksheet,Action are slow
+DOCE,Housing Inspectors,Allow for pictures to be uploaded a specific way,worksheet,Allow for pictures to be uploaded a specific way
+DOCE,Housing Inspectors,No access when in the field besides both before you left,worksheet,No access when in the field besides both before you left
 DOCE,Housing Inspectors,When others are entering violations at the same time,worksheet,When others are entering violations at the same time
 DOCE,Housing Inspectors,No shortcut for common actions (i.e. code staff notes),worksheet,No shortcut for common actions (i.e. code staff notes)
 DOCE,Housing Inspectors,Addresses aren't always updated,worksheet,Addresses aren't always updated
 DOCE,Housing Inspectors,Too many actions,worksheet,Too many actions
+DOCE,Housing Inspectors,"The general flow of IPS, layout",worksheet,"The general flow of IPS, layout"
+DOCE,Housing Inspectors,It crashes a lot,worksheet,It crashes a lot
+DOCE,Housing Inspectors,Its slow to open cases,worksheet,Its slow to open cases
 DOCE,Housing Inspectors,IPS will be slow or shutdown; reboot needed,worksheet,IPS will be slow or shutdown; reboot needed
 DOCE,Housing Inspectors,"IPS does not have a general scroll option for all cases, need to go into/out of multiple open/closed cases to get accurate picture of case/property history and active cases",worksheet,"IPS does not have a general scroll option for all cases, need to go into/out of multiple open/closed cases to get accurate picture of case/property history and active cases"
 DOCE,Housing Inspectors,“Trim down” the drop downs related to assigned inspector/type of case,worksheet,“Trim down” the drop downs related to assigned inspector/type of case
 DOCE,Office Managers,Updating ownership will sometimes make IPS crash,worksheet,Updating ownership will sometimes make IPS crash
 DOCE,Office Managers,Sometimes Image Mate doesn't have the best information and overrides correct ownership information already in IPS,worksheet,Sometimes Image Mate doesn't have the best information and overrides correct ownership information already in IPS
 DOCE,Office Managers,Opening cases too quickly and more than one at a time in IPS will often make it crash,worksheet,Opening cases too quickly and more than one at a time in IPS will often make it crash
+DOCE,Office Managers,Everything written in the section above which I realize fits better here,worksheet,Everything written in the section above which I realize fits better here
+DOCE,Office Managers,Ownership – too many duplicates,worksheet,Ownership – too many duplicates
 DOCE,Office Managers,Sanitation notice bar in print queue crashes when clicked,worksheet,Sanitation notice bar in print queue crashes when clicked
 DOCE,Office Managers,Address updating – having to click on contact to view updated address,worksheet,Address updating – having to click on contact to view updated address
+DOCE,Office Managers,IPS crashing if open/used too long,worksheet,IPS crashing if open/used too long
+DOCE,Office Managers,Address range – knowing assessed address,worksheet,Address range – knowing assessed address
+DOCE,Office Managers,Assessment address doesn't always match the IPS address,worksheet,Assessment address doesn't always match the IPS address
 DOCE,Office Managers,Property manager/agent in IPS “Parcel” does not always transfer over when opening a new case,worksheet,Property manager/agent in IPS “Parcel” does not always transfer over when opening a new case
 DOCE,Office Managers,“Refer to BAA” action in the case will not always refer the case to BAA,worksheet,“Refer to BAA” action in the case will not always refer the case to BAA
+DOCE,Office Managers,You cannot search by violation number,worksheet,You cannot search by violation number
+DOCE,Office Managers,You cannot search an address by the letter number in the address (eg. 205-207 XXX st would need to be searched as 205 & notes 207),worksheet,You cannot search an address by the letter number in the address (eg. 205-207 XXX st would need to be searched as 205 & notes 207)
+DOCE,Office Managers,The address book can be floated with duplicate contacts with the same information,worksheet,The address book can be floated with duplicate contacts with the same information
 DOCE,Permit/Commercial/Electrical Inspectors,IPS buffers/breaks down,worksheet,IPS buffers/breaks down
 DOCE,Permit/Commercial/Electrical Inspectors,Searching for information,worksheet,Searching for information
+DOCE,Permit/Commercial/Electrical Inspectors,"Inability to document, etc",worksheet,"Inability to document, etc"
 DOCE,Permit/Commercial/Electrical Inspectors,When you schedule an inspection on camino it doesn't show up on outlook,worksheet,When you schedule an inspection on camino it doesn't show up on outlook
 DOCE,Permit/Commercial/Electrical Inspectors,Better training on processes in pace,worksheet,Better training on processes in pace
 DOCE,Permit/Commercial/Electrical Inspectors,Cannot create new dates in camino to check/call contractors for updates,worksheet,Cannot create new dates in camino to check/call contractors for updates
+DOCE,Permit/Commercial/Electrical Inspectors,Camino is internet based. I can't issue certificate half of the times,worksheet,Camino is internet based. I can't issue certificate half of the times
+DOCE,Permit/Commercial/Electrical Inspectors,IPS was awful for RR when I used to do those,worksheet,IPS was awful for RR when I used to do those
+DOCE,Permit/Commercial/Electrical Inspectors,Have to hand write my day going through 10 pages of inspections,worksheet,Have to hand write my day going through 10 pages of inspections
 DOCE,Permit/Commercial/Electrical Inspectors,Camino's layout format,worksheet,Camino's layout format
 DOCE,Permit/Commercial/Electrical Inspectors,Seeing new/assigned work,worksheet,Seeing new/assigned work
 DOCE,Permit/Commercial/Electrical Inspectors,access,worksheet,access
 DOCE,Permit/Commercial/Electrical Inspectors,In camino not being able to keep track of tickle dates,worksheet,In camino not being able to keep track of tickle dates
+DOCE,Permit/Commercial/Electrical Inspectors,I have no issues. I have adapted to it.,worksheet,I have no issues. I have adapted to it.
 DOCE,Permit/Commercial/Electrical Inspectors,No coordination,worksheet,No coordination
 DOCE,Supervisors,"Too many systems needed to check ownership, taxes, water, codes, permits, zoning history",worksheet,"Too many systems needed to check ownership, taxes, water, codes, permits, zoning history"
 DOCE,Supervisors,Missing information / data (historical information),worksheet,Missing information / data (historical information)
 DOCE,Supervisors,“Some historical data lost in fire/flooding/pipe burst”,worksheet,“Some historical data lost in fire/flooding/pipe burst”
 DOCE,Supervisors,Information not digital/in one place,worksheet,Information not digital/in one place
 DOCE,Supervisors,Multiple software programs and databases,worksheet,Multiple software programs and databases
+DOCE,Supervisors,Becomes cumbersome as volume of cases build,worksheet,Becomes cumbersome as volume of cases build
+DOCE,Supervisors,Becomes cumbersome as volume of cases build,worksheet,Becomes cumbersome as volume of cases build
 DOCE,Supervisors,Inconsistent / lagging contact information,worksheet,Inconsistent / lagging contact information
 DOCE,Supervisors,Parcel information not being in one central location,worksheet,Parcel information not being in one central location
 DOCE,Supervisors,Research on multiple software,worksheet,Research on multiple software
@@ -134,16 +196,22 @@ DOCE,Supervisors,Historical information is missing,worksheet,Historical informat
 DOCE,Supervisors,Too much collaborating on email (especially with projects),worksheet,Too much collaborating on email (especially with projects)
 DOCE,Supervisors,Currently no major concerns with IPS,worksheet,Currently no major concerns with IPS
 DOCE,Supervisors,Contractors find Camino very frustrating and then gets turned over to CPO and me – Demo Permits,worksheet,Contractors find Camino very frustrating and then gets turned over to CPO and me – Demo Permits
+DOCE,Supervisors,IPS Software is unpredictable,worksheet,IPS Software is unpredictable
 DOCE,Supervisors,Too many places where information is stored,worksheet,Too many places where information is stored
 DOCE,Supervisors,Special Knowledge needed to operate system,worksheet,Special Knowledge needed to operate system
+DOCE,Supervisors,"Easy for cases, permits to get missed",worksheet,"Easy for cases, permits to get missed"
 DOCE,Zoning,Historical context / research scattered all over. “Finding all the history”,worksheet,Historical context / research scattered all over. “Finding all the history”
 DOCE,Zoning,Parcel based but not system of record tracking addressing/ownership,worksheet,Parcel based but not system of record tracking addressing/ownership
 DOCE,Zoning,Ownership chenges,worksheet,Ownership chenges
 DOCE,Zoning,Re-subs,worksheet,Re-subs
 DOCE,Zoning,Lot aleration,worksheet,Lot aleration
 DOCE,Zoning,History on “inactive parcels”,worksheet,History on “inactive parcels”
+DOCE,Zoning,Some are not,worksheet,Some are not
 DOCE,Zoning,Basement filling system (excel spreadsheet),worksheet,Basement filling system (excel spreadsheet)
 DOCE,Zoning,“gaps” in information,worksheet,“gaps” in information
+DOCE,Zoning,"Sometimes, pdf or jpegs of documents will not be attached",worksheet,"Sometimes, pdf or jpegs of documents will not be attached"
+DOCE,Zoning,To an item in IPS a record of the item is there but not the file itself,worksheet,To an item in IPS a record of the item is there but not the file itself
+DOCE,Zoning,User interface is ugle,worksheet,User interface is ugle
 DOCE,Zoning,"IPS slowness, larger parcels have issues taking time to load",worksheet,"IPS slowness, larger parcels have issues taking time to load"
 DOCE,Zoning,Parcels broken into multiple pieces / units,worksheet,Parcels broken into multiple pieces / units
 DOCE,Zoning,OnBase layout and windows often not very user-friendly,worksheet,OnBase layout and windows often not very user-friendly
@@ -153,26 +221,39 @@ DOCE,Zoning,Late in process,worksheet,Late in process
 DOCE,Zoning,History searches take a significant amount of time,worksheet,History searches take a significant amount of time
 DOCE,Zoning,Parcel history search,worksheet,Parcel history search
 DOCE,Zoning,Area / block searches lot,worksheet,Area / block searches lot
+DOCE,Zoning,submenus are difficult to navigate – limited knowledge of system,worksheet,submenus are difficult to navigate – limited knowledge of system
 DOCE,Zoning,Answering repetitive phone calls,worksheet,Answering repetitive phone calls
+DOCE,Zoning,"A lot of previous approvals are in IPS, but don't have final documents attached.",worksheet,"A lot of previous approvals are in IPS, but don't have final documents attached."
+DOCE,Zoning,When parcels are resubdivided or their name changes it can be hard to track history,worksheet,When parcels are resubdivided or their name changes it can be hard to track history
+DOCE,Zoning,Reading through complaints can be annoying when looking at the parcel history too,worksheet,Reading through complaints can be annoying when looking at the parcel history too
 DOCE,Zoning,"Communication: applicant, reviewer",worksheet,"Communication: applicant, reviewer"
 DOCE,Zoning,"Communication: applicant, reviewer",worksheet,"Communication: applicant, reviewer"
 FPB,Fire,I find IPS to be non-intuitive and confusing,worksheet,I find IPS to be non-intuitive and confusing
 FPB,Fire,Researching history of violations is time consuming,worksheet,Researching history of violations is time consuming
 FPB,Fire,Cloud based would be better,worksheet,Cloud based would be better
 FPB,Fire,To sign off on a Certificate of Occupancy or Certificate of Completion have to look in multiple places to find applicable closed inspections,worksheet,To sign off on a Certificate of Occupancy or Certificate of Completion have to look in multiple places to find applicable closed inspections
+FPB,Fire,Overall look is outdated,worksheet,Overall look is outdated
 FPB,Fire,Missing information regarding parcel,worksheet,Missing information regarding parcel
 FPB,Fire,Missing information regarding parcel,worksheet,Missing information regarding parcel
 FPB,Fire,From reviewers/inspections,worksheet,From reviewers/inspections
 FPB,Fire,"Multiple ways/places to document – action, images/documents, inspections",worksheet,"Multiple ways/places to document – action, images/documents, inspections"
 FPB,Fire,Inactive parcel that are actually active,worksheet,Inactive parcel that are actually active
 FPB,Fire,Scheduling - need to be put in multiple places,worksheet,Scheduling - need to be put in multiple places
+FPB,Fire,Too many places to look for things,worksheet,Too many places to look for things
+FPB,Fire,Inactive parcels,worksheet,Inactive parcels
+FPB,Fire,Parcel address has to be exact,worksheet,Parcel address has to be exact
+FPB,Fire,Parcel contains multiple building/businesses,worksheet,Parcel contains multiple building/businesses
+FPB,Fire,"It's cumbersome, doesn't work offsite they have to be at desktop or remote in to use",worksheet,"It's cumbersome, doesn't work offsite they have to be at desktop or remote in to use"
 Law,Law,I can't complete an affirmation if the notices and nail & mail aren't uploaded into IPS,worksheet,I can't complete an affirmation if the notices and nail & mail aren't uploaded into IPS
 Law,Law,The layout of the action notes,worksheet,The layout of the action notes
 Law,Law,Inability to access water records without AS400,worksheet,Inability to access water records without AS400
 Law,Law,Inspectors don't always take good records,worksheet,Inspectors don't always take good records
 Law,Law,Cannot combine open violations from multiple complaints,worksheet,Cannot combine open violations from multiple complaints
+Law,Law,"Issues with water, tax not easily tacked",worksheet,"Issues with water, tax not easily tacked"
+Law,Law,Permissions for certain action by property,worksheet,Permissions for certain action by property
 Law,Law,IPS is underutilized:,worksheet,IPS is underutilized:
 Law,Law,"Documents not loaded, notes needed",worksheet,"Documents not loaded, notes needed"
+Law,Law,Not so much IPS but that it's underutilized at times by Codes incomplete or missing information,worksheet,Not so much IPS but that it's underutilized at times by Codes incomplete or missing information
 NBD,NBD Data Team,"Leak of standardized / consistent data entry, often due to lack of standardized actions aren't used",worksheet,"Leak of standardized / consistent data entry, often due to lack of standardized actions aren't used"
 NBD,NBD Data Team,Lack of automation eg. Doubling fines after at time condition for much of BAA process,worksheet,Lack of automation eg. Doubling fines after at time condition for much of BAA process
 NBD,NBD Data Team,Lack of consistent system use outside of codes for interdepartmental projects / co-ordination,worksheet,Lack of consistent system use outside of codes for interdepartmental projects / co-ordination
@@ -180,22 +261,41 @@ NBD,NBD Data Team,Segmentation between Camino & IPS for permitting data,workshee
 NBD,NBD Data Team,Tracking for users also cause of continuity for data reporting,worksheet,Tracking for users also cause of continuity for data reporting
 NBD,NBD Data Team,Lack of timely system updates (IT),worksheet,Lack of timely system updates (IT)
 NBD,NBD Data Team,"Clunky – easy to accidentally break things inaditantly – make codes item, had to regenerate codes book with rendor",worksheet,"Clunky – easy to accidentally break things inaditantly – make codes item, had to regenerate codes book with rendor"
+NBD,NBD Data Team,Lack of data validation & required fields – data quality issues because questions are skipped or dropdown item not referred are selected,worksheet,Lack of data validation & required fields – data quality issues because questions are skipped or dropdown item not referred are selected
+NBD,NBD Data Team,IPS custom forms – limited functionality can obtain and use feature to populate the system data,worksheet,IPS custom forms – limited functionality can obtain and use feature to populate the system data
+NBD,NBD Data Team,Limited ability to manage content when resubs occur – active cases can be in active parcels. IPS doesn't allow for copying of records for historical record keeping purposes. Not obtitus what the related parcel can type,worksheet,Limited ability to manage content when resubs occur – active cases can be in active parcels. IPS doesn't allow for copying of records for historical record keeping purposes. Not obtitus what the related parcel can type
+NBD,NBD Data Team,Limited ability to track large cases of unitl level for multifamily / mixed use and / or apartment buildings sub pacels not adequate for addressing this,worksheet,Limited ability to track large cases of unitl level for multifamily / mixed use and / or apartment buildings sub pacels not adequate for addressing this
+NBD,NBD Data Team,Address book – unable to add related addresses if contact already stored,worksheet,Address book – unable to add related addresses if contact already stored
+NBD,NBD Data Team,Limited frontend reporting capabilities,worksheet,Limited frontend reporting capabilities
+NBD,NBD Data Team,BAA process system needs to be able to track BAA outcomes violation level not just overall case level,worksheet,BAA process system needs to be able to track BAA outcomes violation level not just overall case level
 NBD,NBD Data Team,Difficult to find specific complaints,worksheet,Difficult to find specific complaints
 NBD,NBD Data Team,Unable to add things to IPS through code,worksheet,Unable to add things to IPS through code
 NBD,NBD Data Team,Sub parcels are often unused,worksheet,Sub parcels are often unused
+NBD,NBD Data Team,Dated workflow system (not programmable),worksheet,Dated workflow system (not programmable)
+NBD,NBD Data Team,Better case management: Reminder dates as actions in IPS for inspection. Confusing with others being inspections,worksheet,Better case management: Reminder dates as actions in IPS for inspection. Confusing with others being inspections
+NBD,NBD Data Team,Lack of clear way to link cases,worksheet,Lack of clear way to link cases
+NBD,NBD Data Team,Lack of data validation for user defined attributes,worksheet,Lack of data validation for user defined attributes
 NBD,NBD Data Team,"I spend several hours a week updating IPS on the front-end, manually.",worksheet,"I spend several hours a week updating IPS on the front-end, manually."
 NBD,NBD Data Team,Workflow capabilities limited,worksheet,Workflow capabilities limited
 NBD,NBD Data Team,Systems are siloed (IPS can't communicate with other systems well),worksheet,Systems are siloed (IPS can't communicate with other systems well)
 NBD,NBD Data Team,Units! Subparcels,worksheet,Units! Subparcels
 NBD,NBD Data Team,No data validation!,worksheet,No data validation!
+NBD,NBD Data Team,We can only update on the front-end and have to request the vendor do batch updates,worksheet,We can only update on the front-end and have to request the vendor do batch updates
+NBD,NBD Data Team,System is buggy but updates are slow and complicated ( [PERSON] talked about this too),worksheet,System is buggy but updates are slow and complicated ( [PERSON] talked about this too)
+NBD,NBD Data Team,"Resubs are so hard to find the related parcel, and there's minimal automated processes for migrating cases, attributes, etc. to the new parcel. This complicates managing other programs",worksheet,"Resubs are so hard to find the related parcel, and there's minimal automated processes for migrating cases, attributes, etc. to the new parcel. This complicates managing other programs"
 NBD,NBD Internal,Some ERP referrals do not show up in the desk review section on home page,worksheet,Some ERP referrals do not show up in the desk review section on home page
 NBD,NBD Internal,Cannot select from drop-down the type of referrals,worksheet,Cannot select from drop-down the type of referrals
 NBD,NBD Internal,Need a system for DSS referral (refugee resettlement),worksheet,Need a system for DSS referral (refugee resettlement)
+NBD,NBD Internal,non–chronological on the view page of when cases are open at the address look up,worksheet,non–chronological on the view page of when cases are open at the address look up
 NBD,NBD Internal,Property research: inability to pull information from county clerk database,worksheet,Property research: inability to pull information from county clerk database
+NBD,NBD Internal,Contact book abyss,worksheet,Contact book abyss
+NBD,NBD Internal,If you open a complaint while in another,worksheet,If you open a complaint while in another
 NBD,NBD Internal,Lack of automation for data entry,worksheet,Lack of automation for data entry
 NBD,NBD Internal,Different systems for each thing,worksheet,Different systems for each thing
 NBD,NBD Internal,Switch to camino has made information harder to find cross system,worksheet,Switch to camino has made information harder to find cross system
 NBD,NBD Internal,No cross-departmental usage,worksheet,No cross-departmental usage
+NBD,NBD Internal,Runs slow when trying to enter a spreadsheet of data by hand,worksheet,Runs slow when trying to enter a spreadsheet of data by hand
+NBD,NBD Internal,Random crashes / restarts,worksheet,Random crashes / restarts
 DOCE,Admin Aide,M: Unhandled exception error – entered complaint case and crashes,meeting_notes,M: Unhandled exception error – entered complaint case and crashes
 DOCE,Admin Aide,IPS crash 2-3 times per day,meeting_notes,IPS crash 2-3 times per day
 DOCE,Admin Aide,S: Scheduling When person supposed to be in a certain error,meeting_notes,S: Scheduling When person supposed to be in a certain error

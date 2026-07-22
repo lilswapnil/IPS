@@ -16,15 +16,20 @@ BAA,BAA ALJs,Application for codes to input information immediately.,worksheet,A
 BAA,BAA ALJs,An adjudication specific module,worksheet,An adjudication specific module
 BAA,BAA ALJs,Better designation of fines / fees and which violation it is associated with,worksheet,Better designation of fines / fees and which violation it is associated with
 BAA,BAA ALJs,Better layout and more intuitive UI,worksheet,Better layout and more intuitive UI
+BAA,BAA ALJs,(to keep) Drag and drop of some documents,worksheet,(to keep) Drag and drop of some documents
+BAA,BAA ALJs,(to keep) Color coding of actions / departments,worksheet,(to keep) Color coding of actions / departments
 BAA,BAA Operations,Case notes together like in alta via.,worksheet,Case notes together like in alta via.
+BAA,BAA Operations,(to keep) Very detailed on information,worksheet,(to keep) Very detailed on information
 BAA,BAA Operations,Easier to find information like reservice / notes,worksheet,Easier to find information like reservice / notes
 BAA,BAA Operations,We dont need 30 different green shades but i do like different color for different department,worksheet,We dont need 30 different green shades but i do like different color for different department
 BAA,BAA Operations,Be able to type in different action types instead of just “case notes”,worksheet,Be able to type in different action types instead of just “case notes”
 BAA,BAA Operations,Wrap text instead of sliding the bar all the way over,worksheet,Wrap text instead of sliding the bar all the way over
 BAA,BAA Operations,A recently viewed ability would be amazing,worksheet,A recently viewed ability would be amazing
 BAA,BAA Operations,If we could search by address that would be so much more efficient,worksheet,If we could search by address that would be so much more efficient
+BAA,BAA Operations,(to keep) The color coordination of codes being one color and BAA another,worksheet,(to keep) The color coordination of codes being one color and BAA another
 BAA,BAA Operations,To check if rental registry have been applied for and obtained (people lie about this all the time),worksheet,To check if rental registry have been applied for and obtained (people lie about this all the time)
 BAA,BAA Operations,Improve add tab,worksheet,Improve add tab
+BAA,BAA Operations,(to keep) inspections,worksheet,(to keep) inspections
 BAA,BAA Operations,Filter open to show all cases with fines,worksheet,Filter open to show all cases with fines
 BAA,BAA Operations,When clicking BAA ticketing from pending to approve either combine both or just one action,worksheet,When clicking BAA ticketing from pending to approve either combine both or just one action
 BAA,BAA Operations,BAA case notes with action like first round ticket button,worksheet,BAA case notes with action like first round ticket button
@@ -34,99 +39,153 @@ BAA,BAA Operations,Less action button when going to add notes,worksheet,Less act
 BAA,BAA Operations,Clear out some of the ones that aren't used,worksheet,Clear out some of the ones that aren't used
 BAA,BAA Operations,“RMI letter receival”,worksheet,“RMI letter receival”
 BAA,BAA Operations,Add RMI letter mailed,worksheet,Add RMI letter mailed
+BAA,BAA Operations,(to keep) Want to keep the drag and drop option,worksheet,(to keep) Want to keep the drag and drop option
 BAA,BAA Operations,Just want it cleaned up and organized more,worksheet,Just want it cleaned up and organized more
 BAA,BAA Supervisors,Automate tickets,worksheet,Automate tickets
 BAA,BAA Supervisors,Link all tickets/complaints for a property of house owner,worksheet,Link all tickets/complaints for a property of house owner
 BAA,BAA Supervisors,Limit to the ones used,worksheet,Limit to the ones used
+BAA,BAA Supervisors,(to keep) Search criteria,worksheet,(to keep) Search criteria
+BAA,BAA Supervisors,(to keep) Actions with space for notes,worksheet,(to keep) Actions with space for notes
+BAA,BAA Supervisors,(to keep) Payment tab relatively easy to use,worksheet,(to keep) Payment tab relatively easy to use
+BAA,BAA Supervisors,(to keep) Tax id search is reliable,worksheet,(to keep) Tax id search is reliable
 BAA,BAA Supervisors,Linked cases is biggest,worksheet,Linked cases is biggest
 BAA,BAA Supervisors,Case note button on top with actions and inspections so wouldn't have to scroll,worksheet,Case note button on top with actions and inspections so wouldn't have to scroll
 BAA,BAA Supervisors,BAA inspections different color from codes,worksheet,BAA inspections different color from codes
 BAA,BAA Supervisors,revamp actions,worksheet,revamp actions
 BAA,BAA Supervisors,Putting notes in uniform manner,worksheet,Putting notes in uniform manner
+BAA,BAA Supervisors,(to keep) Don't use it enough,worksheet,(to keep) Don't use it enough
 CPC,CPC,BAA update timely,worksheet,BAA update timely
 CPC,CPC,User updates,worksheet,User updates
+CPC,CPC,(to keep) Photos!,worksheet,(to keep) Photos!
 CPC,CPC,"At a glance status of properties – RR renewal date, same for CofU, CofC, VPR.",worksheet,"At a glance status of properties – RR renewal date, same for CofU, CofC, VPR."
 CPC,CPC,Maybe a tab just for BAA violation ticket and not mixed in with the warning and everything else,worksheet,Maybe a tab just for BAA violation ticket and not mixed in with the warning and everything else
+CPC,CPC,(to keep) The complaint look up tool is the best,worksheet,(to keep) The complaint look up tool is the best
 CPC,CPC,The information IPS has is good but just a tab for violation ticket separate for all the warning and image would make things easier,worksheet,The information IPS has is good but just a tab for violation ticket separate for all the warning and image would make things easier
 CPC,CPC,Can the IPS software automatically add the late fees to all existing code violations to avoid incorrect information being recorded or provided to the customer.,worksheet,Can the IPS software automatically add the late fees to all existing code violations to avoid incorrect information being recorded or provided to the customer.
 CPC,CPC,Can the violation and BAA ticket be different and not so identical for easy processing purpose and not to confuse everyone involved.,worksheet,Can the violation and BAA ticket be different and not so identical for easy processing purpose and not to confuse everyone involved.
 CPC,CPC,I could help update when I see some that could be closed,worksheet,I could help update when I see some that could be closed
 CPC,CPC,Maybe its my computer,worksheet,Maybe its my computer
 CPC,CPC,Add one more search function,worksheet,Add one more search function
+CPC,CPC,(to keep) Search by address / owner / ticket number,worksheet,(to keep) Search by address / owner / ticket number
+CPC,CPC,(to keep) Address always matches eTax. If there's a typo or abbreviation – IPS will match eTax,worksheet,(to keep) Address always matches eTax. If there's a typo or abbreviation – IPS will match eTax
 CPC,CPC,"After searching by owner name or address, if the list of violations could show the amount owed. It would save more time opening each violations.",worksheet,"After searching by owner name or address, if the list of violations could show the amount owed. It would save more time opening each violations."
+CPC,CPC,(to keep) Works well,worksheet,(to keep) Works well
 CPC,CPC,Businesses on system should also list owner's / responsible party name,worksheet,Businesses on system should also list owner's / responsible party name
 CPC,CPC,System could automatically duplicate email address + phone for every account on system once completed for one account manually,worksheet,System could automatically duplicate email address + phone for every account on system once completed for one account manually
 CPC,CPC,Recode items which have current money owed to a “Red dot“ instead of purple or green so it stands out and would eliminate need to double click each entry.,worksheet,Recode items which have current money owed to a “Red dot“ instead of purple or green so it stands out and would eliminate need to double click each entry.
+CPC,CPC,(to keep) Searching under complaints brings up useful + useless information regarding penalty fees currently owed when you input address,worksheet,(to keep) Searching under complaints brings up useful + useless information regarding penalty fees currently owed when you input address
 CPC,CPC,AS400 – water,worksheet,AS400 – water
 CPC,CPC,Need to duplicate password entry,worksheet,Need to duplicate password entry
 CPO,Permits,One database that stores and allows /facilitates application progress,worksheet,One database that stores and allows /facilitates application progress
 CPO,Permits,Improve documentation capabilities,worksheet,Improve documentation capabilities
+CPO,Permits,(to keep) Printing review team comments,worksheet,(to keep) Printing review team comments
+CPO,Permits,(to keep) Contractor database (insurance),worksheet,(to keep) Contractor database (insurance)
+CPO,Permits,(to keep) “Address book”,worksheet,(to keep) “Address book”
+CPO,Permits,(to keep) Printing capabilities,worksheet,(to keep) Printing capabilities
+CPO,Permits,(to keep) Alerts (eg. eta),worksheet,(to keep) Alerts (eg. eta)
+CPO,Permits,(to keep) customizing user capability,worksheet,(to keep) customizing user capability
+CPO,Permits,(to keep) Comment editing,worksheet,(to keep) Comment editing
+CPO,Permits,(to keep) Recording users,worksheet,(to keep) Recording users
+CPO,Permits,(to keep) I like OnBase layout,worksheet,(to keep) I like OnBase layout
 CPO,Permits,Ideally it would be aide to someone integrate with camino.,worksheet,Ideally it would be aide to someone integrate with camino.
 CPO,Permits,I think from codes perspective the information is scattered,worksheet,I think from codes perspective the information is scattered
 CPO,Permits,"Eg. Ideally, If IPS could integrate with Camino if a violation were in the system it could trigger an alert in camino on app>",worksheet,"Eg. Ideally, If IPS could integrate with Camino if a violation were in the system it could trigger an alert in camino on app>"
+CPO,Permits,(to keep) I like that IPS can print out reviewer's comments on one concise report,worksheet,(to keep) I like that IPS can print out reviewer's comments on one concise report
+CPO,Permits,(to keep) Using it as a system of record for code enforcement,worksheet,(to keep) Using it as a system of record for code enforcement
 DOCE,Admin Aide,autofill from linked outlook and IPS modules,worksheet,autofill from linked outlook and IPS modules
 DOCE,Admin Aide,Same format throughout,worksheet,Same format throughout
 DOCE,Admin Aide,"Search in address book would populate all associated properties complaints, violations",worksheet,"Search in address book would populate all associated properties complaints, violations"
 DOCE,Admin Aide,More detailed preview,worksheet,More detailed preview
+DOCE,Admin Aide,(to keep) Lots of options in the drop downs,worksheet,(to keep) Lots of options in the drop downs
+DOCE,Admin Aide,(to keep) Automatically adding – in phone numbers,worksheet,(to keep) Automatically adding – in phone numbers
 DOCE,Admin Aide,Faster processing speed or more data for the software to run smoothly so it doesn't crash often,worksheet,Faster processing speed or more data for the software to run smoothly so it doesn't crash often
 DOCE,Admin Aide,Making it so we can seek the names alphabetically or programming it to do so,worksheet,Making it so we can seek the names alphabetically or programming it to do so
 DOCE,Admin Aide,Adding Rent Hold / Rent Release as option for all cases since some case types doesn't list them,worksheet,Adding Rent Hold / Rent Release as option for all cases since some case types doesn't list them
+DOCE,Admin Aide,(to keep) The actions for IPS are really solid and cover most things that we need to enter,worksheet,(to keep) The actions for IPS are really solid and cover most things that we need to enter
 DOCE,Admin Aide,"If there was more organization in the periodic inspection table, there are too many unused options and the list is random",worksheet,"If there was more organization in the periodic inspection table, there are too many unused options and the list is random"
 DOCE,Building Inspectors,Make sure we have the most current information,worksheet,Make sure we have the most current information
 DOCE,Building Inspectors,Make sure we have the most current address,worksheet,Make sure we have the most current address
 DOCE,Building Inspectors,Better communication,worksheet,Better communication
+DOCE,Building Inspectors,(to keep) Updated tablets and software that actually works,worksheet,(to keep) Updated tablets and software that actually works
 DOCE,Building Inspectors,Sprinkler system reports & elevator reports – access to them at least,worksheet,Sprinkler system reports & elevator reports – access to them at least
 DOCE,Building Inspectors,Tablets that are faster,worksheet,Tablets that are faster
 DOCE,Building Inspectors,Communication within departments,worksheet,Communication within departments
+DOCE,Building Inspectors,(to keep) simplicity,worksheet,(to keep) simplicity
 DOCE,Building Inspectors,Apps on iPhone,worksheet,Apps on iPhone
 DOCE,Building Inspectors,Single system,worksheet,Single system
 DOCE,Building Inspectors,Single system,worksheet,Single system
+DOCE,Building Inspectors,(to keep) Documents can be saved in the system,worksheet,(to keep) Documents can be saved in the system
 DOCE,Building Inspectors,The same as AS400.,worksheet,The same as AS400.
 DOCE,Building Inspectors,If it could hold everything I need.,worksheet,If it could hold everything I need.
+DOCE,Building Inspectors,(to keep) Reminder dates,worksheet,(to keep) Reminder dates
 DOCE,Building Inspectors,Have a note that says pass instead calling permits,worksheet,Have a note that says pass instead calling permits
 DOCE,Building Inspectors,Have that in IPS,worksheet,Have that in IPS
+DOCE,Building Inspectors,(to keep) I think all of it is very good,worksheet,(to keep) I think all of it is very good
 DOCE,Building Inspectors,Just elevator certificate,worksheet,Just elevator certificate
 DOCE,CPO-Coordinators,One system for everything,worksheet,One system for everything
 DOCE,CPO-Coordinators,Get rid of Camino!,worksheet,Get rid of Camino!
+DOCE,CPO-Coordinators,(to keep) I like IPS and would continue using – it's easy,worksheet,(to keep) I like IPS and would continue using – it's easy
+DOCE,CPO-Coordinators,(to keep) Record keeping and finding is simple and effiiceint,worksheet,(to keep) Record keeping and finding is simple and effiiceint
+DOCE,CPO-Coordinators,(to keep) Scheduling inspections is easy,worksheet,(to keep) Scheduling inspections is easy
+DOCE,CPO-Coordinators,"(to keep) Can print reviewer's comments easily, can print standard notices easily, saves all printed documents automatically",worksheet,"(to keep) Can print reviewer's comments easily, can print standard notices easily, saves all printed documents automatically"
 DOCE,CPO-Coordinators,"Customized certificates, simpler case management, more efficient expiration/renewal notification so report isn't needed, automatic renewal letters sent to a queue?",worksheet,"Customized certificates, simpler case management, more efficient expiration/renewal notification so report isn't needed, automatic renewal letters sent to a queue?"
 DOCE,CPO-Coordinators,Migrate list (tracking) out of IPS (this can be an excel file),worksheet,Migrate list (tracking) out of IPS (this can be an excel file)
 DOCE,CPO-Coordinators,Online system to schedule inspections (already used elsewhere),worksheet,Online system to schedule inspections (already used elsewhere)
 DOCE,CPO-Coordinators,Some owners have numerous accounts in IPS,worksheet,Some owners have numerous accounts in IPS
+DOCE,CPO-Coordinators,(to keep) Working with different departments and giving “tickle” dates,worksheet,(to keep) Working with different departments and giving “tickle” dates
 DOCE,Housing Inspectors,I have no idea; I am not sure why IPS has lapses so I am not sure how to improve/fix,worksheet,I have no idea; I am not sure why IPS has lapses so I am not sure how to improve/fix
+DOCE,Housing Inspectors,(to keep) I think IPS is a good system that is user friendly,worksheet,(to keep) I think IPS is a good system that is user friendly
 DOCE,Housing Inspectors,Make it so it's to a scroll to choose and action,worksheet,Make it so it's to a scroll to choose and action
 DOCE,Housing Inspectors,Make an action that saves clicks,worksheet,Make an action that saves clicks
 DOCE,Housing Inspectors,Make a case label for drive by/calls/waiting for owner,worksheet,Make a case label for drive by/calls/waiting for owner
 DOCE,Housing Inspectors,Case could tell you when you open it if it is in high risk area,worksheet,Case could tell you when you open it if it is in high risk area
+DOCE,Housing Inspectors,(to keep) Chronological notes/actions in case,worksheet,(to keep) Chronological notes/actions in case
 DOCE,Housing Inspectors,"If it could get water /lead information, it would save a lot of time. Only a couple of people have access to AS400, so it is annoying",worksheet,"If it could get water /lead information, it would save a lot of time. Only a couple of people have access to AS400, so it is annoying"
 DOCE,Housing Inspectors,Batch violation numbers when saved,worksheet,Batch violation numbers when saved
 DOCE,Housing Inspectors,Ability to add custom shortcuts,worksheet,Ability to add custom shortcuts
 DOCE,Housing Inspectors,Create a global address book,worksheet,Create a global address book
 DOCE,Housing Inspectors,Eliminate unneeded actions i.e. (BAA Ticket Rounds),worksheet,Eliminate unneeded actions i.e. (BAA Ticket Rounds)
+DOCE,Housing Inspectors,(to keep) Separation of cases per property,worksheet,(to keep) Separation of cases per property
 DOCE,Housing Inspectors,Stats,worksheet,Stats
 DOCE,Housing Inspectors,Cases without inspection date,worksheet,Cases without inspection date
 DOCE,Housing Inspectors,Cases set to “needs review”,worksheet,Cases set to “needs review”
 DOCE,Housing Inspectors,(IT or IPS focus),worksheet,(IT or IPS focus)
+DOCE,Housing Inspectors,(to keep) It's pretty good for me,worksheet,(to keep) It's pretty good for me
+DOCE,Housing Inspectors,(to keep) Information update across cases,worksheet,(to keep) Information update across cases
+DOCE,Housing Inspectors,(to keep) Laptop use would be great in field,worksheet,(to keep) Laptop use would be great in field
 DOCE,Housing Inspectors,Bring back laptops so we can update cases in field,worksheet,Bring back laptops so we can update cases in field
 DOCE,Housing Inspectors,Issues connecting to IPS remotely,worksheet,Issues connecting to IPS remotely
 DOCE,Office Managers,"I can complete my function by only opening one case at a time, but it slows me down",worksheet,"I can complete my function by only opening one case at a time, but it slows me down"
+DOCE,Office Managers,"(to keep) The ability to click within a case, directs to Image Mate button is very helpful",worksheet,"(to keep) The ability to click within a case, directs to Image Mate button is very helpful"
 DOCE,Office Managers,"The way ownership and previous ownership in relation in relation to “agents” “business contact”, etc. With a case (not parcel) is often messed up:",worksheet,"The way ownership and previous ownership in relation in relation to “agents” “business contact”, etc. With a case (not parcel) is often messed up:"
 DOCE,Office Managers,"Because if sometimes doesn't take an update,",worksheet,"Because if sometimes doesn't take an update,"
 DOCE,Office Managers,Can't tell who is connected to who,worksheet,Can't tell who is connected to who
 DOCE,Office Managers,Remove tab because it has nothing to do with us,worksheet,Remove tab because it has nothing to do with us
 DOCE,Office Managers,Make it still “checkable” but have address remain updated,worksheet,Make it still “checkable” but have address remain updated
+DOCE,Office Managers,(to keep) Print queue – organization of notices,worksheet,(to keep) Print queue – organization of notices
+DOCE,Office Managers,(to keep) Parcel information – showing information,worksheet,(to keep) Parcel information – showing information
+DOCE,Office Managers,(to keep) Complaint search – search by violation numbers?,worksheet,(to keep) Complaint search – search by violation numbers?
 DOCE,Office Managers,Ensure this information can be automatically put into new cases so it is not forgotten,worksheet,Ensure this information can be automatically put into new cases so it is not forgotten
 DOCE,Office Managers,"Making sure “department”, “status” or either status in IPS are not holding up BAA referrals.",worksheet,"Making sure “department”, “status” or either status in IPS are not holding up BAA referrals."
+DOCE,Office Managers,(to keep) Search by complaint number,worksheet,(to keep) Search by complaint number
+DOCE,Office Managers,(to keep) Address book & searching by property owner,worksheet,(to keep) Address book & searching by property owner
 DOCE,Office Managers,Water & Tax records for periodic inspections,worksheet,Water & Tax records for periodic inspections
 DOCE,Permit/Commercial/Electrical Inspectors,Consolidate to functioning system,worksheet,Consolidate to functioning system
+DOCE,Permit/Commercial/Electrical Inspectors,(to keep) Ability to keep track of kick out inspections,worksheet,(to keep) Ability to keep track of kick out inspections
 DOCE,Permit/Commercial/Electrical Inspectors,In field timely acces: to information and modification of cases,worksheet,In field timely acces: to information and modification of cases
 DOCE,Permit/Commercial/Electrical Inspectors,Have camino and outlook talk to each other,worksheet,Have camino and outlook talk to each other
 DOCE,Permit/Commercial/Electrical Inspectors,Use IPS when permit is pulled,worksheet,Use IPS when permit is pulled
+DOCE,Permit/Commercial/Electrical Inspectors,(to keep) When you issue certificate of completion it emails the contractor/homeowner,worksheet,(to keep) When you issue certificate of completion it emails the contractor/homeowner
+DOCE,Permit/Commercial/Electrical Inspectors,(to keep) Can upload pictures easily using the app,worksheet,(to keep) Can upload pictures easily using the app
 DOCE,Permit/Commercial/Electrical Inspectors,Get rid of it,worksheet,Get rid of it
 DOCE,Permit/Commercial/Electrical Inspectors,Get rid of it,worksheet,Get rid of it
 DOCE,Permit/Commercial/Electrical Inspectors,Get rid of it,worksheet,Get rid of it
+DOCE,Permit/Commercial/Electrical Inspectors,(to keep) layout,worksheet,(to keep) layout
 DOCE,Permit/Commercial/Electrical Inspectors,Add a tickle date option to the system,worksheet,Add a tickle date option to the system
+DOCE,Permit/Commercial/Electrical Inspectors,"(to keep) Again, being able to have future tickle dates",worksheet,"(to keep) Again, being able to have future tickle dates"
 DOCE,Permit/Commercial/Electrical Inspectors,IPS works better than Camino,worksheet,IPS works better than Camino
 DOCE,Permit/Commercial/Electrical Inspectors,Hiring qualified people and train them,worksheet,Hiring qualified people and train them
+DOCE,Permit/Commercial/Electrical Inspectors,(to keep) Don't use it,worksheet,(to keep) Don't use it
 DOCE,Supervisors,Consolidate /merge data and information,worksheet,Consolidate /merge data and information
 DOCE,Supervisors,?,worksheet,?
 DOCE,Supervisors,"Migration to one place (microfrch, scans, shared drives, etc.)",worksheet,"Migration to one place (microfrch, scans, shared drives, etc.)"
@@ -134,36 +193,73 @@ DOCE,Supervisors,Artificial Intelligence,worksheet,Artificial Intelligence
 DOCE,Supervisors,"Connection to enterprise-wide GIS at the county level, since we are parcel based (legal basis for Code Enforcement Activity)",worksheet,"Connection to enterprise-wide GIS at the county level, since we are parcel based (legal basis for Code Enforcement Activity)"
 DOCE,Supervisors,Better reporting,worksheet,Better reporting
 DOCE,Supervisors,?,worksheet,?
+DOCE,Supervisors,"(to keep) Case notes, photo upload",worksheet,"(to keep) Case notes, photo upload"
+DOCE,Supervisors,"(to keep) Inspection dates, tickle dates",worksheet,"(to keep) Inspection dates, tickle dates"
 DOCE,Supervisors,Not sure.,worksheet,Not sure.
 DOCE,Supervisors,?,worksheet,?
 DOCE,Supervisors,"Improve UI for parcel history, have data from Camino (permits) and other databases inputted into central database.",worksheet,"Improve UI for parcel history, have data from Camino (permits) and other databases inputted into central database."
 DOCE,Supervisors,"Some addresses on the property are not the same in assessment records, so contractors get frsutrated",worksheet,"Some addresses on the property are not the same in assessment records, so contractors get frsutrated"
+DOCE,Supervisors,(to keep) Drop Box Function,worksheet,(to keep) Drop Box Function
+DOCE,Supervisors,(to keep) Votes section,worksheet,(to keep) Votes section
 DOCE,Supervisors,Central software for all Code,worksheet,Central software for all Code
+DOCE,Supervisors,(to keep) Ease of use,worksheet,(to keep) Ease of use
 DOCE,Zoning,Data migration to one system for historical records.,worksheet,Data migration to one system for historical records.
 DOCE,Zoning,Digitization of all records timely,worksheet,Digitization of all records timely
 DOCE,Zoning,Enterprise wide GIS system,worksheet,Enterprise wide GIS system
+DOCE,Zoning,(to keep) Some old zoning projects are there.,worksheet,(to keep) Some old zoning projects are there.
+DOCE,Zoning,(to keep) SOCPA put old variance and conditional uses in IPS,worksheet,(to keep) SOCPA put old variance and conditional uses in IPS
 DOCE,Zoning,See notes from my code enforcement worksheet - [PERSON],worksheet,See notes from my code enforcement worksheet - [PERSON]
 DOCE,Zoning,More regular updates to speadsheet,worksheet,More regular updates to speadsheet
 DOCE,Zoning,"The items not on IPS or OnBase, if not in basement file, can't be found",worksheet,"The items not on IPS or OnBase, if not in basement file, can't be found"
+DOCE,Zoning,(to keep) Parcel history database is in chronological order,worksheet,(to keep) Parcel history database is in chronological order
+DOCE,Zoning,"(to keep) Straightforward, easy to learn",worksheet,"(to keep) Straightforward, easy to learn"
 DOCE,Zoning,More files uploaded / transferred to IPS,worksheet,More files uploaded / transferred to IPS
+DOCE,Zoning,(to keep) Direct file opening,worksheet,(to keep) Direct file opening
 DOCE,Zoning,Change workflow,worksheet,Change workflow
 DOCE,Zoning,Dedicated person,worksheet,Dedicated person
+DOCE,Zoning,(to keep) Searching for inactive parcel,worksheet,(to keep) Searching for inactive parcel
+DOCE,Zoning,(to keep) filters,worksheet,(to keep) filters
 DOCE,Zoning,Onboarding training (competative),worksheet,Onboarding training (competative)
 DOCE,Zoning,Making the code more accessible or encouraging email communications rather than calling,worksheet,Making the code more accessible or encouraging email communications rather than calling
+DOCE,Zoning,"(to keep) The ability to filter by type, permit, project, complaint, etc.",worksheet,"(to keep) The ability to filter by type, permit, project, complaint, etc."
+DOCE,Zoning,"(to keep) It's very terse, a lot of information is provided or most applications",worksheet,"(to keep) It's very terse, a lot of information is provided or most applications"
 DOCE,Zoning,"I wish all previous things that are in OnBase were in IPS. So, I didn't have to switch between those often",worksheet,"I wish all previous things that are in OnBase were in IPS. So, I didn't have to switch between those often"
+DOCE,Zoning,(to keep) Comment summary sheet,worksheet,(to keep) Comment summary sheet
+DOCE,Zoning,"(to keep) Date management: change, modify, date",worksheet,"(to keep) Date management: change, modify, date"
+DOCE,Zoning,(to keep) List of application history,worksheet,(to keep) List of application history
+DOCE,Zoning,(to keep) Status overview dashboard,worksheet,(to keep) Status overview dashboard
+DOCE,Zoning,(to keep) Comment summary sheet,worksheet,(to keep) Comment summary sheet
+DOCE,Zoning,(to keep) Data management: change & modify,worksheet,(to keep) Data management: change & modify
+DOCE,Zoning,(to keep) List of application history: date,worksheet,(to keep) List of application history: date
+DOCE,Zoning,(to keep) Status overview dashboard,worksheet,(to keep) Status overview dashboard
+FPB,Fire,(to keep) The tickle date function seems to be valuable,worksheet,(to keep) The tickle date function seems to be valuable
+FPB,Fire,(to keep) Finding the history of a property or business takes several steps,worksheet,(to keep) Finding the history of a property or business takes several steps
 FPB,Fire,IPS on mobile devices. Real time inspection reports and documentation. Integrate IPS violations into other Fire Department functions,worksheet,IPS on mobile devices. Real time inspection reports and documentation. Integrate IPS violations into other Fire Department functions
 FPB,Fire,Import information like exact CO and capacity available without digging,worksheet,Import information like exact CO and capacity available without digging
 FPB,Fire,Have a more profound way of finding information,worksheet,Have a more profound way of finding information
 FPB,Fire,Make it one way to document different people do thing differently and put in different places,worksheet,Make it one way to document different people do thing differently and put in different places
 FPB,Fire,Fix this! Make sure they are active in IPS,worksheet,Fix this! Make sure they are active in IPS
 Law,Law,The format makes it hard to read everything at once,worksheet,The format makes it hard to read everything at once
+Law,Law,(to keep) I like the images tab so I can look at the notices directly,worksheet,(to keep) I like the images tab so I can look at the notices directly
 Law,Law,Integrate water records into recordkeeping tools,worksheet,Integrate water records into recordkeeping tools
 Law,Law,Require confirmation that documents were uploaded and work was done,worksheet,Require confirmation that documents were uploaded and work was done
 Law,Law,Make overview reports available for properties,worksheet,Make overview reports available for properties
+Law,Law,(to keep) Intuitive interface,worksheet,(to keep) Intuitive interface
+Law,Law,(to keep) Easy to find individual complaints,worksheet,(to keep) Easy to find individual complaints
 Law,Law,Compatibility with office,worksheet,Compatibility with office
 Law,Law,More disciplinary entry of notes and documents,worksheet,More disciplinary entry of notes and documents
+Law,Law,(to keep) When fully utilized by codes it is a resource for information,worksheet,(to keep) When fully utilized by codes it is a resource for information
 Law,Law,Ability for IPS information to be transferred to MS word,worksheet,Ability for IPS information to be transferred to MS word
 NBD,NBD Data Team,"Process mapping & SOPS, system training & support",worksheet,"Process mapping & SOPS, system training & support"
+NBD,NBD Data Team,(to keep) RPS to IPS assessment sync daily: always have current ownership information,worksheet,(to keep) RPS to IPS assessment sync daily: always have current ownership information
+NBD,NBD Data Team,(to keep) Panel based,worksheet,(to keep) Panel based
+NBD,NBD Data Team,(to keep) Periodic module: ability to batch generate renewal letters when property comes due,worksheet,(to keep) Periodic module: ability to batch generate renewal letters when property comes due
+NBD,NBD Data Team,(to keep) Backend access to our own data,worksheet,(to keep) Backend access to our own data
+NBD,NBD Data Team,(to keep) Based roles / permisions,worksheet,(to keep) Based roles / permisions
+NBD,NBD Data Team,(to keep) Workflow configuration abilities (they are limited not easy to set up),worksheet,(to keep) Workflow configuration abilities (they are limited not easy to set up)
+NBD,NBD Data Team,(to keep) New record type configuration abilities / “maintenance” menu,worksheet,(to keep) New record type configuration abilities / “maintenance” menu
+NBD,NBD Data Team,(to keep) “one stop shop” for property records (pre-camino),worksheet,(to keep) “one stop shop” for property records (pre-camino)
+NBD,NBD Data Team,"(to keep) Zoning, Codes, Permits, Fire",worksheet,"(to keep) Zoning, Codes, Permits, Fire"
 NBD,NBD Data Team,Imporved case management tools for users: ability to finding upcoming unclosed so routes can be planned more ethuinituly,worksheet,Imporved case management tools for users: ability to finding upcoming unclosed so routes can be planned more ethuinituly
 NBD,NBD Data Team,"High level front-end reporting capabilities for leadership – compliance, on building block log cases, time to resolve, cases infor updates in x makes, etc",worksheet,"High level front-end reporting capabilities for leadership – compliance, on building block log cases, time to resolve, cases infor updates in x makes, etc"
 NBD,NBD Data Team,Direct scheduling for applicants! Ontwok integration,worksheet,Direct scheduling for applicants! Ontwok integration
@@ -171,6 +267,7 @@ NBD,NBD Data Team,"Usability or monthly quick links to other systems – AS400, 
 NBD,NBD Data Team,Have cleaner sorting and filtering features within a parcel,worksheet,Have cleaner sorting and filtering features within a parcel
 NBD,NBD Data Team,Add insert / update / delete functionality,worksheet,Add insert / update / delete functionality
 NBD,NBD Data Team,Have them be a component of main parcel?,worksheet,Have them be a component of main parcel?
+NBD,NBD Data Team,(to keep) Ability to pull data with SQL,worksheet,(to keep) Ability to pull data with SQL
 NBD,NBD Data Team,Easier way to modify violations.,worksheet,Easier way to modify violations.
 NBD,NBD Data Team,For sorting and categorizing,worksheet,For sorting and categorizing
 NBD,NBD Data Team,Updating IPS through SQL,worksheet,Updating IPS through SQL
@@ -181,6 +278,8 @@ NBD,NBD Data Team,"More robust automation or scripting possibilities, so that mo
 NBD,NBD Data Team,"Allow for if this then that bridges between programs, integrations with a CRM or GIS software, etc",worksheet,"Allow for if this then that bridges between programs, integrations with a CRM or GIS software, etc"
 NBD,NBD Data Team,"I'm not sure the best improvement here, but tracking residential units and which complaint goes to which unit is so frustrating",worksheet,"I'm not sure the best improvement here, but tracking residential units and which complaint goes to which unit is so frustrating"
 NBD,NBD Data Team,The ability to configure validation for different data fields,worksheet,The ability to configure validation for different data fields
+NBD,NBD Data Team,"(to keep) Customizability for actions, attributes, etc. (eg, “Rental Registry Required”)",worksheet,"(to keep) Customizability for actions, attributes, etc. (eg, “Rental Registry Required”)"
+NBD,NBD Data Team,(to keep) Approval groups so that case management & review happens in the same system,worksheet,(to keep) Approval groups so that case management & review happens in the same system
 NBD,NBD Data Team,I want better documentation for the database. We don't have any robust EO diagrams!,worksheet,I want better documentation for the database. We don't have any robust EO diagrams!
 NBD,NBD Data Team,"Please, let's have modern scripting options (eg, Python not Visual Basic; posting to the database)",worksheet,"Please, let's have modern scripting options (eg, Python not Visual Basic; posting to the database)"
 NBD,NBD Data Team,"If the new software could integrate with Esri, a contact management software (like Salesforce), or other tools, we could accomplish so much more",worksheet,"If the new software could integrate with Esri, a contact management software (like Salesforce), or other tools, we could accomplish so much more"
@@ -188,12 +287,18 @@ NBD,NBD Internal,Might be a bug,worksheet,Might be a bug
 NBD,NBD Internal,A drop down for ERP referrals to indicate where the referral came,worksheet,A drop down for ERP referrals to indicate where the referral came
 NBD,NBD Internal,Build system with drop down selection of where the referred came from to start documenting which agency placed them.,worksheet,Build system with drop down selection of where the referred came from to start documenting which agency placed them.
 NBD,NBD Internal,Something tangible that can get auto emailed to ambassadors,worksheet,Something tangible that can get auto emailed to ambassadors
+NBD,NBD Internal,(to keep) Allow all users to leave notes “codes staff notes”,worksheet,(to keep) Allow all users to leave notes “codes staff notes”
 NBD,NBD Internal,Geographic viewing of addresses nearby.,worksheet,Geographic viewing of addresses nearby.
 NBD,NBD Internal,Data sharing / backend access with county,worksheet,Data sharing / backend access with county
+NBD,NBD Internal,(to keep) Interdepartmental access,worksheet,(to keep) Interdepartmental access
 NBD,NBD Internal,Ways to mass enter data not through Hamer,worksheet,Ways to mass enter data not through Hamer
 NBD,NBD Internal,"eTax, IPS, AS400, Camino, etc. Too many to consolidate. Should be easier to access information from standard site",worksheet,"eTax, IPS, AS400, Camino, etc. Too many to consolidate. Should be easier to access information from standard site"
 NBD,NBD Internal,"Old permit information hasn't been transferred. They've stopped storing insurances, surveys need better record storage",worksheet,"Old permit information hasn't been transferred. They've stopped storing insurances, surveys need better record storage"
 NBD,NBD Internal,Something NBD/Law /Finance can all use,worksheet,Something NBD/Law /Finance can all use
+NBD,NBD Internal,"(to keep) Easy interface, can see whole story at once",worksheet,"(to keep) Easy interface, can see whole story at once"
+NBD,NBD Internal,(to keep) Tickle dates / reminders,worksheet,(to keep) Tickle dates / reminders
+NBD,NBD Internal,(to keep) Ability to add / remove entry option at will,worksheet,(to keep) Ability to add / remove entry option at will
+NBD,NBD Internal,(to keep) Ability to pull data from multiple cases at once,worksheet,(to keep) Ability to pull data from multiple cases at once
 Assessment,Assessment,"As far as current use of IPS – don't know what we don't know. Before today, didn't know Rental Registry was in there. Didn't have a comprehensive training. Haven't gone down rabbit hole of looking at fines. Knowing what houses have stop work orders is helpful – that would be helpful",meeting_notes,"As far as current use of IPS – don't know what we don't know. Before today, didn't know Rental Registry was in there. Didn't have a comprehensive training. Haven't gone down rabbit hole of looking at fines. Knowing what houses have stop work orders is helpful – that would be helpful"
 Assessment,Assessment,Share stop work order map*,meeting_notes,Share stop work order map*
 Assessment,Assessment,He would be curious to know of all the stop work orders how many go an obtain a permit?,meeting_notes,He would be curious to know of all the stop work orders how many go an obtain a permit?

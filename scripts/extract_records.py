@@ -140,8 +140,11 @@ NOTES_FOCUS_GROUPS = {
 }
 
 LIKES_HEADER = "what features do you like about ips"
+DISLIKES_HEADER = "what doesn't work well"
 TOOLS_HEADER = "are there other tools or systems"
 EXPECTATIONS_HEADER = "what features or capabilities do you wish ips had"
+# Prefix for TECHNOLOGY left-column “retain in a future system” lines
+TO_KEEP_LABEL = "(to keep)"
 
 PAIN_HEADING = re.compile(
     r"^(?:pain\s*points?\s*(?:and|&|/)\s*)?challenges?\s*:?\s*$", re.I
@@ -465,8 +468,19 @@ def extract_pain_expectation_records(
     return pains, expectations
 
 
-def extract_technology_expectation_records(table, focus_group: str) -> list[dict]:
-    expectations, section = [], None
+def extract_technology_records(
+    table, focus_group: str
+) -> tuple[list[dict], list[dict]]:
+    """TECHNOLOGY table sections:
+
+    - Likes / dislikes block (after header mentioning features to retain):
+        left  → expectations labeled ``(to keep)``
+        right → challenges (pain points)
+    - Wish-list block ("what features … wish IPS had") → expectations
+    - External tools block is skipped
+    """
+    pains, expectations = [], []
+    section = None
 
     for row in table.rows:
         cells = unique_cell_texts(row)
@@ -478,7 +492,10 @@ def extract_technology_expectation_records(table, focus_group: str) -> list[dict
 
         if first_cell.startswith("technology"):
             continue
-        if LIKES_HEADER in row_text:
+        if LIKES_HEADER in row_text or (
+            DISLIKES_HEADER in row_text and "retain" in row_text
+        ):
+            # Column header row: like/retain | frustrations
             section = "likes_dislikes"
             continue
         if TOOLS_HEADER in row_text or (first_cell == "tool" and "used for" in row_text):
@@ -488,19 +505,44 @@ def extract_technology_expectation_records(table, focus_group: str) -> list[dict
             section = "expectations"
             continue
 
-        if section != "expectations":
-            continue
-
-        for cell_text in cells:
-            for line in split_lines(cell_text):
+        if section == "likes_dislikes":
+            left = cells[0] if cells else ""
+            right = cells[1] if len(cells) > 1 else ""
+            for line in split_lines(left):
                 expectations.append(
                     {
                         "focus_group_name": focus_group,
                         "pain_point": pd.NA,
-                        "expectations": line,
+                        "expectations": f"{TO_KEEP_LABEL} {line}".strip(),
                     }
                 )
+            for line in split_lines(right):
+                pains.append(
+                    {
+                        "focus_group_name": focus_group,
+                        "pain_point": line,
+                        "expectations": pd.NA,
+                    }
+                )
+            continue
 
+        if section == "expectations":
+            for cell_text in cells:
+                for line in split_lines(cell_text):
+                    expectations.append(
+                        {
+                            "focus_group_name": focus_group,
+                            "pain_point": pd.NA,
+                            "expectations": line,
+                        }
+                    )
+
+    return pains, expectations
+
+
+# Back-compat alias used by older notebooks / imports
+def extract_technology_expectation_records(table, focus_group: str) -> list[dict]:
+    _pains, expectations = extract_technology_records(table, focus_group)
     return expectations
 
 
@@ -518,7 +560,9 @@ def extract_worksheet_records(doc_path: Path) -> list[dict]:
             records.extend(pains)
             records.extend(exps)
         elif table_type == "technology":
-            records.extend(extract_technology_expectation_records(table, focus_group))
+            pains, exps = extract_technology_records(table, focus_group)
+            records.extend(pains)
+            records.extend(exps)
 
     return records
 

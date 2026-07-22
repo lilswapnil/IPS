@@ -16,3 +16,6 @@ nbformat>=4.2.0
 nbconvert
 anywidget
 wordcloud
+openpyxl
+
+pinecone-client

@@ -6,11 +6,7 @@ Pipeline for Round 1 IPS transition discovery. It turns focus-group worksheets a
 
 1. **Extract** — Pull one record per line from Word worksheets and discovery notes; tag source (`worksheet` | `meeting_notes`); redact stakeholder names.
 2. **Score sentiment** — Label each record negative / neutral / positive, then realign misfiled meeting-note rows.
-<<<<<<< HEAD
 3. **Categorize** — Assign each record to one of ten municipal themes via a hybrid keyword + embedding approach.
-=======
-3. **Categorize** — Assign each record to one of ten category groups / themes via a hybrid keyword + embedding approach.
->>>>>>> edd0f41f7e2b639be210c06702c672af9a8ddeda
 4. **Visualize** — Explore category mix, focus-group volume, and sentiment in notebooks / Plotly figures.
 
 ## Requirements
@@ -47,8 +43,6 @@ echo 'HF_TOKEN=hf_...' > .env
 
 Activate the venv, then either use the CLI extract step or jump straight into the analysis notebook (it calls extract for you).
 
-### Option A — Full analysis notebook (recommended)
-
 Open and run **`notebook/analysis.ipynb`** top to bottom. It:
 
 1. Extracts records → `output/processed/challenges.csv`, `expectations.csv`
@@ -58,13 +52,6 @@ Open and run **`notebook/analysis.ipynb`** top to bottom. It:
 5. Builds exploratory Plotly charts under `output/figures/`
 
 First run downloads DistilBERT (sentiment) and `all-mpnet-base-v2` (categorization); later runs reuse the local cache.
-
-### Option B — Extract only from the terminal
-
-```bash
-source .venv/bin/activate
-python3 scripts/extract_records.py
-```
 
 Writes:
 
@@ -110,9 +97,9 @@ Ten fixed themes (workflow, case management, data visibility, records, integrati
 
 For each record the pipeline:
 
-1. Scores **weighted keywords** on the title (text before `:`) and full body.
+1. Scores **weighted keywords** on the full body text.
 2. Embeds the text with **`all-mpnet-base-v2`** and compares cosine similarity to natural-language category blurbs.
-3. Picks a label with a priority ladder: strong title keywords → strong body keywords → semantic match → weak keywords → semantic fallback. When keyword and semantic agree, that label wins.
+3. Picks a label with a priority ladder: strong body keywords → semantic match → weak keywords → semantic fallback. When keyword and semantic agree, that label wins.
 
 Reliability symptoms (crash, freeze, lag, …) are biased toward **User Experience & Performance** even when schedule/process nouns are present.
 

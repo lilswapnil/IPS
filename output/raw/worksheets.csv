@@ -31,9 +31,18 @@ BAA,BAA ALJs,Too many windows,
 BAA,BAA ALJs,,An adjudication specific module
 BAA,BAA ALJs,,Better designation of fines / fees and which violation it is associated with
 BAA,BAA ALJs,,Better layout and more intuitive UI
+BAA,BAA ALJs,Automatic records of adjudication downloads / uploads,
+BAA,BAA ALJs,No decision bank,
+BAA,BAA ALJs,No change tracking,
+BAA,BAA ALJs,No Related properties visualization,
+BAA,BAA ALJs,Track of service / check USPS,
+BAA,BAA ALJs,,(to keep) Drag and drop of some documents
+BAA,BAA ALJs,,(to keep) Color coding of actions / departments
 BAA,BAA Operations,Search case when client doesn’t have a violation number,
 BAA,BAA Operations,Case notes not submitted in one spot,
 BAA,BAA Operations,,Case notes together like in alta via.
+BAA,BAA Operations,Not very visual or information are not put together (notes),
+BAA,BAA Operations,,(to keep) Very detailed on information
 BAA,BAA Operations,,Easier to find information like reservice / notes
 BAA,BAA Operations,Actions log is so hard to understand,
 BAA,BAA Operations,No hearing schedule: a way to view hearings in designated time frame,
@@ -43,9 +52,17 @@ BAA,BAA Operations,,Be able to type in different action types instead of just �
 BAA,BAA Operations,,Wrap text instead of sliding the bar all the way over
 BAA,BAA Operations,,A recently viewed ability would be amazing
 BAA,BAA Operations,,If we could search by address that would be so much more efficient
+BAA,BAA Operations,Not being able to search by address,
+BAA,BAA Operations,When you search one of the previews should show fine amount,
+BAA,BAA Operations,Would love for there to be a “hearing schedule (date)” action that then makes a schedule,
+BAA,BAA Operations,A way to filter the action log so you can see only “BAA” or only “codes”,
+BAA,BAA Operations,,(to keep) The color coordination of codes being one color and BAA another
 BAA,BAA Operations,,To check if rental registry have been applied for and obtained (people lie about this all the time)
 BAA,BAA Operations,Repeat same information,
 BAA,BAA Operations,,Improve add tab
+BAA,BAA Operations,Hunting for files,
+BAA,BAA Operations,Respondent cannot access files,
+BAA,BAA Operations,,(to keep) inspections
 BAA,BAA Operations,Violation searches: have to search for address then click each case to see if any open fees,
 BAA,BAA Operations,In IPS have to approve pending tickets twice.,
 BAA,BAA Operations,BAA case notes: if multiple rounds of tickets only way to make sure correct note is based on date,
@@ -54,6 +71,7 @@ BAA,BAA Operations,,Filter open to show all cases with fines
 BAA,BAA Operations,,When clicking BAA ticketing from pending to approve either combine both or just one action
 BAA,BAA Operations,,BAA case notes with action like first round ticket button
 BAA,BAA Operations,,Select all fees at once when applying
+BAA,BAA Operations,Manually opening each case to see if theres a fine,
 BAA,BAA Operations,,More filter options for addresses with multiple cases
 BAA,BAA Operations,,Less action button when going to add notes
 BAA,BAA Operations,There are so many tabs that aren’t used,
@@ -61,6 +79,8 @@ BAA,BAA Operations,Inspections tab needs to contain more things,
 BAA,BAA Operations,,Clear out some of the ones that aren’t used
 BAA,BAA Operations,,“RMI letter receival”
 BAA,BAA Operations,,Add RMI letter mailed
+BAA,BAA Operations,Just need more options for what we currently do more drop downs,
+BAA,BAA Operations,,(to keep) Want to keep the drag and drop option
 BAA,BAA Operations,,Just want it cleaned up and organized more
 BAA,BAA Supervisors,Manual ticketing process,
 BAA,BAA Supervisors,Overachieving user account,
@@ -79,24 +99,35 @@ BAA,BAA Supervisors,,Link all tickets/complaints for a property of house owner
 BAA,BAA Supervisors,Multiple “actions” not being used,
 BAA,BAA Supervisors,Communication with codes,
 BAA,BAA Supervisors,,Limit to the ones used
+BAA,BAA Supervisors,,(to keep) Search criteria
 BAA,BAA Supervisors,Case not linked into inputted in one case not available in another with same owner/property,
 BAA,BAA Supervisors,Can't search for LLC,
 BAA,BAA Supervisors,Unreliable address search,
 BAA,BAA Supervisors,Unreliable reports,
 BAA,BAA Supervisors,Too many interfaces not linking info (i.e. parcel search),
+BAA,BAA Supervisors,Payment only described with type – not linked to violations; worse in different rounds,
+BAA,BAA Supervisors,Have to add fees one by one,
+BAA,BAA Supervisors,,(to keep) Actions with space for notes
+BAA,BAA Supervisors,,(to keep) Payment tab relatively easy to use
+BAA,BAA Supervisors,,(to keep) Tax id search is reliable
 BAA,BAA Supervisors,,Linked cases is biggest
 BAA,BAA Supervisors,,Case note button on top with actions and inspections so wouldn’t have to scroll
 BAA,BAA Supervisors,,BAA inspections different color from codes
 BAA,BAA Supervisors,,revamp actions
 BAA,BAA Supervisors,Note taking (nothing technical),
 BAA,BAA Supervisors,,Putting notes in uniform manner
+BAA,BAA Supervisors,,(to keep) Don't use it enough
 CPC,CPC,BAA fines,
 CPC,CPC,Open / closed symbols on complaints,
 CPC,CPC,,BAA update timely
 CPC,CPC,,User updates
+CPC,CPC,Account balance for entire property,
+CPC,CPC,,(to keep) Photos!
 CPC,CPC,,"At a glance status of properties – RR renewal date, same for CofU, CofC, VPR."
 CPC,CPC,Violation sheet mixed with everything else,
 CPC,CPC,,Maybe a tab just for BAA violation ticket and not mixed in with the warning and everything else
+CPC,CPC,Maybe the speed sometimes,
+CPC,CPC,,(to keep) The complaint look up tool is the best
 CPC,CPC,,The information IPS has is good but just a tab for violation ticket separate for all the warning and image would make things easier
 CPC,CPC,,Can the IPS software automatically add the late fees to all existing code violations to avoid incorrect information being recorded or provided to the customer.
 CPC,CPC,,Can the violation and BAA ticket be different and not so identical for easy processing purpose and not to confuse everyone involved.
@@ -107,13 +138,18 @@ CPC,CPC,Currently only allows search by ticket number,
 CPC,CPC,,I could help update when I see some that could be closed
 CPC,CPC,,Maybe its my computer
 CPC,CPC,,Add one more search function
+CPC,CPC,Open / closed icons are mostly incorrect,
+CPC,CPC,,(to keep) Search by address / owner / ticket number
+CPC,CPC,,(to keep) Address always matches eTax. If there’s a typo or abbreviation – IPS will match eTax
 CPC,CPC,,"After searching by owner name or address, if the list of violations could show the amount owed. It would save more time opening each violations."
 CPC,CPC,It’s straightforward,
+CPC,CPC,,(to keep) Works well
 CPC,CPC,Ability to cross-reference account other than address,
 CPC,CPC,Any accounts listed under an individual,
 CPC,CPC,,Businesses on system should also list owner’s / responsible party name
 CPC,CPC,,System could automatically duplicate email address + phone for every account on system once completed for one account manually
 CPC,CPC,,Recode items which have current money owed to a “Red dot“ instead of purple or green so it stands out and would eliminate need to double click each entry.
+CPC,CPC,,(to keep) Searching under complaints brings up useful + useless information regarding penalty fees currently owed when you input address
 CPC,CPC,,AS400 – water
 CPC,CPC,,Need to duplicate password entry
 CPO,Permits,Too many applications,
@@ -121,12 +157,25 @@ CPO,Permits,Lack of integration (data being shared),
 CPO,Permits,Notification to code enforcement applicants and reviews,
 CPO,Permits,,One database that stores and allows /facilitates application progress
 CPO,Permits,,Improve documentation capabilities
+CPO,Permits,Applications cannot see status,
+CPO,Permits,No integration with other software used,
+CPO,Permits,,(to keep) Printing review team comments
+CPO,Permits,,(to keep) Contractor database (insurance)
 CPO,Permits,Split permits and codes,
 CPO,Permits,Reads less like a report and more like a hunt for information,
+CPO,Permits,,(to keep) “Address book”
+CPO,Permits,,(to keep) Printing capabilities
+CPO,Permits,,(to keep) Alerts (eg. eta)
+CPO,Permits,,(to keep) customizing user capability
+CPO,Permits,,(to keep) Comment editing
+CPO,Permits,,(to keep) Recording users
+CPO,Permits,,(to keep) I like OnBase layout
 CPO,Permits,,Ideally it would be aide to someone integrate with camino.
 CPO,Permits,,I think from codes perspective the information is scattered
 CPO,Permits,,"Eg. Ideally, If IPS could integrate with Camino if a violation were in the system it could trigger an alert in camino on app>"
 CPO,Permits,In camino when application uploads the wrong document,
+CPO,Permits,,(to keep) I like that IPS can print out reviewer's comments on one concise report
+CPO,Permits,,(to keep) Using it as a system of record for code enforcement
 DOCE,Admin Aide,Filling out appointments separately,
 DOCE,Admin Aide,Sometimes it saves sometimes it doesn’t; different parts of IPS setup differently not cohesive throughout,
 DOCE,Admin Aide,Cannot search person with associated addresses/complaints,
@@ -136,6 +185,10 @@ DOCE,Admin Aide,,autofill from linked outlook and IPS modules
 DOCE,Admin Aide,,Same format throughout
 DOCE,Admin Aide,,"Search in address book would populate all associated properties complaints, violations"
 DOCE,Admin Aide,,More detailed preview
+DOCE,Admin Aide,Does not spell/grammer check,
+DOCE,Admin Aide,"GIS deed search, catchments should be a part f each parcel",
+DOCE,Admin Aide,,(to keep) Lots of options in the drop downs
+DOCE,Admin Aide,,(to keep) Automatically adding – in phone numbers
 DOCE,Admin Aide,Phone calls dropping,
 DOCE,Admin Aide,Can't upload attachments,
 DOCE,Admin Aide,Saving an inspection after scheduling crashes IPS or sometimes it slows down,
@@ -144,6 +197,9 @@ DOCE,Admin Aide,Sometimes Rent Holds / Rent Release doesn’t appear as an optio
 DOCE,Admin Aide,,Faster processing speed or more data for the software to run smoothly so it doesn’t crash often
 DOCE,Admin Aide,,Making it so we can seek the names alphabetically or programming it to do so
 DOCE,Admin Aide,,Adding Rent Hold / Rent Release as option for all cases since some case types doesn’t list them
+DOCE,Admin Aide,The fact that the processing speed after saving things lags.,
+DOCE,Admin Aide,"We can’t have to man windows/tabs open at once sometimes because it slows down and crashes. However, due to the volume of calls we get and they can be consecutive we don’t always have the time to close everything in between",
+DOCE,Admin Aide,,(to keep) The actions for IPS are really solid and cover most things that we need to enter
 DOCE,Admin Aide,Prolonged loading time,
 DOCE,Admin Aide,Freezing and crashing of IPS,
 DOCE,Admin Aide,,"If there was more organization in the periodic inspection table, there are too many unused options and the list is random"
@@ -153,11 +209,15 @@ DOCE,Building Inspectors,Task to be done for inspection addressed before Inspect
 DOCE,Building Inspectors,,Make sure we have the most current information
 DOCE,Building Inspectors,,Make sure we have the most current address
 DOCE,Building Inspectors,,Better communication
+DOCE,Building Inspectors,New tablets,
+DOCE,Building Inspectors,,(to keep) Updated tablets and software that actually works
 DOCE,Building Inspectors,,Sprinkler system reports & elevator reports – access to them at least
 DOCE,Building Inspectors,Citing in field,
 DOCE,Building Inspectors,Required permits,
 DOCE,Building Inspectors,,Tablets that are faster
 DOCE,Building Inspectors,,Communication within departments
+DOCE,Building Inspectors,some information is outdated,
+DOCE,Building Inspectors,,(to keep) simplicity
 DOCE,Building Inspectors,,Apps on iPhone
 DOCE,Building Inspectors,Having to rely on other people,
 DOCE,Building Inspectors,So many systems,
@@ -165,19 +225,35 @@ DOCE,Building Inspectors,Lack of communication,
 DOCE,Building Inspectors,Getting blamed for slow BAA and Law process,
 DOCE,Building Inspectors,,Single system
 DOCE,Building Inspectors,,Single system
+DOCE,Building Inspectors,Ownership issues/updates,
+DOCE,Building Inspectors,Too many areas for same information,
+DOCE,Building Inspectors,Not able to hold all information we need,
+DOCE,Building Inspectors,Finding cases,
+DOCE,Building Inspectors,,(to keep) Documents can be saved in the system
 DOCE,Building Inspectors,,The same as AS400.
 DOCE,Building Inspectors,,If it could hold everything I need.
 DOCE,Building Inspectors,Zoning approval/zone check,
 DOCE,Building Inspectors,Tax delinquecy,
+DOCE,Building Inspectors,,(to keep) Reminder dates
 DOCE,Building Inspectors,Elevator certification,
 DOCE,Building Inspectors,Water certification,
 DOCE,Building Inspectors,,Have a note that says pass instead calling permits
 DOCE,Building Inspectors,,Have that in IPS
+DOCE,Building Inspectors,Crashing at least thrice a week,
+DOCE,Building Inspectors,Doesn't show zoning work on our case,
+DOCE,Building Inspectors,,(to keep) I think all of it is very good
 DOCE,Building Inspectors,,Just elevator certificate
 DOCE,CPO-Coordinators,Moving things / duplicating from Camino to IPS,
 DOCE,CPO-Coordinators,Application process made more difficult with Camino,
 DOCE,CPO-Coordinators,,One system for everything
 DOCE,CPO-Coordinators,,Get rid of Camino!
+DOCE,CPO-Coordinators,Workflows often “break” / stop working,
+DOCE,CPO-Coordinators,"Nowhere to notify me of renewal / expirations, unless report if generated",
+DOCE,CPO-Coordinators,Case management could be made easier somehow,
+DOCE,CPO-Coordinators,,(to keep) I like IPS and would continue using – it's easy
+DOCE,CPO-Coordinators,,(to keep) Record keeping and finding is simple and effiiceint
+DOCE,CPO-Coordinators,,(to keep) Scheduling inspections is easy
+DOCE,CPO-Coordinators,,"(to keep) Can print reviewer’s comments easily, can print standard notices easily, saves all printed documents automatically"
 DOCE,CPO-Coordinators,,"Customized certificates, simpler case management, more efficient expiration/renewal notification so report isn’t needed, automatic renewal letters sent to a queue?"
 DOCE,CPO-Coordinators,60day notices: crashes and takes time to process,
 DOCE,CPO-Coordinators,Applicant communication,
@@ -185,9 +261,16 @@ DOCE,CPO-Coordinators,Updating owner information,
 DOCE,CPO-Coordinators,,Migrate list (tracking) out of IPS (this can be an excel file)
 DOCE,CPO-Coordinators,,Online system to schedule inspections (already used elsewhere)
 DOCE,CPO-Coordinators,,Some owners have numerous accounts in IPS
+DOCE,CPO-Coordinators,Attachments and IPS crashing (saving attachments),
+DOCE,CPO-Coordinators,IPS crashes,
+DOCE,CPO-Coordinators,Having multiple tabs in IPS and everyone isn’t on them (periodic vs complaint),
+DOCE,CPO-Coordinators,,(to keep) Working with different departments and giving “tickle” dates
 DOCE,CPO-Coordinators,Why is family based not in Camino,
 DOCE,Housing Inspectors,When IPS freezes or not working efficiently it can cause a delay in process,
 DOCE,Housing Inspectors,,I have no idea; I am not sure why IPS has lapses so I am not sure how to improve/fix
+DOCE,Housing Inspectors,The lapses - “freezing” or “loading” that occasionally happens.,
+DOCE,Housing Inspectors,If the Rental registry portal a.k.a. “Periodic Inspection” and IPS were more streamlined it could be more efficient,
+DOCE,Housing Inspectors,,(to keep) I think IPS is a good system that is user friendly
 DOCE,Housing Inspectors,Actions in IPS are slow to select,
 DOCE,Housing Inspectors,Selection same actions multiple times,
 DOCE,Housing Inspectors,Organize cases based on type of cases,
@@ -196,6 +279,10 @@ DOCE,Housing Inspectors,,Make it so it’s to a scroll to choose and action
 DOCE,Housing Inspectors,,Make an action that saves clicks
 DOCE,Housing Inspectors,,Make a case label for drive by/calls/waiting for owner
 DOCE,Housing Inspectors,,Case could tell you when you open it if it is in high risk area
+DOCE,Housing Inspectors,Action are slow,
+DOCE,Housing Inspectors,Allow for pictures to be uploaded a specific way,
+DOCE,Housing Inspectors,No access when in the field besides both before you left,
+DOCE,Housing Inspectors,,(to keep) Chronological notes/actions in case
 DOCE,Housing Inspectors,,"If it could get water /lead information, it would save a lot of time. Only a couple of people have access to AS400, so it is annoying"
 DOCE,Housing Inspectors,When others are entering violations at the same time,
 DOCE,Housing Inspectors,No shortcut for common actions (i.e. code staff notes),
@@ -205,6 +292,10 @@ DOCE,Housing Inspectors,,Batch violation numbers when saved
 DOCE,Housing Inspectors,,Ability to add custom shortcuts
 DOCE,Housing Inspectors,,Create a global address book
 DOCE,Housing Inspectors,,Eliminate unneeded actions i.e. (BAA Ticket Rounds)
+DOCE,Housing Inspectors,"The general flow of IPS, layout",
+DOCE,Housing Inspectors,It crashes a lot,
+DOCE,Housing Inspectors,Its slow to open cases,
+DOCE,Housing Inspectors,,(to keep) Separation of cases per property
 DOCE,Housing Inspectors,,Stats
 DOCE,Housing Inspectors,,Cases without inspection date
 DOCE,Housing Inspectors,,Cases set to “needs review”
@@ -212,12 +303,18 @@ DOCE,Housing Inspectors,IPS will be slow or shutdown; reboot needed,
 DOCE,Housing Inspectors,"IPS does not have a general scroll option for all cases, need to go into/out of multiple open/closed cases to get accurate picture of case/property history and active cases",
 DOCE,Housing Inspectors,“Trim down” the drop downs related to assigned inspector/type of case,
 DOCE,Housing Inspectors,,(IT or IPS focus)
+DOCE,Housing Inspectors,,(to keep) It's pretty good for me
+DOCE,Housing Inspectors,,(to keep) Information update across cases
+DOCE,Housing Inspectors,,(to keep) Laptop use would be great in field
 DOCE,Housing Inspectors,,Bring back laptops so we can update cases in field
 DOCE,Housing Inspectors,,Issues connecting to IPS remotely
 DOCE,Office Managers,Updating ownership will sometimes make IPS crash,
 DOCE,Office Managers,Sometimes Image Mate doesn’t have the best information and overrides correct ownership information already in IPS,
 DOCE,Office Managers,Opening cases too quickly and more than one at a time in IPS will often make it crash,
 DOCE,Office Managers,,"I can complete my function by only opening one case at a time, but it slows me down"
+DOCE,Office Managers,Everything written in the section above which I realize fits better here,
+DOCE,Office Managers,Ownership – too many duplicates,
+DOCE,Office Managers,,"(to keep) The ability to click within a case, directs to Image Mate button is very helpful"
 DOCE,Office Managers,,"The way ownership and previous ownership in relation in relation to “agents” “business contact”, etc. With a case (not parcel) is often messed up:"
 DOCE,Office Managers,,"Because if sometimes doesn’t take an update,"
 DOCE,Office Managers,,Can't tell who is connected to who
@@ -225,31 +322,53 @@ DOCE,Office Managers,Sanitation notice bar in print queue crashes when clicked,
 DOCE,Office Managers,Address updating – having to click on contact to view updated address,
 DOCE,Office Managers,,Remove tab because it has nothing to do with us
 DOCE,Office Managers,,Make it still “checkable” but have address remain updated
+DOCE,Office Managers,IPS crashing if open/used too long,
+DOCE,Office Managers,Address range – knowing assessed address,
+DOCE,Office Managers,Assessment address doesn’t always match the IPS address,
+DOCE,Office Managers,,(to keep) Print queue – organization of notices
+DOCE,Office Managers,,(to keep) Parcel information – showing information
+DOCE,Office Managers,,(to keep) Complaint search – search by violation numbers?
 DOCE,Office Managers,Property manager/agent in IPS “Parcel” does not always transfer over when opening a new case,
 DOCE,Office Managers,“Refer to BAA” action in the case will not always refer the case to BAA,
 DOCE,Office Managers,,Ensure this information can be automatically put into new cases so it is not forgotten
 DOCE,Office Managers,,"Making sure “department”, “status” or either status in IPS are not holding up BAA referrals."
+DOCE,Office Managers,You cannot search by violation number,
+DOCE,Office Managers,You cannot search an address by the letter number in the address (eg. 205-207 XXX st would need to be searched as 205 & notes 207),
+DOCE,Office Managers,The address book can be floated with duplicate contacts with the same information,
+DOCE,Office Managers,,(to keep) Search by complaint number
+DOCE,Office Managers,,(to keep) Address book & searching by property owner
 DOCE,Office Managers,,Water & Tax records for periodic inspections
 DOCE,Permit/Commercial/Electrical Inspectors,IPS buffers/breaks down,
 DOCE,Permit/Commercial/Electrical Inspectors,Searching for information,
 DOCE,Permit/Commercial/Electrical Inspectors,,Consolidate to functioning system
+DOCE,Permit/Commercial/Electrical Inspectors,"Inability to document, etc",
+DOCE,Permit/Commercial/Electrical Inspectors,,(to keep) Ability to keep track of kick out inspections
 DOCE,Permit/Commercial/Electrical Inspectors,,In field timely acces: to information and modification of cases
 DOCE,Permit/Commercial/Electrical Inspectors,When you schedule an inspection on camino it doesn’t show up on outlook,
 DOCE,Permit/Commercial/Electrical Inspectors,Better training on processes in pace,
 DOCE,Permit/Commercial/Electrical Inspectors,,Have camino and outlook talk to each other
 DOCE,Permit/Commercial/Electrical Inspectors,Cannot create new dates in camino to check/call contractors for updates,
 DOCE,Permit/Commercial/Electrical Inspectors,,Use IPS when permit is pulled
+DOCE,Permit/Commercial/Electrical Inspectors,Camino is internet based. I can’t issue certificate half of the times,
+DOCE,Permit/Commercial/Electrical Inspectors,IPS was awful for RR when I used to do those,
+DOCE,Permit/Commercial/Electrical Inspectors,Have to hand write my day going through 10 pages of inspections,
+DOCE,Permit/Commercial/Electrical Inspectors,,(to keep) When you issue certificate of completion it emails the contractor/homeowner
+DOCE,Permit/Commercial/Electrical Inspectors,,(to keep) Can upload pictures easily using the app
 DOCE,Permit/Commercial/Electrical Inspectors,Camino’s layout format,
 DOCE,Permit/Commercial/Electrical Inspectors,Seeing new/assigned work,
 DOCE,Permit/Commercial/Electrical Inspectors,access,
 DOCE,Permit/Commercial/Electrical Inspectors,,Get rid of it
 DOCE,Permit/Commercial/Electrical Inspectors,,Get rid of it
 DOCE,Permit/Commercial/Electrical Inspectors,,Get rid of it
+DOCE,Permit/Commercial/Electrical Inspectors,,(to keep) layout
 DOCE,Permit/Commercial/Electrical Inspectors,In camino not being able to keep track of tickle dates,
 DOCE,Permit/Commercial/Electrical Inspectors,,Add a tickle date option to the system
+DOCE,Permit/Commercial/Electrical Inspectors,I have no issues. I have adapted to it.,
+DOCE,Permit/Commercial/Electrical Inspectors,,"(to keep) Again, being able to have future tickle dates"
 DOCE,Permit/Commercial/Electrical Inspectors,,IPS works better than Camino
 DOCE,Permit/Commercial/Electrical Inspectors,No coordination,
 DOCE,Permit/Commercial/Electrical Inspectors,,Hiring qualified people and train them
+DOCE,Permit/Commercial/Electrical Inspectors,,(to keep) Don't use it
 DOCE,Supervisors,"Too many systems needed to check ownership, taxes, water, codes, permits, zoning history",
 DOCE,Supervisors,Missing information / data (historical information),
 DOCE,Supervisors,“Some historical data lost in fire/flooding/pipe burst”,
@@ -262,6 +381,10 @@ DOCE,Supervisors,,"Connection to enterprise-wide GIS at the county level, since 
 DOCE,Supervisors,,Better reporting
 DOCE,Supervisors,Multiple software programs and databases,
 DOCE,Supervisors,,?
+DOCE,Supervisors,Becomes cumbersome as volume of cases build,
+DOCE,Supervisors,Becomes cumbersome as volume of cases build,
+DOCE,Supervisors,,"(to keep) Case notes, photo upload"
+DOCE,Supervisors,,"(to keep) Inspection dates, tickle dates"
 DOCE,Supervisors,,Not sure.
 DOCE,Supervisors,Inconsistent / lagging contact information,
 DOCE,Supervisors,Parcel information not being in one central location,
@@ -273,9 +396,14 @@ DOCE,Supervisors,Too much collaborating on email (especially with projects),
 DOCE,Supervisors,Currently no major concerns with IPS,
 DOCE,Supervisors,Contractors find Camino very frustrating and then gets turned over to CPO and me – Demo Permits,
 DOCE,Supervisors,,"Some addresses on the property are not the same in assessment records, so contractors get frsutrated"
+DOCE,Supervisors,IPS Software is unpredictable,
+DOCE,Supervisors,,(to keep) Drop Box Function
+DOCE,Supervisors,,(to keep) Votes section
 DOCE,Supervisors,Too many places where information is stored,
 DOCE,Supervisors,Special Knowledge needed to operate system,
 DOCE,Supervisors,,Central software for all Code
+DOCE,Supervisors,"Easy for cases, permits to get missed",
+DOCE,Supervisors,,(to keep) Ease of use
 DOCE,Zoning,Historical context / research scattered all over. “Finding all the history”,
 DOCE,Zoning,Parcel based but not system of record tracking addressing/ownership,
 DOCE,Zoning,Ownership chenges,
@@ -285,16 +413,25 @@ DOCE,Zoning,History on “inactive parcels”,
 DOCE,Zoning,,Data migration to one system for historical records.
 DOCE,Zoning,,Digitization of all records timely
 DOCE,Zoning,,Enterprise wide GIS system
+DOCE,Zoning,Some are not,
+DOCE,Zoning,,(to keep) Some old zoning projects are there.
+DOCE,Zoning,,(to keep) SOCPA put old variance and conditional uses in IPS
 DOCE,Zoning,,See notes from my code enforcement worksheet - Jake
 DOCE,Zoning,Basement filling system (excel spreadsheet),
 DOCE,Zoning,“gaps” in information,
 DOCE,Zoning,,More regular updates to speadsheet
 DOCE,Zoning,,"The items not on IPS or OnBase, if not in basement file, can’t be found"
+DOCE,Zoning,"Sometimes, pdf or jpegs of documents will not be attached",
+DOCE,Zoning,To an item in IPS a record of the item is there but not the file itself,
+DOCE,Zoning,User interface is ugle,
+DOCE,Zoning,,(to keep) Parcel history database is in chronological order
+DOCE,Zoning,,"(to keep) Straightforward, easy to learn"
 DOCE,Zoning,,More files uploaded / transferred to IPS
 DOCE,Zoning,"IPS slowness, larger parcels have issues taking time to load",
 DOCE,Zoning,Parcels broken into multiple pieces / units,
 DOCE,Zoning,OnBase layout and windows often not very user-friendly,
 DOCE,Zoning,Address tracking after resub division,
+DOCE,Zoning,,(to keep) Direct file opening
 DOCE,Zoning,CU apps – zoning review,
 DOCE,Zoning,Late in process,
 DOCE,Zoning,History searches take a significant amount of time,
@@ -302,16 +439,35 @@ DOCE,Zoning,Parcel history search,
 DOCE,Zoning,Area / block searches lot,
 DOCE,Zoning,,Change workflow
 DOCE,Zoning,,Dedicated person
+DOCE,Zoning,submenus are difficult to navigate – limited knowledge of system,
+DOCE,Zoning,,(to keep) Searching for inactive parcel
+DOCE,Zoning,,(to keep) filters
 DOCE,Zoning,,Onboarding training (competative)
 DOCE,Zoning,Answering repetitive phone calls,
 DOCE,Zoning,,Making the code more accessible or encouraging email communications rather than calling
+DOCE,Zoning,"A lot of previous approvals are in IPS, but don’t have final documents attached.",
+DOCE,Zoning,When parcels are resubdivided or their name changes it can be hard to track history,
+DOCE,Zoning,Reading through complaints can be annoying when looking at the parcel history too,
+DOCE,Zoning,,"(to keep) The ability to filter by type, permit, project, complaint, etc."
+DOCE,Zoning,,"(to keep) It’s very terse, a lot of information is provided or most applications"
 DOCE,Zoning,,"I wish all previous things that are in OnBase were in IPS. So, I didn’t have to switch between those often"
 DOCE,Zoning,"Communication: applicant, reviewer",
+DOCE,Zoning,,(to keep) Comment summary sheet
+DOCE,Zoning,,"(to keep) Date management: change, modify, date"
+DOCE,Zoning,,(to keep) List of application history
+DOCE,Zoning,,(to keep) Status overview dashboard
 DOCE,Zoning,"Communication: applicant, reviewer",
+DOCE,Zoning,,(to keep) Comment summary sheet
+DOCE,Zoning,,(to keep) Data management: change & modify
+DOCE,Zoning,,(to keep) List of application history: date
+DOCE,Zoning,,(to keep) Status overview dashboard
 FPB,Fire,I find IPS to be non-intuitive and confusing,
 FPB,Fire,Researching history of violations is time consuming,
 FPB,Fire,Cloud based would be better,
 FPB,Fire,To sign off on a Certificate of Occupancy or Certificate of Completion have to look in multiple places to find applicable closed inspections,
+FPB,Fire,Overall look is outdated,
+FPB,Fire,,(to keep) The tickle date function seems to be valuable
+FPB,Fire,,(to keep) Finding the history of a property or business takes several steps
 FPB,Fire,,IPS on mobile devices. Real time inspection reports and documentation. Integrate IPS violations into other Fire Department functions
 FPB,Fire,Missing information regarding parcel,
 FPB,Fire,Missing information regarding parcel,
@@ -323,19 +479,31 @@ FPB,Fire,,Import information like exact CO and capacity available without diggin
 FPB,Fire,,Have a more profound way of finding information
 FPB,Fire,,Make it one way to document different people do thing differently and put in different places
 FPB,Fire,,Fix this! Make sure they are active in IPS
+FPB,Fire,Too many places to look for things,
+FPB,Fire,Inactive parcels,
+FPB,Fire,Parcel address has to be exact,
+FPB,Fire,Parcel contains multiple building/businesses,
+FPB,Fire,"It's cumbersome, doesn’t work offsite they have to be at desktop or remote in to use",
 Law,Law,I can’t complete an affirmation if the notices and nail & mail aren’t uploaded into IPS,
 Law,Law,The layout of the action notes,
 Law,Law,,The format makes it hard to read everything at once
+Law,Law,,(to keep) I like the images tab so I can look at the notices directly
 Law,Law,Inability to access water records without AS400,
 Law,Law,Inspectors don’t always take good records,
 Law,Law,Cannot combine open violations from multiple complaints,
 Law,Law,,Integrate water records into recordkeeping tools
 Law,Law,,Require confirmation that documents were uploaded and work was done
 Law,Law,,Make overview reports available for properties
+Law,Law,"Issues with water, tax not easily tacked",
+Law,Law,Permissions for certain action  by property,
+Law,Law,,(to keep) Intuitive interface
+Law,Law,,(to keep) Easy to find individual complaints
 Law,Law,,Compatibility with office
 Law,Law,IPS is underutilized:,
 Law,Law,"Documents not loaded, notes needed",
 Law,Law,,More disciplinary entry of notes and documents
+Law,Law,Not so much IPS but that it’s underutilized at times by Codes incomplete or missing information,
+Law,Law,,(to keep) When fully utilized by codes it is a resource for information
 Law,Law,,Ability for IPS information to be transferred to MS word
 NBD,NBD Data Team,"Leak of standardized / consistent data entry, often due to lack of standardized actions aren’t used",
 NBD,NBD Data Team,Lack of automation eg. Doubling fines after at time condition for much of BAA process,
@@ -345,6 +513,22 @@ NBD,NBD Data Team,Tracking for users also cause of continuity for data reporting
 NBD,NBD Data Team,Lack of timely system updates (IT),
 NBD,NBD Data Team,"Clunky – easy to accidentally break things inaditantly – make codes item, had to regenerate codes book with rendor",
 NBD,NBD Data Team,,"Process mapping & SOPS, system training & support"
+NBD,NBD Data Team,Lack of data validation & required fields – data quality issues because questions are skipped or dropdown item not referred are selected,
+NBD,NBD Data Team,IPS custom forms – limited functionality can obtain and use feature to populate the system data,
+NBD,NBD Data Team,Limited ability to manage content when resubs occur – active cases can be in active parcels. IPS doesn’t allow for copying of records for historical record keeping purposes. Not obtitus what the related parcel  can type,
+NBD,NBD Data Team,Limited ability to track large cases of unitl level for multifamily / mixed use and / or apartment buildings sub pacels not adequate for addressing this,
+NBD,NBD Data Team,Address book – unable to add related addresses if contact already stored,
+NBD,NBD Data Team,Limited frontend reporting capabilities,
+NBD,NBD Data Team,BAA process system needs to be able to track BAA outcomes violation level not just overall case level,
+NBD,NBD Data Team,,(to keep) RPS to IPS assessment sync daily: always have current ownership information
+NBD,NBD Data Team,,(to keep) Panel based
+NBD,NBD Data Team,,(to keep) Periodic module: ability to batch generate renewal letters when property comes due
+NBD,NBD Data Team,,(to keep) Backend access to our own data
+NBD,NBD Data Team,,(to keep) Based roles / permisions
+NBD,NBD Data Team,,(to keep) Workflow configuration abilities (they are limited not easy to set up)
+NBD,NBD Data Team,,(to keep) New record type configuration abilities / “maintenance” menu
+NBD,NBD Data Team,,(to keep) “one stop shop” for property records (pre-camino)
+NBD,NBD Data Team,,"(to keep) Zoning, Codes, Permits, Fire"
 NBD,NBD Data Team,,Imporved case management tools for users: ability to finding upcoming unclosed so routes can be planned more ethuinituly
 NBD,NBD Data Team,,"High level front-end reporting capabilities for leadership – compliance, on building block log cases, time to resolve, cases infor updates in x makes, etc"
 NBD,NBD Data Team,,Direct scheduling for applicants! Ontwok integration
@@ -355,6 +539,11 @@ NBD,NBD Data Team,Sub parcels are often unused,
 NBD,NBD Data Team,,Have cleaner sorting and filtering features within a parcel
 NBD,NBD Data Team,,Add insert / update / delete functionality
 NBD,NBD Data Team,,Have them be a component of main parcel?
+NBD,NBD Data Team,Dated workflow system (not programmable),
+NBD,NBD Data Team,Better case management: Reminder dates as actions in IPS for inspection.  Confusing with others being inspections,
+NBD,NBD Data Team,Lack of clear way to link cases,
+NBD,NBD Data Team,Lack of data validation for user defined attributes,
+NBD,NBD Data Team,,(to keep) Ability to pull data with SQL
 NBD,NBD Data Team,,Easier way to modify violations.
 NBD,NBD Data Team,,For sorting and categorizing
 NBD,NBD Data Team,,Updating IPS through SQL
@@ -370,6 +559,11 @@ NBD,NBD Data Team,,"More robust automation or scripting possibilities, so that m
 NBD,NBD Data Team,,"Allow for if this then that bridges between programs, integrations with a CRM or GIS software, etc"
 NBD,NBD Data Team,,"I’m not sure the best improvement here, but tracking residential units and which complaint goes to which unit is so frustrating"
 NBD,NBD Data Team,,The ability to configure validation for different data fields
+NBD,NBD Data Team,We can only update on the front-end and have to request the vendor do batch updates,
+NBD,NBD Data Team,System is buggy but updates are slow and complicated (Rose talked about this too),
+NBD,NBD Data Team,"Resubs are so hard to find the related parcel, and there’s minimal automated processes for migrating cases, attributes, etc. to the new parcel. This complicates managing other programs",
+NBD,NBD Data Team,,"(to keep) Customizability for actions, attributes, etc. (eg, “Rental Registry Required”)"
+NBD,NBD Data Team,,(to keep) Approval groups so that case management & review happens in the same system
 NBD,NBD Data Team,,I want better documentation for the database. We don’t have any robust EO diagrams!
 NBD,NBD Data Team,,"Please, let’s have modern scripting options (eg, Python not Visual Basic; posting to the database)"
 NBD,NBD Data Team,,"If the new software could integrate with Esri, a contact management software (like Salesforce), or other tools, we could accomplish so much more"
@@ -380,9 +574,14 @@ NBD,NBD Internal,,Might be a bug
 NBD,NBD Internal,,A drop down for ERP referrals to indicate where the referral came
 NBD,NBD Internal,,Build system with drop down selection of where the referred came from to start documenting which agency placed them.
 NBD,NBD Internal,,Something tangible that can get auto emailed to ambassadors
+NBD,NBD Internal,non–chronological on the view page of when cases are open at the address look up,
+NBD,NBD Internal,,(to keep) Allow all users to leave notes “codes staff notes”
 NBD,NBD Internal,,Geographic viewing of addresses nearby.
 NBD,NBD Internal,Property research: inability to pull information from county clerk database,
 NBD,NBD Internal,,Data sharing / backend access with county
+NBD,NBD Internal,Contact book abyss,
+NBD,NBD Internal,If you open a complaint while in another,
+NBD,NBD Internal,,(to keep) Interdepartmental access
 NBD,NBD Internal,Lack of automation for data entry,
 NBD,NBD Internal,Different systems for each thing,
 NBD,NBD Internal,Switch to camino has made information harder to find cross system,
@@ -391,3 +590,9 @@ NBD,NBD Internal,,Ways to mass enter data not through Hamer
 NBD,NBD Internal,,"eTax, IPS, AS400, Camino, etc. Too many to consolidate. Should be easier to access information from standard site"
 NBD,NBD Internal,,"Old permit information hasn’t been transferred. They’ve stopped storing insurances, surveys need better record storage"
 NBD,NBD Internal,,Something NBD/Law /Finance can all use
+NBD,NBD Internal,Runs slow when trying to enter a spreadsheet of data by hand,
+NBD,NBD Internal,Random crashes / restarts,
+NBD,NBD Internal,,"(to keep) Easy interface, can see whole story at once"
+NBD,NBD Internal,,(to keep) Tickle dates / reminders
+NBD,NBD Internal,,(to keep) Ability to add / remove entry option at will
+NBD,NBD Internal,,(to keep) Ability to pull data from multiple cases at once

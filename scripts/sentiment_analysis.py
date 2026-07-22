@@ -16,7 +16,6 @@ from transformers import pipeline
 
 # Bake-off winner (see output/processed/sentiment_model_leaderboard.csv)
 SENTIMENT_MODEL = "distilbert-base-uncased-finetuned-sst-2-english"
-SENTIMENT_HYPOTHESIS = "This workplace discovery note indicates {}."
 
 # SST-2 is binary; we surface a soft "neutral" when confidence is low
 SENTIMENT_LABELS = {
