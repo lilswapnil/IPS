@@ -6,7 +6,7 @@ Pipeline for Round 1 IPS transition discovery. It turns focus-group worksheets a
 
 1. **Extract** — Pull one record per line from Word worksheets and discovery notes; tag source (`worksheet` | `meeting_notes`); redact stakeholder names.
 2. **Score sentiment** — Label each record negative / neutral / positive, then realign misfiled meeting-note rows.
-3. **Categorize** — Assign each record to one of ten municipal themes via a hybrid keyword + embedding approach.
+3. **Categorize** — Assign each record to one of ten category groups / themes via a hybrid keyword + embedding approach.
 4. **Visualize** — Explore category mix, focus-group volume, and sentiment in notebooks / Plotly figures.
 
 ## Requirements
