@@ -18,13 +18,14 @@ from transformers import pipeline
 SENTIMENT_MODEL = "distilbert-base-uncased-finetuned-sst-2-english"
 
 # SST-2 is binary; we surface a soft "neutral" when confidence is low
+# Only actual model labels are "positive" and "negative"; "neutral" is post-processed.
 SENTIMENT_LABELS = {
     "negative": {"scale": -1, "label": "negative", "name": "Negative"},
-    "neutral": {"scale": 0, "label": "neutral", "name": "Neutral"},
+    "neutral": {"scale": 0, "label": "neutral", "name": "Neutral"},  # not natively supported by model
     "positive": {"scale": 1, "label": "positive", "name": "Positive"},
 }
 
-# HF SST-2 pipeline labels → coarse polarity
+# SST-2 model only outputs binary labels ("positive" or "negative") or their aliases.
 _SST2_LOOKUP = {
     "LABEL_0": "negative",
     "LABEL_1": "positive",
@@ -34,10 +35,10 @@ _SST2_LOOKUP = {
     "positive": "positive",
 }
 
-# Back-compat alias used by older notebook cells
+# Minimal mapping for back-compatibility; supports only binary + neutral for postprocessing or UI legacy.
 SENTIMENT_LABEL_MAP = {
     "Negative": "negative",
-    "Neutral": "neutral",
+    "Neutral": "neutral",  # only from postprocessing, not model output
     "Positive": "positive",
     "LABEL_0": "negative",
     "LABEL_1": "positive",

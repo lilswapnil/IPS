@@ -36,8 +36,8 @@ RAW_DIR = OUTPUT_DIR / "raw"
 PROCESSED_DIR = OUTPUT_DIR / "processed"
 SECTIONS_DIR = RAW_DIR / "docx_sections"
 WORKSHEETS_CSV = RAW_DIR / "worksheets.csv"
-CHALLENGES_CSV = PROCESSED_DIR  / "challenges.csv"
-EXPECTATIONS_CSV = PROCESSED_DIR  / "expectations.csv"
+CHALLENGES_CSV = RAW_DIR / "challenges.csv"
+EXPECTATIONS_CSV = RAW_DIR / "expectations.csv"
 
 # Focus Group Names from the Round 1 focus-group roster.
 FOCUS_GROUPS = [
