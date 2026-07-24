@@ -105,7 +105,7 @@ CATEGORY_CONFIG = {
         "evidence" : 4, "evidence management" : 5, "evidence tracking" : 5, "evidence related" : 3, "evidence processing" : 4,
         "file" : 2, "files" : 2, "file management" : 5, "file tracking" : 5, "file related" : 3, "file processing" : 4,
         "record" : 3, "records" : 4, "record management" : 5, "record tracking" : 5, "record related" : 3, "record processing" : 4,
-        "lookup" : 4, "find" : 3, "retrieve" : 3, "locate" : 3, "property research" : 5, "parcel" : 3, "address" : 2, "filter" : 2,
+        "lookup" : 4, "find" : 3, "retrieve" : 3, "locate" : 3, "property research" : 5, "parcel" : 3, "address" : 2, "filter" : 2, "certificate" : 4, "certificates" : 4,
     },
 
     "System Integration": {
@@ -186,7 +186,7 @@ CATEGORY_CONFIG = {
         
     },
     "Training & Documentation": {
-        "training": 5, "train" : 5, "documentation": 5, "document": 5, "guide": 3, "instruction": 3,
+        "training": 5, "train" : 5, "documentation": 5, "document": 3, "guide": 3, "instruction": 3,
         "support": 2, "knowledge": 4, "faq": 3, "onboarding": 4, "reference": 2, "sop": 5,
         "cheatsheet": 4,
     }

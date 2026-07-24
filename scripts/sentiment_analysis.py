@@ -135,14 +135,16 @@ def predict_sentiment(
     classifier=None,
     batch_size: int = 8,
 ) -> list[str]:
-    """Score texts with SST-2 DistilBERT + source prior + keyword hints.
+    """Score texts with SST-2 DistilBERT, keeping a genuine "neutral" class.
 
-    source: \"challenges\" → prior negative; \"expectations\" → prior positive
+    Uncertain records (low model confidence / flat scores) stay ``neutral`` unless
+    a clear, unambiguous keyword signal points to a polarity. ``source`` only tunes
+    the keyword nudges (``\"challenges\"`` flips positive→negative on pain words;
+    ``\"expectations\"`` flips negative→positive on wish words).
     """
     if classifier is None:
         classifier = build_sentiment_classifier()
 
-    prior = "negative" if source == "challenges" else "positive"
     out: list[str] = []
 
     clean = [("" if pd.isna(t) else str(t).strip()) for t in texts]
@@ -155,20 +157,22 @@ def predict_sentiment(
 
             label, score, margin, _name = _score_one(classifier, text)
 
-            # Very flat binary scores → prefer dataset prior
+            # Very flat binary scores → the model can't decide; keep it neutral
             if margin < 0.05:
-                label = prior
+                label = "neutral"
 
             # Keyword overrides when model is uncertain / conflicted
             pain_hit = bool(PAIN_HINTS.search(text))
             wish_hit = bool(WISH_HINTS.search(text))
             if label == "neutral":
+                # Only leave neutral on a clear, unambiguous keyword signal;
+                # otherwise keep it neutral instead of forcing a polarity.
                 if pain_hit and not wish_hit:
                     label = "negative"
                 elif wish_hit and not pain_hit:
                     label = "positive"
                 else:
-                    label = prior
+                    label = "neutral"
             elif source == "challenges" and label == "positive" and pain_hit and not wish_hit:
                 label = "negative"
             elif source == "expectations" and label == "negative" and wish_hit and not pain_hit:

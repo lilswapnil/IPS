@@ -11,7 +11,7 @@ BAA,BAA ALJs,Property sold but sometimes don't open violations disappear. Gets c
 BAA,BAA ALJs,Payments tab should include a tracker like AIMS showing the changes and why (comment) and by which user,worksheet,Payments tab should include a tracker like AIMS showing the changes and why (comment) and by which user,positive
 BAA,BAA ALJs,Tracking with USPS tracking number -? A way too automatically do this,worksheet,Tracking with USPS tracking number -? A way too automatically do this,negative
 BAA,BAA ALJs,Instead of having to download emails and manually uploading them -> drag and drop for attachments,worksheet,Instead of having to download emails and manually uploading them -> drag and drop for attachments,negative
-BAA,BAA ALJs,Built-in recording system – automatic,worksheet,Built-in recording system – automatic,positive
+BAA,BAA ALJs,Built-in recording system – automatic,worksheet,Built-in recording system – automatic,neutral
 BAA,BAA ALJs,Application for codes to input information immediately.,worksheet,Application for codes to input information immediately.,negative
 BAA,BAA ALJs,An adjudication specific module,worksheet,An adjudication specific module,negative
 BAA,BAA ALJs,Better designation of fines / fees and which violation it is associated with,worksheet,Better designation of fines / fees and which violation it is associated with,positive
@@ -42,10 +42,10 @@ BAA,BAA Operations,Add RMI letter mailed,worksheet,Add RMI letter mailed,negativ
 BAA,BAA Operations,(to keep) Want to keep the drag and drop option,worksheet,(to keep) Want to keep the drag and drop option,positive
 BAA,BAA Operations,Just want it cleaned up and organized more,worksheet,Just want it cleaned up and organized more,positive
 BAA,BAA Supervisors,Automate tickets,worksheet,Automate tickets,positive
-BAA,BAA Supervisors,Link all tickets/complaints for a property of house owner,worksheet,Link all tickets/complaints for a property of house owner,positive
+BAA,BAA Supervisors,Link all tickets/complaints for a property of house owner,worksheet,Link all tickets/complaints for a property of house owner,neutral
 BAA,BAA Supervisors,Limit to the ones used,worksheet,Limit to the ones used,positive
-BAA,BAA Supervisors,(to keep) Search criteria,worksheet,(to keep) Search criteria,positive
-BAA,BAA Supervisors,(to keep) Actions with space for notes,worksheet,(to keep) Actions with space for notes,positive
+BAA,BAA Supervisors,(to keep) Search criteria,worksheet,(to keep) Search criteria,neutral
+BAA,BAA Supervisors,(to keep) Actions with space for notes,worksheet,(to keep) Actions with space for notes,neutral
 BAA,BAA Supervisors,(to keep) Payment tab relatively easy to use,worksheet,(to keep) Payment tab relatively easy to use,positive
 BAA,BAA Supervisors,(to keep) Tax id search is reliable,worksheet,(to keep) Tax id search is reliable,positive
 BAA,BAA Supervisors,Linked cases is biggest,worksheet,Linked cases is biggest,positive
@@ -79,7 +79,7 @@ CPC,CPC,Need to duplicate password entry,worksheet,Need to duplicate password en
 CPO,Permits,One database that stores and allows /facilitates application progress,worksheet,One database that stores and allows /facilitates application progress,positive
 CPO,Permits,Improve documentation capabilities,worksheet,Improve documentation capabilities,positive
 CPO,Permits,(to keep) Printing review team comments,worksheet,(to keep) Printing review team comments,positive
-CPO,Permits,(to keep) Contractor database (insurance),worksheet,(to keep) Contractor database (insurance),positive
+CPO,Permits,(to keep) Contractor database (insurance),worksheet,(to keep) Contractor database (insurance),neutral
 CPO,Permits,(to keep) “Address book”,worksheet,(to keep) “Address book”,negative
 CPO,Permits,(to keep) Printing capabilities,worksheet,(to keep) Printing capabilities,negative
 CPO,Permits,(to keep) Alerts (eg. eta),worksheet,(to keep) Alerts (eg. eta),negative
@@ -121,7 +121,7 @@ DOCE,Building Inspectors,(to keep) Reminder dates,worksheet,(to keep) Reminder d
 DOCE,Building Inspectors,Have a note that says pass instead calling permits,worksheet,Have a note that says pass instead calling permits,negative
 DOCE,Building Inspectors,Have that in IPS,worksheet,Have that in IPS,positive
 DOCE,Building Inspectors,(to keep) I think all of it is very good,worksheet,(to keep) I think all of it is very good,positive
-DOCE,Building Inspectors,Just elevator certificate,worksheet,Just elevator certificate,positive
+DOCE,Building Inspectors,Just elevator certificate,worksheet,Just elevator certificate,neutral
 DOCE,CPO-Coordinators,One system for everything,worksheet,One system for everything,positive
 DOCE,CPO-Coordinators,Get rid of Camino!,worksheet,Get rid of Camino!,negative
 DOCE,CPO-Coordinators,(to keep) I like IPS and would continue using – it's easy,worksheet,(to keep) I like IPS and would continue using – it's easy,positive
@@ -144,7 +144,7 @@ DOCE,Housing Inspectors,"If it could get water /lead information, it would save 
 DOCE,Housing Inspectors,Batch violation numbers when saved,worksheet,Batch violation numbers when saved,negative
 DOCE,Housing Inspectors,Ability to add custom shortcuts,worksheet,Ability to add custom shortcuts,positive
 DOCE,Housing Inspectors,Create a global address book,worksheet,Create a global address book,positive
-DOCE,Housing Inspectors,Eliminate unneeded actions i.e. (BAA Ticket Rounds),worksheet,Eliminate unneeded actions i.e. (BAA Ticket Rounds),positive
+DOCE,Housing Inspectors,Eliminate unneeded actions i.e. (BAA Ticket Rounds),worksheet,Eliminate unneeded actions i.e. (BAA Ticket Rounds),neutral
 DOCE,Housing Inspectors,(to keep) Separation of cases per property,worksheet,(to keep) Separation of cases per property,positive
 DOCE,Housing Inspectors,Stats,worksheet,Stats,positive
 DOCE,Housing Inspectors,Cases without inspection date,worksheet,Cases without inspection date,positive
@@ -170,7 +170,7 @@ DOCE,Office Managers,"Making sure “department”, “status” or either statu
 DOCE,Office Managers,(to keep) Search by complaint number,worksheet,(to keep) Search by complaint number,negative
 DOCE,Office Managers,(to keep) Address book & searching by property owner,worksheet,(to keep) Address book & searching by property owner,negative
 DOCE,Office Managers,Water & Tax records for periodic inspections,worksheet,Water & Tax records for periodic inspections,negative
-DOCE,Permit/Commercial/Electrical Inspectors,Consolidate to functioning system,worksheet,Consolidate to functioning system,positive
+DOCE,Permit/Commercial/Electrical Inspectors,Consolidate to functioning system,worksheet,Consolidate to functioning system,neutral
 DOCE,Permit/Commercial/Electrical Inspectors,(to keep) Ability to keep track of kick out inspections,worksheet,(to keep) Ability to keep track of kick out inspections,positive
 DOCE,Permit/Commercial/Electrical Inspectors,In field timely acces: to information and modification of cases,worksheet,In field timely acces: to information and modification of cases,positive
 DOCE,Permit/Commercial/Electrical Inspectors,Have camino and outlook talk to each other,worksheet,Have camino and outlook talk to each other,positive
@@ -181,7 +181,7 @@ DOCE,Permit/Commercial/Electrical Inspectors,Get rid of it,worksheet,Get rid of 
 DOCE,Permit/Commercial/Electrical Inspectors,Get rid of it,worksheet,Get rid of it,positive
 DOCE,Permit/Commercial/Electrical Inspectors,Get rid of it,worksheet,Get rid of it,positive
 DOCE,Permit/Commercial/Electrical Inspectors,(to keep) layout,worksheet,(to keep) layout,positive
-DOCE,Permit/Commercial/Electrical Inspectors,Add a tickle date option to the system,worksheet,Add a tickle date option to the system,positive
+DOCE,Permit/Commercial/Electrical Inspectors,Add a tickle date option to the system,worksheet,Add a tickle date option to the system,neutral
 DOCE,Permit/Commercial/Electrical Inspectors,"(to keep) Again, being able to have future tickle dates",worksheet,"(to keep) Again, being able to have future tickle dates",positive
 DOCE,Permit/Commercial/Electrical Inspectors,IPS works better than Camino,worksheet,IPS works better than Camino,positive
 DOCE,Permit/Commercial/Electrical Inspectors,Hiring qualified people and train them,worksheet,Hiring qualified people and train them,positive
@@ -209,7 +209,7 @@ DOCE,Zoning,Enterprise wide GIS system,worksheet,Enterprise wide GIS system,nega
 DOCE,Zoning,(to keep) Some old zoning projects are there.,worksheet,(to keep) Some old zoning projects are there.,positive
 DOCE,Zoning,(to keep) SOCPA put old variance and conditional uses in IPS,worksheet,(to keep) SOCPA put old variance and conditional uses in IPS,negative
 DOCE,Zoning,See notes from my code enforcement worksheet - [PERSON],worksheet,See notes from my code enforcement worksheet - [PERSON],negative
-DOCE,Zoning,More regular updates to speadsheet,worksheet,More regular updates to speadsheet,positive
+DOCE,Zoning,More regular updates to speadsheet,worksheet,More regular updates to speadsheet,neutral
 DOCE,Zoning,"The items not on IPS or OnBase, if not in basement file, can't be found",worksheet,"The items not on IPS or OnBase, if not in basement file, can't be found",negative
 DOCE,Zoning,(to keep) Parcel history database is in chronological order,worksheet,(to keep) Parcel history database is in chronological order,positive
 DOCE,Zoning,"(to keep) Straightforward, easy to learn",worksheet,"(to keep) Straightforward, easy to learn",positive
@@ -224,35 +224,35 @@ DOCE,Zoning,Making the code more accessible or encouraging email communications 
 DOCE,Zoning,"(to keep) The ability to filter by type, permit, project, complaint, etc.",worksheet,"(to keep) The ability to filter by type, permit, project, complaint, etc.",positive
 DOCE,Zoning,"(to keep) It's very terse, a lot of information is provided or most applications",worksheet,"(to keep) It's very terse, a lot of information is provided or most applications",positive
 DOCE,Zoning,"I wish all previous things that are in OnBase were in IPS. So, I didn't have to switch between those often",worksheet,"I wish all previous things that are in OnBase were in IPS. So, I didn't have to switch between those often",positive
-DOCE,Zoning,(to keep) Comment summary sheet,worksheet,(to keep) Comment summary sheet,positive
-DOCE,Zoning,"(to keep) Date management: change, modify, date",worksheet,"(to keep) Date management: change, modify, date",positive
+DOCE,Zoning,(to keep) Comment summary sheet,worksheet,(to keep) Comment summary sheet,neutral
+DOCE,Zoning,"(to keep) Date management: change, modify, date",worksheet,"(to keep) Date management: change, modify, date",neutral
 DOCE,Zoning,(to keep) List of application history,worksheet,(to keep) List of application history,positive
 DOCE,Zoning,(to keep) Status overview dashboard,worksheet,(to keep) Status overview dashboard,positive
-DOCE,Zoning,(to keep) Comment summary sheet,worksheet,(to keep) Comment summary sheet,positive
+DOCE,Zoning,(to keep) Comment summary sheet,worksheet,(to keep) Comment summary sheet,neutral
 DOCE,Zoning,(to keep) Data management: change & modify,worksheet,(to keep) Data management: change & modify,positive
 DOCE,Zoning,(to keep) List of application history: date,worksheet,(to keep) List of application history: date,positive
 DOCE,Zoning,(to keep) Status overview dashboard,worksheet,(to keep) Status overview dashboard,positive
 FPB,Fire,(to keep) The tickle date function seems to be valuable,worksheet,(to keep) The tickle date function seems to be valuable,positive
 FPB,Fire,(to keep) Finding the history of a property or business takes several steps,worksheet,(to keep) Finding the history of a property or business takes several steps,positive
-FPB,Fire,IPS on mobile devices. Real time inspection reports and documentation. Integrate IPS violations into other Fire Department functions,worksheet,IPS on mobile devices. Real time inspection reports and documentation. Integrate IPS violations into other Fire Department functions,positive
+FPB,Fire,IPS on mobile devices. Real time inspection reports and documentation. Integrate IPS violations into other Fire Department functions,worksheet,IPS on mobile devices. Real time inspection reports and documentation. Integrate IPS violations into other Fire Department functions,neutral
 FPB,Fire,Import information like exact CO and capacity available without digging,worksheet,Import information like exact CO and capacity available without digging,negative
 FPB,Fire,Have a more profound way of finding information,worksheet,Have a more profound way of finding information,positive
 FPB,Fire,Make it one way to document different people do thing differently and put in different places,worksheet,Make it one way to document different people do thing differently and put in different places,positive
 FPB,Fire,Fix this! Make sure they are active in IPS,worksheet,Fix this! Make sure they are active in IPS,negative
 Law,Law,The format makes it hard to read everything at once,worksheet,The format makes it hard to read everything at once,negative
-Law,Law,(to keep) I like the images tab so I can look at the notices directly,worksheet,(to keep) I like the images tab so I can look at the notices directly,positive
+Law,Law,(to keep) I like the images tab so I can look at the notices directly,worksheet,(to keep) I like the images tab so I can look at the notices directly,neutral
 Law,Law,Integrate water records into recordkeeping tools,worksheet,Integrate water records into recordkeeping tools,positive
 Law,Law,Require confirmation that documents were uploaded and work was done,worksheet,Require confirmation that documents were uploaded and work was done,negative
 Law,Law,Make overview reports available for properties,worksheet,Make overview reports available for properties,negative
 Law,Law,(to keep) Intuitive interface,worksheet,(to keep) Intuitive interface,negative
-Law,Law,(to keep) Easy to find individual complaints,worksheet,(to keep) Easy to find individual complaints,positive
+Law,Law,(to keep) Easy to find individual complaints,worksheet,(to keep) Easy to find individual complaints,neutral
 Law,Law,Compatibility with office,worksheet,Compatibility with office,positive
 Law,Law,More disciplinary entry of notes and documents,worksheet,More disciplinary entry of notes and documents,negative
 Law,Law,(to keep) When fully utilized by codes it is a resource for information,worksheet,(to keep) When fully utilized by codes it is a resource for information,positive
 Law,Law,Ability for IPS information to be transferred to MS word,worksheet,Ability for IPS information to be transferred to MS word,positive
 NBD,NBD Data Team,"Process mapping & SOPS, system training & support",worksheet,"Process mapping & SOPS, system training & support",positive
 NBD,NBD Data Team,(to keep) RPS to IPS assessment sync daily: always have current ownership information,worksheet,(to keep) RPS to IPS assessment sync daily: always have current ownership information,negative
-NBD,NBD Data Team,(to keep) Panel based,worksheet,(to keep) Panel based,positive
+NBD,NBD Data Team,(to keep) Panel based,worksheet,(to keep) Panel based,neutral
 NBD,NBD Data Team,(to keep) Periodic module: ability to batch generate renewal letters when property comes due,worksheet,(to keep) Periodic module: ability to batch generate renewal letters when property comes due,positive
 NBD,NBD Data Team,(to keep) Backend access to our own data,worksheet,(to keep) Backend access to our own data,negative
 NBD,NBD Data Team,(to keep) Based roles / permisions,worksheet,(to keep) Based roles / permisions,positive
@@ -269,10 +269,10 @@ NBD,NBD Data Team,Add insert / update / delete functionality,worksheet,Add inser
 NBD,NBD Data Team,Have them be a component of main parcel?,worksheet,Have them be a component of main parcel?,negative
 NBD,NBD Data Team,(to keep) Ability to pull data with SQL,worksheet,(to keep) Ability to pull data with SQL,positive
 NBD,NBD Data Team,Easier way to modify violations.,worksheet,Easier way to modify violations.,negative
-NBD,NBD Data Team,For sorting and categorizing,worksheet,For sorting and categorizing,positive
+NBD,NBD Data Team,For sorting and categorizing,worksheet,For sorting and categorizing,neutral
 NBD,NBD Data Team,Updating IPS through SQL,worksheet,Updating IPS through SQL,negative
 NBD,NBD Data Team,Easier complaint search on parcel view,worksheet,Easier complaint search on parcel view,negative
-NBD,NBD Data Team,Violations summary & units affected,worksheet,Violations summary & units affected,positive
+NBD,NBD Data Team,Violations summary & units affected,worksheet,Violations summary & units affected,neutral
 NBD,NBD Data Team,"Being able to post to the database (eg, to flag a batch of parcels as vacant once a week)",worksheet,"Being able to post to the database (eg, to flag a batch of parcels as vacant once a week)",positive
 NBD,NBD Data Team,"More robust automation or scripting possibilities, so that more updates or QA/QC can be automated",worksheet,"More robust automation or scripting possibilities, so that more updates or QA/QC can be automated",positive
 NBD,NBD Data Team,"Allow for if this then that bridges between programs, integrations with a CRM or GIS software, etc",worksheet,"Allow for if this then that bridges between programs, integrations with a CRM or GIS software, etc",positive
@@ -309,7 +309,7 @@ Assessment,Assessment,IPS intuitive from their perspective,meeting_notes,IPS int
 Assessment,Assessment,If they could find resubs maps easier – user issue more than anything,meeting_notes,If they could find resubs maps easier – user issue more than anything,negative
 BAA,BAA ALJs,"Too many windows – better layout, user interface could be more intuitive. Maybe part of that is an adjudication specific module could help",meeting_notes,"Too many windows – better layout, user interface could be more intuitive. Maybe part of that is an adjudication specific module could help",negative
 BAA,BAA ALJs,Admin Aides and interns to do tracking to confirm service – ability to enter tracking number on each ticket and timer to set for 30 days – check tracking at USPS website and change status to yes serve and attach confirmation – ability to automate,meeting_notes,Admin Aides and interns to do tracking to confirm service – ability to enter tracking number on each ticket and timer to set for 30 days – check tracking at USPS website and change status to yes serve and attach confirmation – ability to automate,positive
-BAA,BAA ALJs,AIMS – way to send decisions via email to registered owner,meeting_notes,AIMS – way to send decisions via email to registered owner,positive
+BAA,BAA ALJs,AIMS – way to send decisions via email to registered owner,meeting_notes,AIMS – way to send decisions via email to registered owner,neutral
 BAA,BAA ALJs,MS Teams invite – sometimes issues with,meeting_notes,MS Teams invite – sometimes issues with,negative
 BAA,BAA ALJs,Email directly from application would be nice,meeting_notes,Email directly from application would be nice,positive
 BAA,BAA ALJs,Save email as an attachment automatically – lives in case – records when contact happened,meeting_notes,Save email as an attachment automatically – lives in case – records when contact happened,negative
@@ -332,7 +332,7 @@ BAA,BAA ALJs,Need inspection to mean actual investigation,meeting_notes,Need ins
 BAA,BAA ALJs,educe use of windows – would be helpful.,meeting_notes,educe use of windows – would be helpful.,positive
 BAA,BAA Operations,Would be helpful to see what's owed – summary at case and property level without having to click into each case – to quickly see which tickets still have fines,meeting_notes,Would be helpful to see what's owed – summary at case and property level without having to click into each case – to quickly see which tickets still have fines,negative
 BAA,BAA Operations,Likes MS Teams – makes it easier for hearings,meeting_notes,Likes MS Teams – makes it easier for hearings,positive
-BAA,BAA Operations,Attorneys and inspectors respond quickly,meeting_notes,Attorneys and inspectors respond quickly,positive
+BAA,BAA Operations,Attorneys and inspectors respond quickly,meeting_notes,Attorneys and inspectors respond quickly,neutral
 BAA,BAA Operations,Would be helpful for notifications within IPS,meeting_notes,Would be helpful for notifications within IPS,positive
 BAA,BAA Operations,Workflow – notify inspector of hearing date,meeting_notes,Workflow – notify inspector of hearing date,positive
 BAA,BAA Operations,Helpful to be able to see inspector availability in Outlook – not all of them maintain it,meeting_notes,Helpful to be able to see inspector availability in Outlook – not all of them maintain it,positive
@@ -367,15 +367,15 @@ BAA,BAA Supervisors,Outstanding balance would be nice to be able to see at the t
 BAA,BAA Supervisors,There are multiple rounds – fees are difficult to interpret,meeting_notes,There are multiple rounds – fees are difficult to interpret,negative
 BAA,BAA Supervisors,Don't sort by round,meeting_notes,Don't sort by round,negative
 BAA,BAA Supervisors,If multiple rounds and still unpaid would be easier they were grouped,meeting_notes,If multiple rounds and still unpaid would be easier they were grouped,positive
-BAA,BAA Supervisors,Uses different platforms for addressing,meeting_notes,Uses different platforms for addressing,positive
+BAA,BAA Supervisors,Uses different platforms for addressing,meeting_notes,Uses different platforms for addressing,neutral
 BAA,BAA Supervisors,Water billing address or DOS NYS filing address,meeting_notes,Water billing address or DOS NYS filing address,negative
-BAA,BAA Supervisors,Beacon Image Mate – shows when property sold,meeting_notes,Beacon Image Mate – shows when property sold,positive
+BAA,BAA Supervisors,Beacon Image Mate – shows when property sold,meeting_notes,Beacon Image Mate – shows when property sold,neutral
 BAA,BAA Supervisors,Sometimes Codes address doesn't match what BAA has and it's a back and forth,meeting_notes,Sometimes Codes address doesn't match what BAA has and it's a back and forth,negative
 CPC,CPC,Looking up of outstanding violations – if you have an account for a property – outstanding balance of every violation at the property level – make it obvious what is outstanding and help reduce,meeting_notes,Looking up of outstanding violations – if you have an account for a property – outstanding balance of every violation at the property level – make it obvious what is outstanding and help reduce,positive
 CPC,CPC,Would mean they don't have to look up each individual cases,meeting_notes,Would mean they don't have to look up each individual cases,negative
 CPC,CPC,IPS system – in AIMS – property owner has outstanding balance – can look under license plate – can see 10 ticket and total balance of each ticket (at a glance over view + ability to print account summary for property – which would list each individual ticket with the corresponding balance) – then click into each and see individual status of each ticket,meeting_notes,IPS system – in AIMS – property owner has outstanding balance – can look under license plate – can see 10 ticket and total balance of each ticket (at a glance over view + ability to print account summary for property – which would list each individual ticket with the corresponding balance) – then click into each and see individual status of each ticket,positive
 CPC,CPC,Ties into main account – what's missing here – an account overview,meeting_notes,Ties into main account – what's missing here – an account overview,negative
-CPC,CPC,Can also merge multiple license plates together – can merge contacts together,meeting_notes,Can also merge multiple license plates together – can merge contacts together,positive
+CPC,CPC,Can also merge multiple license plates together – can merge contacts together,meeting_notes,Can also merge multiple license plates together – can merge contacts together,neutral
 CPC,CPC,At-a-glance/account summary – would be nice to have a cover sheet (still ability to drill down),meeting_notes,At-a-glance/account summary – would be nice to have a cover sheet (still ability to drill down),positive
 CPC,CPC,Fees outstanding- reliable number (total $$),meeting_notes,Fees outstanding- reliable number (total $$),positive
 CPC,CPC,If current RR or CC – when are they due for renewal?,meeting_notes,If current RR or CC – when are they due for renewal?,negative
@@ -412,7 +412,7 @@ DOCE,CPO-Coordinators,For food vendors or peddler – don't know what address to
 DOCE,CPO-Coordinators,Put something under specific event e.g. Christmas tree lighting – right now all under different addresses,meeting_notes,Put something under specific event e.g. Christmas tree lighting – right now all under different addresses,negative
 DOCE,CPO-Coordinators,"Or for businesses that tow within city but aren't located in city, can't use city address – can't move forward with application – doesn't work for a lot of the permits they do – can't do streets and sidewalks in only place he has record keeping (some level of that in IPS – didn't have to tie things to a parcel)",meeting_notes,"Or for businesses that tow within city but aren't located in city, can't use city address – can't move forward with application – doesn't work for a lot of the permits they do – can't do streets and sidewalks in only place he has record keeping (some level of that in IPS – didn't have to tie things to a parcel)",negative
 DOCE,CPO-Coordinators,Camino running out of space – just had to up space,meeting_notes,Camino running out of space – just had to up space,negative
-DOCE,CPO-Coordinators,New weekly task for staff to clean out of 'unsubmitted' tasks,meeting_notes,New weekly task for staff to clean out of 'unsubmitted' tasks,positive
+DOCE,CPO-Coordinators,New weekly task for staff to clean out of 'unsubmitted' tasks,meeting_notes,New weekly task for staff to clean out of 'unsubmitted' tasks,neutral
 DOCE,CPO-Coordinators,"Camino – applicants that pay and don't fill out the application or don't submit, or complete the full application but don't submit",meeting_notes,"Camino – applicants that pay and don't fill out the application or don't submit, or complete the full application but don't submit",negative
 DOCE,CPO-Coordinators,"Camino breaks at least once a week – applicants can't submit anything – or can't see document upload, or things that used to be in system",meeting_notes,"Camino breaks at least once a week – applicants can't submit anything – or can't see document upload, or things that used to be in system",negative
 DOCE,CPO-Coordinators,New cert just stopped working,meeting_notes,New cert just stopped working,negative
@@ -423,9 +423,9 @@ DOCE,Housing Inspectors,Or rough consistently leaking – snapshot of what happe
 DOCE,Housing Inspectors,Notes on each individual case – get buried,meeting_notes,Notes on each individual case – get buried,negative
 DOCE,Housing Inspectors,Tag property owners and tenants separately – flag it if a tenant moves to another property or if PO has multiple BAA cases/never fixes anything,meeting_notes,Tag property owners and tenants separately – flag it if a tenant moves to another property or if PO has multiple BAA cases/never fixes anything,negative
 DOCE,Housing Inspectors,Issue with admin aides reading internal notes to PO,meeting_notes,Issue with admin aides reading internal notes to PO,negative
-DOCE,Housing Inspectors,"Would like to see more stats – cases without inspection dates, or cases set to Need Review",meeting_notes,"Would like to see more stats – cases without inspection dates, or cases set to Need Review",positive
-DOCE,Housing Inspectors,X cases in BAA,meeting_notes,X cases in BAA,positive
-DOCE,Housing Inspectors,X amount of open cases,meeting_notes,X amount of open cases,positive
+DOCE,Housing Inspectors,"Would like to see more stats – cases without inspection dates, or cases set to Need Review",meeting_notes,"Would like to see more stats – cases without inspection dates, or cases set to Need Review",neutral
+DOCE,Housing Inspectors,X cases in BAA,meeting_notes,X cases in BAA,neutral
+DOCE,Housing Inspectors,X amount of open cases,meeting_notes,X amount of open cases,neutral
 DOCE,Housing Inspectors,Sometimes waiting Generally IPS pretty is good,meeting_notes,Sometimes waiting Generally IPS pretty is good,positive
 DOCE,Housing Inspectors,"Takes some time to get use to, but gets faster ~6months to a year to get used to",meeting_notes,"Takes some time to get use to, but gets faster ~6months to a year to get used to",negative
 DOCE,Housing Inspectors,Some things should be auto-populated,meeting_notes,Some things should be auto-populated,positive
@@ -436,7 +436,7 @@ DOCE,Housing Inspectors,Did materials for Camino,meeting_notes,Did materials for
 DOCE,Housing Inspectors,Struggling with Camino,meeting_notes,Struggling with Camino,positive
 IT,IT,Auditing capabilities Public facing view/access Ability to directly schedule inspections,meeting_notes,Auditing capabilities Public facing view/access Ability to directly schedule inspections,positive
 IT,IT,Contest BAA tickets Report if trash already cleaned up,meeting_notes,Contest BAA tickets Report if trash already cleaned up,negative
-IT,IT,[PERSON] Single sign on – control access through your own identity system – most important from IT perspective,meeting_notes,[PERSON] Single sign on – control access through your own identity system – most important from IT perspective,positive
+IT,IT,[PERSON] Single sign on – control access through your own identity system – most important from IT perspective,meeting_notes,[PERSON] Single sign on – control access through your own identity system – most important from IT perspective,neutral
 IT,IT,Can whitelist IPs for tablets,meeting_notes,Can whitelist IPs for tablets,negative
 IT,IT,Vinny: GIS integrations Integration with CPC? CPC processing payments and updating fees for BAA tickets,meeting_notes,Vinny: GIS integrations Integration with CPC? CPC processing payments and updating fees for BAA tickets,negative
 IT,IT,Payments for RR/CC applications occur in Camino – would intake move to future CE platform?,meeting_notes,Payments for RR/CC applications occur in Camino – would intake move to future CE platform?,positive
@@ -449,7 +449,7 @@ NBD,NBD Internal,"[PERSON] Loves IPS generally, only pain point is manual data e
 NBD,NBD Internal,[PERSON] System that comes with video trainings. Sometimes we have interns to do data entry – lots of time to explain it,meeting_notes,[PERSON] System that comes with video trainings. Sometimes we have interns to do data entry – lots of time to explain it,negative
 NBD,NBD Internal,Viewing eTax amounts would be helpful – would need to be daily,meeting_notes,Viewing eTax amounts would be helpful – would need to be daily,positive
 NBD,NBD Internal,"Tax trust, county compromise agreements – legal stuff we have no insight into would be helpful to see",meeting_notes,"Tax trust, county compromise agreements – legal stuff we have no insight into would be helpful to see",positive
-NBD,NBD Internal,Also at will of Law for them to enter in eTax in the first place – more of an FP process,meeting_notes,Also at will of Law for them to enter in eTax in the first place – more of an FP process,positive
+NBD,NBD Internal,Also at will of Law for them to enter in eTax in the first place – more of an FP process,meeting_notes,Also at will of Law for them to enter in eTax in the first place – more of an FP process,neutral
 NBD,NBD Internal,Ideally a unified location for that,meeting_notes,Ideally a unified location for that,positive
 NBD,NBD Internal,Bankruptcy info is another one we don't have great visibility into – typically updated in eTax,meeting_notes,Bankruptcy info is another one we don't have great visibility into – typically updated in eTax,negative
 NBD,NBD Internal,[PERSON] View street/houses nearby,meeting_notes,[PERSON] View street/houses nearby,positive

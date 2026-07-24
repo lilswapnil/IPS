@@ -1,5 +1,4 @@
-# Files
-.round1/output/
+
 
 # Dependencies
 
@@ -37,3 +36,10 @@ coverage/
 tmp/
 temp/
 *.tmp
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
